@@ -26,8 +26,6 @@ collections:
     create: true
     fields:
       - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Beschreibung", name: "description", widget: "string"}
-      - {label: "Bild", name: "bg_image", widget: "image"}
       - {label: "Fülltext", name: "body", widget: "markdown"}
       - label: "Übersicht"
         name: "übersicht"
@@ -47,6 +45,7 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Beschreibung", name: "description", widget: "string"}
       - {label: "Seitentext", name: "body", widget: "markdown"}
+      
       
       
       
