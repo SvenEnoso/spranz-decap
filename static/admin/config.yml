@@ -4,47 +4,22 @@ backend:
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
 collections:
-  - label: "English"
-    name: "english"
-    folder: "content/english"
-    create: false
-    fields:
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Beschreibung", name: "description", widget: "string"}
-      - {label: "Seitentext", name: "body", widget: "markdown"}
-  - label: "French"
-    name: "french"
-    folder: "content/french"
-    create: false
-    fields:
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Beschreibung", name: "description", widget: "string"}
-      - {label: "Seitentext", name: "body", widget: "markdown"}
-  - label: "German"
-    name: "german"
-    folder: "content/german"
+  - name: german
+    label: German
+    label_singular: 'German'
+    folder: content/German
     create: true
+    # adding a nested object will show the collection folder structure
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     fields:
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Fülltext", name: "body", widget: "markdown"}
-      - label: "Übersicht"
-        name: "übersicht"
-        widget: list
-        summary: '{{fields.image}}'
-        fields:
-              - {label: "Bild", name: "image", widget: image}
-              - {label: "Beschreibung", name: "description", widget: string}
-      - {label: "Kategorie", name: "categories", widget: "list"}
-      - {label: "Schlüsselwörter", name: "tags", widget: "list"}  
-      - {label: "Beschreibung", name: "body", widget: "markdown"}  
-  - label: "Italian"
-    name: "italian"
-    folder: "content/italian"
-    create: false
-    fields:
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Beschreibung", name: "description", widget: "string"}
-      - {label: "Seitentext", name: "body", widget: "markdown"}
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
       
       
       
