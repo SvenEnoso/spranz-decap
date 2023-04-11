@@ -1,0 +1,30 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<!-- our Brands -->
+{{ with $data.homepage.ourBrands }}
+<section class="bg-white py-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center ourbrands">
+        <h2 class="text-black text-center">{{ .title | markdownify }}</h3>
+          <div class="ourbrands-images">
+            {{ range .brand_items }}
+            <img class="ourbrands-images-single" src="{{ .image | absURL }}">
+            {{ end }}
+          </div>
+          <p class="text-center">{{ .content }}</p>
+      </div>
+    </div>
+    {{ if .button.enable }}
+    <div class="row">
+
+      <div class="col-md-12 text-center">
+        {{ with .button }}
+        <a href="{{ .link | absLangURL }}" class="btn btn-secondary btn-custom">{{ .label }}</a>
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

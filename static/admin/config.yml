@@ -1,0 +1,53 @@
+backend:
+  name: git-gateway
+  branch: main
+media_folder: "static/images" # Folder where user uploaded files should go
+public_folder: "static/images"
+collections:
+  - label: "English"
+    name: "english"
+    folder: "content/english"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+  - label: "French"
+    name: "french"
+    folder: "content/french"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+  - label: "German"
+    name: "german"
+    folder: "content/german"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+  - label: "Italian"
+    name: "italian"
+    folder: "content/italian"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+            
+  
+                     
+              
+
+      
+      
+         
+      
+                       
+          
+                            
+      
+         
+        

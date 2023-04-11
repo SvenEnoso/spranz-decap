@@ -1,0 +1,25 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+
+{{ $btnColor := $data.homepage.textbanner2.color }}
+<!-- downloads -->
+{{ with $data.homepage.downloads }}
+<section class="bg-white py-4" id="downloads">
+  <div class="container">
+    <div class="row">
+        {{range .download }}
+      <div class="col-md-3">
+          <img class="img-downloads" src="{{ .image | absURL }}">
+          <div>
+            <h5>{{ .title }}</h5>
+            <p>{{ .content }}</p>
+            <br>
+            <br>
+            <a target="_blank" href="{{ .link }}" class="btn btn-primary btn-sm btn-custom btn-downloads" style="border-color:{{ $btnColor }}; background-color:{{ $btnColor }};">{{ i18n "download"}}</a>
+          </div>
+      </div>
+    {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

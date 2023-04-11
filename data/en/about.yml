@@ -1,0 +1,13 @@
+---
+about:
+  enable: true
+  title: COMPANY
+  text: The company Spranz was founded in 1965 by Reinhardt Spranz with only one employee as a manufacturer of driver's license bags and key cases. To this day it is a family business in constant development with a design-oriented portfolio of over 800 articles and now over 90 employees in the team. We are still producer but also developer, importer and stockist of promotional items with own printing as well as high rack warehouse and logistics center to meet the growing customer requirements flexibly and individually.
+  url: images/about/Teambild Firma Spranz GmbH IMG 006 FINAL_Farbekleiner.jpg
+philosophy:
+  enable: true
+  title: Design articles without design surcharge!
+  content: We design ourselves! We find the right mosaic piece for your marketing concept in line with your CI and target group - versatile and flexible. We offer intensive customer advice and support at every point of the sales chain and stand for high-quality products with that certain extra at attractive purchase prices.
+  img: "/images/product-categories/topmanager.jpg"
+ourBrands:
+  enable: true

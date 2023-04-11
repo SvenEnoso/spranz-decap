@@ -1,0 +1,129 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<!-- footer -->
+<footer class="footer bg-cover overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 footer-block footer-logo py-0">
+        <a href="{{ .Site.BaseURL }}" class="">
+          <img class="footer-head" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
+        </a>
+        <ul class="list-unstyled" style="text-align: right;">
+          <li>{{ .Site.Params.address | markdownify }}</li>
+          <li class="pb-3">{{ .Site.Params.postal_code | markdownify }}</li>
+          <li>Tel. {{ .Site.Params.phone | markdownify }}</li>
+          <li class="pb-3">Fax {{ .Site.Params.fax | markdownify }}</li>
+          <li>{{ .Site.Params.email | markdownify }}</li>
+        </ul>
+      </div>
+      {{ range .Site.Menus.footer }}
+      <div class="col-md-2 footer-block py-0">
+        <h5 class="footer-head">{{ .Title }}</h5>
+        <ul class="list-unstyled">
+          {{ range .Children }}
+          <li class="pb-3"><a href="{{ .URL | absLangURL }}">{{ .Title }}</a></li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      <div class="col-md-1"> </div>
+      <div class="col-md-2 footer-block py-0" style="border-left: solid 1px;">
+        <h5 class="footer-head">{{ .Site.Params.Partners.Title }}</h5>
+        {{ range .Site.Params.Partners.links }}
+        <img class="partner-logo" src="{{ . | absURL }}"><br>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+  <div class="footer-banner">
+    <div class="container">
+      <div class="row">
+        <div class="copyright py-4 col-sm-6">
+          &copy; {{ now.Format "2006"}} Spranz GmbH
+        </div>
+        <div class="privacy py-4 col-sm-6">
+          <ul class="list-unstyled">
+            {{ range .Site.Menus.legal }}
+            <li><a href="{{ .URL | absLangURL }}">{{ .Name }}</a></li>
+            {{ end }}
+            <!-- <li><a href="/privacy/">Impressum</a></li>
+            <li><a href="/privacy/">Datenschutz</a></li> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- /footer -->
+
+{{ if .Site.Params.search }}
+<script>
+  var indexURL = {{ "index.json" | absURL}}
+</script>
+{{ end }}
+
+{{ "<!-- JS Plugins -->" | safeHTML }}
+{{ range .Site.Params.plugins.js}}
+<script src="{{ .link | absURL }}"></script>
+{{ end }}
+
+{{ "<!-- Main Script -->" | safeHTML }}
+{{ $script := resources.Get "js/script.js" | minify}}
+<script src="{{ $script.Permalink }}"></script>
+
+{{ "<!-- google analitycs -->" | safeHTML }}
+{{ $jsPath  := "plugins/cookies/cookieconsent.min.js"  }}
+{{ $cssPath := "plugins/cookies/cookieconsent.min.css" }}
+<link rel="stylesheet" type="text/css" href={{ $cssPath | absURL }} />
+<script src={{ $jsPath | absURL }}></script>
+
+{{ $id := .Site.Params.google_analitycs_id }}
+<script>
+  var regex = new RegExp('[A-Z]+-[0-9]+-[0-9]+');
+  if ('{{ $id }}'.match(regex)) {
+    function loadGAonConsent() {
+      window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
+      ga('create', '{{ $id }}', 'auto');
+      ga('set', 'anonymizeIp', true);
+      ga('send', 'pageview');
+      var gascript = document.createElement("script");
+      gascript.async = true;
+      gascript.src = 'https://www.google-analytics.com/analytics.js';
+      document.getElementsByTagName("head")[0].appendChild(gascript, document.getElementsByTagName("head")[0]);
+    }
+
+    if (document.cookie.split(';').filter(function (item) {
+      return item.indexOf('cookieconsent_status=allow') >= 0
+    }).length) {
+      loadGAonConsent();
+    }
+
+    window.addEventListener("load", function () {
+      // window.CookieConsent.initialise({
+      new window.CookieConsent({
+        "palette": {
+          "popup": { "background": "#000" },
+          "button": { "background": "#f1d600" }
+        },
+        "theme": "classic",
+        "type": "opt-in",
+        "content": {
+          "message": "{{ i18n `cookie_banner_text` }}",
+          "deny": "Deny",
+          "allow": "{{ i18n `cookie_agree`}}",
+          "dismiss": "{{ i18n `cookie_dismiss`}}",
+          "link": "{{ i18n `privacy_statement` }}",
+          "href": "privacy"
+        },
+        onStatusChange: function (status, chosenBefore) {
+          var type = this.options.type;
+          var didConsent = this.hasConsented();
+          if (type == 'opt-in' && didConsent) {
+            // enable cookies
+            loadGAonConsent();
+          }
+        }
+      })
+    });
+  }
+</script>

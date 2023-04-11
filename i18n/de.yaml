@@ -1,0 +1,91 @@
+---
+- id: apply_now
+  translation: Jetzt Bewerben
+  name: Jetzt bewerben
+- id: job_details
+  translation: Job Details
+  name: Job Details
+- id: location
+  translation: Standort
+  name: Standort
+- id: job_category
+  translation: Berufsbezeichnung
+  name: Berufsbezeichnung
+- id: job_type
+  translation: Arbeitszeit
+  name: Arbeitszeit
+- id: posted_date
+  translation: Eingestellt am
+  name: Eingestellt am
+- id: featured_jobs
+  translation: Aktuelle Stellenangebote
+  name: Aktuelle Stellenangebote
+- id: keep_in_touch
+  translation: Kontaktieren Sie uns!
+  name: Kontaktieren Sie uns!
+- id: address
+  translation: Addresse
+  name: Addresse
+- id: email
+  translation: Email
+  name: Email
+- id: mobile
+  translation: Mobil
+  name: Mobil
+- id: phone
+  translation: Telefon
+  name: Telefon
+- id: fax
+  translation: Fax
+  name: Fax
+- id: url
+  translation: URL
+  name: URL
+- id: ceo
+  translation: Geschäftsführer
+  name: Geschäftsführer
+- id: register_court
+  translation: Registergericht
+  name: Registergericht
+- id: registration_nr
+  translation: Registernummer
+  name: Registernummer
+- id: tax_registration_nr
+  translation: Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz
+  name: Umsatzsteuer Identifikationsnummer
+- id: responsible_for_content
+  translation: Inhaltlich Verantwortlicher gemäß § 6 MDStV
+  name: Inhaltlich Verantwortlicher
+- id: programming_webdesign
+  translation: Programmierung und Webdesign
+  name: Programmierung und Webdesign
+- id: to_shop
+  translation: Zum Shop
+  name: Zum Shop
+- id: your_name
+  translation: Name
+  name: Name
+- id: your_email
+  translation: Email
+  name: Email
+- id: sign_up
+  translation: Anmelden
+  name: Anmelden
+- id: read_privacy_statement
+  translation: Ich habe die Datenschutzbestimmungen gelesen und stimme zu.
+  name: Ich habe die Datenschutzbestimmungen gelesen und stimme zu.
+- id: download
+  translation: Download
+  name: Download
+- id: cookie_banner_text
+  translation: Wir nutzen Cookies und Google Analytics, um diese Website für Sie so interessant wie möglich zu gestalten. Sind Sie damit einverstanden? (Sie können diese Entscheidung jederzeit widerrufen)
+  name: Cookie-Banner Text
+- id: cookie_agree
+  translation: Zustimmen
+  name: Cookies zustimmen
+- id: cookie_dismiss
+  translation: Ablehnen
+  name: Cookies ablehnen
+- id: privacy_statement
+  translation: Datenschutzerklärung
+  name: Datenschutzerklärung

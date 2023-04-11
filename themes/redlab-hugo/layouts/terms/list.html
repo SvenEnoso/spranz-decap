@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "page-title.html" . }}
+
+
+<!-- gallery -->
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title"></h2>
+
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /gallery -->
+
+
+{{ end }}

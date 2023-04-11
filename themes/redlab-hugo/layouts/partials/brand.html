@@ -1,0 +1,91 @@
+<section class="container-fluid">
+    <div class="brand-row">
+        <div class="row">
+            {{ if .context.arrow.is_left }}
+            <div class="col-md-6">
+                {{ with .context.arrow }}
+                <div class="container-fluid h-100 p-0 position-relative">
+                    <img class="brands-logo" src="{{ .logo | absURL}}">
+                    <div class="brand-arrow-l mr-auto" style="background-color: {{ .color }};"></div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+
+            <div class="col-md-6 text-center d-none d-md-block">
+                {{ with .context.image }}
+                <img class="brand-product-img img-fluid" src="{{ .url | absURL }}">
+                {{ end }}
+            </div>
+
+            {{ if not .context.arrow.is_left }}
+            <div class="col-md-6">
+                {{ with .context.arrow }}
+                <div class="container-fluid h-100 p-0 position-relative">
+                    <img class="brands-logo" src="{{ .logo | absURL}}">
+                    <div class="brand-arrow-r ml-auto" style="background-color: {{ .color }};"></div>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+
+            {{ if .context.arrow.is_left }}
+            <div class="col-md-9">
+                <div class="brand-text">
+                    {{ with .context.arrow }}
+                    <h2>{{ .title }}</h2>
+                    {{ range .text }}
+                    <p>{{ .paragraph }}</p>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+
+            <div class="col-sm-3 d-none d-md-block">
+                <div>
+                    <div class="product-text">
+                        {{ with .context.image }}
+                        <h3>{{ .title }}</h3>
+                        <p>{{ .text }}</p>
+                        {{ end }}
+                        <a href='{{ if ne .context.link ""}}{{ .context.link }}{{ else }}{{ .link }}{{ end }}' class="btn btn-primary btn-sm btn-custom btn-products text-white"
+                            style="background-color:{{ .context.arrow.color }}; border-color: {{.context.arrow.color}};">{{ i18n "to_shop"}}</a>
+                    </div>
+                </div>
+            </div>
+
+            {{ if not .context.arrow.is_left }}
+            <div class="col-sm-9">
+                <div class="brand-text">
+                    {{ with .context.arrow }}
+                    <h2>{{ .title }}</h2>
+                    {{ range .text }}
+                    <p>{{ .paragraph }}</p>
+                    {{ end }}
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+
+            <div class="text-center d-md-none">
+                {{ with .context.image }}
+                <img class="brand-product-img img-fluid" src="{{ .url | absURL }}">
+                {{ end }}
+            </div>
+
+            <div class="col-sm-3 d-md-none">
+                <div>
+                    <div class="product-text">
+                        {{ with .context.image }}
+                        <h3>{{ .title }}</h3>
+                        <p>{{ .text }}</p>
+                        {{ end }}
+                        <a href='{{ if ne .context.link ""}}{{ .context.link }}{{ else }}{{ .link }}{{ end }}' class="btn btn-primary btn-sm btn-custom btn-products text-white"
+                            style="background-color:{{ .arrow.color }}; border-color: {{.arrow.color}};">{{ i18n "to_shop"}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

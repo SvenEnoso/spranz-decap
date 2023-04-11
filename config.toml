@@ -1,0 +1,465 @@
+DefaultContentLanguage = "de"
+baseURL = "https://spranz.de/"
+disableLanguages = []
+disqusShortname = "redlab"
+paginate = "6"
+summaryLength = "10"
+theme = "redlab-hugo"
+title = "Spranz"
+[Languages.de]
+contentDir = "content/german"
+footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat."
+home = "Home"
+languageCode = "de-de"
+languageName = "De"
+weight = 4
+[[Languages.de.menu.footer]]
+hasChildren = true
+name = "company"
+title = "Unternehmen"
+weight = 1
+[[Languages.de.menu.footer]]
+URL = "über-uns"
+hasChildren = false
+name = "about"
+parent = "company"
+title = "Über Spranz"
+weight = 1
+[[Languages.de.menu.footer]]
+URL = "exklusiv-marken"
+hasChildren = false
+name = "brand"
+parent = "company"
+title = "Exklusiv-Marken"
+weight = 2
+[[Languages.de.menu.footer]]
+URL = "karriere"
+hasChildren = false
+name = "jobs"
+parent = "company"
+title = "Jobs"
+weight = 3
+[[Languages.de.menu.footer]]
+hasChildren = false
+name = "service"
+title = "Service"
+weight = 2
+[[Languages.de.menu.footer]]
+URL = "/#downloads"
+hasChildren = false
+name = "downloads"
+parent = "service"
+title = "Downloads"
+weight = 1
+[[Languages.de.menu.footer]]
+URL = "kontakt"
+hasChildren = false
+name = "contact"
+parent = "service"
+title = "Kontakt"
+weight = 2
+[[Languages.de.menu.footer]]
+hasChildren = false
+name = "dealer"
+title = "Shop"
+weight = 3
+[[Languages.de.menu.footer]]
+URL = "https://shop.spranz.de/"
+hasChildren = false
+name = "login"
+parent = "dealer"
+title = "Login"
+weight = 1
+[[Languages.de.menu.legal]]
+URL = "privacy"
+name = "Impressum / Datenschutz"
+weight = 1
+[[Languages.de.menu.legal]]
+URL = "agb"
+name = "AGB"
+weight = 2
+[[Languages.de.menu.main]]
+URL = "über-uns"
+name = "Über uns"
+weight = 4
+[[Languages.de.menu.main]]
+URL = "brands"
+name = "Exklusiv-Marken"
+weight = 3
+[[Languages.de.menu.main]]
+URL = "#downloads"
+name = "Downloads"
+weight = 2
+[[Languages.de.menu.main]]
+URL = "kontakt"
+name = "Kontakt"
+weight = 1
+[Languages.en]
+contentDir = "content/english"
+footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat."
+home = "Home"
+languageCode = "en-us"
+languageName = "En"
+weight = 3
+[[Languages.en.menu.footer]]
+hasChildren = true
+name = "company"
+title = "Company"
+weight = 1
+[[Languages.en.menu.footer]]
+URL = "about"
+hasChildren = false
+name = "about"
+parent = "company"
+title = "About Us"
+weight = 1
+[[Languages.en.menu.footer]]
+URL = "our-brands"
+hasChildren = false
+name = "brand"
+parent = "company"
+title = "Exclusive Brands"
+weight = 2
+[[Languages.en.menu.footer]]
+URL = "career"
+hasChildren = false
+name = "jobs"
+parent = "company"
+title = "Career"
+weight = 3
+[[Languages.en.menu.footer]]
+hasChildren = false
+name = "service"
+title = "Service"
+weight = 2
+[[Languages.en.menu.footer]]
+URL = "#downloads"
+hasChildren = false
+name = "downloads"
+parent = "service"
+title = "Downloads"
+weight = 1
+[[Languages.en.menu.footer]]
+URL = "contact"
+hasChildren = false
+name = "contact"
+parent = "service"
+title = "Contact"
+weight = 2
+[[Languages.en.menu.footer]]
+hasChildren = false
+name = "dealer"
+title = "Shop"
+weight = 3
+[[Languages.en.menu.footer]]
+URL = "https://shop.spranz.de/#/login/en"
+hasChildren = false
+name = "login"
+parent = "dealer"
+title = "Login"
+weight = 1
+[[Languages.en.menu.legal]]
+URL = "privacy"
+name = "Imprint / Privacy Statement"
+weight = 1
+[[Languages.en.menu.legal]]
+URL = "terms"
+name = "Terms and Conditions"
+weight = 2
+[[Languages.en.menu.main]]
+URL = "about"
+name = "About"
+weight = 4
+[[Languages.en.menu.main]]
+URL = "brands"
+name = "Brands"
+weight = 3
+[[Languages.en.menu.main]]
+URL = "#downloads"
+name = "Downloads"
+weight = 2
+[[Languages.en.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 1
+[Languages.fr]
+contentDir = "content/french"
+footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat."
+home = "Accueil"
+languageCode = "fr-fr"
+languageName = "Fr"
+weight = 2
+[[Languages.fr.menu.footer]]
+hasChildren = true
+name = "company"
+title = "Company"
+weight = 1
+[[Languages.fr.menu.footer]]
+URL = "#"
+hasChildren = false
+name = "about"
+parent = "company"
+title = "About Us"
+weight = 1
+[[Languages.fr.menu.footer]]
+URL = "#"
+hasChildren = false
+name = "brand"
+parent = "company"
+title = "Exclusive Brands"
+weight = 2
+[[Languages.fr.menu.footer]]
+URL = "#"
+hasChildren = false
+name = "jobs"
+parent = "company"
+title = "Career"
+weight = 3
+[[Languages.fr.menu.footer]]
+hasChildren = false
+name = "service"
+title = "Service"
+weight = 2
+[[Languages.fr.menu.footer]]
+URL = "#downloads"
+hasChildren = false
+name = "downloads"
+parent = "service"
+title = "Downloads"
+weight = 1
+[[Languages.fr.menu.footer]]
+URL = "contact"
+hasChildren = false
+name = "contact"
+parent = "service"
+title = "Contact"
+weight = 2
+[[Languages.fr.menu.footer]]
+hasChildren = false
+name = "dealer"
+title = "Shop"
+weight = 3
+[[Languages.fr.menu.footer]]
+URL = "https://shop.spranz.de/#/login/fr"
+hasChildren = false
+name = "login"
+parent = "dealer"
+title = "Login"
+weight = 1
+[[Languages.fr.menu.legal]]
+URL = "privacy"
+name = "Imprint / Privacy Statement"
+weight = 1
+[[Languages.fr.menu.legal]]
+URL = "terms"
+name = "Terms and Conditions"
+weight = 2
+[[Languages.fr.menu.main]]
+URL = "a-propos"
+name = "A propos de nous"
+weight = 4
+[[Languages.fr.menu.main]]
+URL = "brands"
+name = "Notre Marque"
+weight = 3
+[[Languages.fr.menu.main]]
+URL = "#downloads"
+name = "Downloads"
+weight = 2
+[[Languages.fr.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 1
+[Languages.it]
+contentDir = "content/italian"
+footer_content = "Lorem ipsum dolor amet consectetur adipisicing elit sed eiusm tempor incididunt ut labore dolore magna aliqua enim ad minim veniam quis nostrud exercitation ullamaboris nisi ut aliquip.exea commodo consequat."
+home = "Home"
+languageCode = "it-it"
+languageName = "It"
+weight = 1
+[[Languages.it.menu.footer]]
+hasChildren = true
+name = "company"
+title = "Company"
+weight = 1
+[[Languages.it.menu.footer]]
+URL = "about"
+hasChildren = false
+name = "about"
+parent = "company"
+title = "About Us"
+weight = 1
+[[Languages.it.menu.footer]]
+URL = "our-brands"
+hasChildren = false
+name = "brand"
+parent = "company"
+title = "Exclusive Brands"
+weight = 2
+[[Languages.it.menu.footer]]
+URL = "career"
+hasChildren = false
+name = "jobs"
+parent = "company"
+title = "Career"
+weight = 3
+[[Languages.it.menu.footer]]
+hasChildren = false
+name = "service"
+title = "Service"
+weight = 2
+[[Languages.it.menu.footer]]
+URL = "#downloads"
+hasChildren = false
+name = "downloads"
+parent = "service"
+title = "Downloads"
+weight = 1
+[[Languages.it.menu.footer]]
+URL = "contact"
+hasChildren = false
+name = "contact"
+parent = "service"
+title = "Contact"
+weight = 2
+[[Languages.it.menu.footer]]
+hasChildren = false
+name = "dealer"
+title = "Shop"
+weight = 3
+[[Languages.it.menu.footer]]
+URL = "https://shop.spranz.de/#/login/en"
+hasChildren = false
+name = "login"
+parent = "dealer"
+title = "Login"
+weight = 1
+[[Languages.it.menu.legal]]
+URL = "privacy"
+name = "Imprint / Privacy Statement"
+weight = 1
+[[Languages.it.menu.legal]]
+URL = "terms"
+name = "Terms and Conditions"
+weight = 2
+[[Languages.it.menu.main]]
+URL = "about"
+name = "About"
+weight = 4
+[[Languages.it.menu.main]]
+URL = "brands"
+name = "Brands"
+weight = 3
+[[Languages.it.menu.main]]
+URL = "#downloads"
+name = "Downloads"
+weight = 2
+[[Languages.it.menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 1
+[[module.mounts]]
+source = "static"
+target = "assets"
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+[params]
+address = "Ernst-Sachs-Straße 2"
+author = "Spranz Gmbh"
+ceo = "R. Spranz, Dipl. Kfm. L. Spranz"
+contact_form_action = "https://eu2.cleverreach.com/f/180121-189217/wcs/"
+description = "Website der Spranz Gmbh"
+email = "info (at) spranz.de"
+fax = "+49 261 98 488-40"
+google_analitycs_id = ""
+home = "Home"
+legal_name = "Spranz Gmbh"
+logo = "/images/Spranz GmbH.svg"
+phone = "+49 261 98 488-0"
+postal_code = "56070 Koblenz"
+programming_webdesign = "www.sowatech.de"
+register_court = "Amtsgericht Koblenz"
+registration_nr = "HRB 4160"
+responsible = "Lorne Spranz"
+search = false
+shopurl_login = "https://shop.spranz.de/#/login/"
+tax_registration_nr = "DE 148 717 868"
+url = "www.spranz.de"
+[params.map]
+enable = true
+[params.navigation_button]
+enable = true
+label = "get a quote"
+link = "contact"
+[params.partners]
+links = ["/images/myclimate-logo-rgb-1-pos-2x.jpg", "/images/footer/amfori.png", "/images/footer/LichtBlick.png"]
+title = "Kooperationspartner"
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick.css"
+[[params.plugins.css]]
+link = "plugins/slick/slick-theme.css"
+[[params.plugins.css]]
+link = "plugins/magnific-popup/magnific-popup.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/slick/slick.min.js"
+[[params.plugins.js]]
+link = "plugins/match-height/jquery.matchHeight-min.js"
+[[params.plugins.js]]
+link = "plugins/shuffle/shuffle.min.js"
+[[params.plugins.js]]
+link = "plugins/magnific-popup/jquery.magnific.popup.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/google-map/gmap.js"
+[params.preloader]
+enable = false
+preloader = ""
+[[params.safety_standards]]
+logo = "images/safety-standards/CE-Icon.png"
+[[params.safety_standards]]
+logo = "images/safety-standards/dekra-icon.png"
+[[params.safety_standards]]
+logo = "images/safety-standards/gruenePunkt.png"
+[[params.safety_standards]]
+logo = "images/safety-standards/icon_6P-AZO-CD.png"
+[[params.safety_standards]]
+logo = "images/safety-standards/Icon-EN.png"
+[[params.safety_standards]]
+logo = "images/safety-standards/Icon-lebensmittelecht.png"
+[[params.safety_standards]]
+logo = "images/safety-standards/ISO-Icon.png"
+[[params.safety_standards]]
+logo = "images/safety-standards/RoHS_Icon-2.png"
+[[params.social]]
+icon = "ti-facebook"
+link = "#"
+name = "Facebook"
+[[params.social]]
+icon = "ti-twitter-alt"
+link = "#"
+name = "Twitter"
+[[params.social]]
+icon = "ti-linkedin"
+link = "#"
+name = "LinkedIn"
+[[params.social]]
+icon = "ti-github"
+link = "#"
+name = "GitHub"
+[[params.social]]
+icon = "ti-instagram"
+link = "#"
+name = "Instagram"

@@ -1,0 +1,42 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $link :=  printf "%s%s" .Site.Params.shopurl_login .Lang }}
+
+<section class="">
+  <div class="container products">
+    
+    {{ with $data.homepage.Products }}
+    <div class="col-12 text-center">
+    <h2 class="section-title">{{ .title }}</h2>
+    
+  </div>
+  {{ end }}
+<div class="slider mt-4">
+    <div class="container-fluid">
+      <div class="row no-gutters">
+        <div class="col-lg-12 col-sm-12 col-md-12 slider-wrap-products">
+          {{ range $data.homepage.Products.categories }}
+          <div class="slider-item">
+            <div class="products-images">
+              <img class="card-img-top" src="{{ .image | absURL }}">
+            <img src="/images/products/Metmaxx_Oeko_Signet.png" class="products-logo">
+              {{ if .isnew }}
+              <img class="products-isnew" src="/images/products/New-Icon.png">
+              {{ end }}
+            </div>
+              <div class="card-body products-text">
+                <h4><a href='{{ if ne .link ""}}{{ .link}}{{ else }}{{ $link }}{{ end }}'>{{ .name }}</a></h4>
+                <p>{{ truncate 100 .description }}</p>
+                <br><br>
+                <a href='{{ if ne .link ""}}{{ .link}}{{ else }}{{ $link }}{{ end }}' class="btn btn-primary btn-sm btn-custom btn-products">{{ i18n "to_shop"}}</a>
+              </div>
+          </div>
+
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+  </section>

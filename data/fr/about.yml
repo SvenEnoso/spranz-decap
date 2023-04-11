@@ -1,0 +1,25 @@
+---
+about:
+  enable: true
+  title: NOTRE ENTREPRISE
+  text: La Spranz SARL a été fondée de Reinhardt Spranz en 1965 avec un seul employé
+    comme fabricant des poches pour permit de conduire et des étuis de clés. Aujourd’hui,
+    nous sommes toujours une entreprise familiale en développement continu avec un
+    portfolio d’orientation design de plus de 800 articles et plus de 90 employés.
+    Regardons fièrement notre histoire, nous pouvons affirmer d’être même aujourd’hui
+    un des peu de qui produisent eux-mêmes en même temps que d’être développeur, importateur
+    et magasinier des cadeaux publicitaires avec une propre imprimerie autant qu’un
+    stockage de grande hauteur et centre logistique pour rencontrer et satisfaire
+    les besoins croissants des clients d’une manière flexible et individuelle.
+  url: images/about/Teambild Firma Spranz GmbH IMG 006 FINAL_Farbekleiner.jpg
+philosophy:
+  enable: true
+  title: Design articles sans extra-côuts de design!
+  content: Nous concevons ! Orienté á votre CI et groupe-cible, nous trouvons la connexion
+    manquante dans votre concept marketing – diversifié et flexiblement. Dans ce but
+    nous sommes à votre disposition avec orientation des clients intensives et soutient
+    juste à chaque point de la chaine de vente pendant offrant des produits de haute
+    qualité avec le « je-ne-sais-quoi » au coûts attractifs.
+  img: "/images/product-categories/topmanager.jpg"
+ourBrands:
+  enable: true

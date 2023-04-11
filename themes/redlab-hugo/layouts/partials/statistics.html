@@ -1,0 +1,28 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ with $data.homepage.statistics }}
+<section class="section">
+    <div class="container">
+        <div class="statistics">
+            <h2>{{ .title }}</h2>
+            <h3>{{ .subtitle }}</h3>
+            <div class="row stats-grid">
+                {{ range .categories }}
+                <div class="stats-cell col-lg-3 col-md-4 col-sm-6">
+                    <div></div>
+                    <div class="statistics-arrow" style="background-color: {{ .color }};">
+                        <!-- bei 100% Leerzeichen weglassen -->
+                        {{ if le (len .title) 4 }}
+                        <h4>{{ .title }}</h4>
+                        {{ else }}
+                        <h4 style="font-size: 18px;">{{ .title }}</h4>
+                        {{ end }}
+                    </div>
+                    <p>{{ .text }}</p>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

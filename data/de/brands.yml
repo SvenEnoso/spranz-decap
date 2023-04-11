@@ -1,0 +1,148 @@
+---
+banner:
+  bg_image: images/backgrounds/Titelbild-Exklusiv-marken.jpg
+  title: EXKLUSIV
+  title2: MARKEN.
+  brandImage: images/brand-logo/XX_MetMaxx.svg
+  content: 'Mit unserem Sortiment bieten wir Ihnen fünf innovative Marken:'
+  button_solid:
+    enable: true
+    label: Newsletter Abonnieren
+    link: about
+  button_outline:
+    enable: false
+    label: Contact Us
+    link: contact
+brands:
+- brand: Metmaxx
+  arrow:
+    color: "#4ac4e6"
+    logo: "/images/exclusive-brands/Metmaxx.svg"
+    is_left: true
+    title: Edle Metall- und Elektronik-Produkte
+    text:
+    - paragraph: Metmaxx – die weltweit geschützte Marke für designorientierte Innovationen
+        rund um die Bereiche Elektronik und Metall. Angefangen von elektronischen
+        Helfern wie Powerbanks, bluetoothfähigen Lautsprechern, Drohnen, Kameras,
+        USB-Ladegeräten und edlen Taschenlampen bis hin zu repräsentativen Helfern
+        rund um den Haushalt, den gedeckten Tisch, hochwertigem Werkzeug, Taschenmessern
+        und hochwertigen Schlüsselanhängern.
+    - paragraph: Im Mittelpunkt steht kompromisslose Funktionalität mit maximalem
+        Gebrauchsnutzen, zuverlässiger Qualität, edler und formschöner Optik sowie
+        repräsentativen Verpackungen, um den Artikel als optimale Plattform für Ihre
+        Markenwelt zu inszenieren. Wichtiger Bestandteil sind die technischen Details
+        und die geprüfte Qualität – konform zu allen gesetzlichen Anforderungen und
+        häufig sogar weit darüber hinaus.
+  image:
+    url: "/images/brands/bassbox.png"
+    title: z.B. Metmaxx Lautsprecher "BoombasticBase"
+    text: Soundstarker Bluetooth® Lautsprecher mit Aktivboxen, Bass-Subwoofer, Scan
+      Radio und integrierter Powerbank.
+  name: Metmaxx
+  link: ''
+- brand: Blackmaxx
+  arrow:
+    logo: "/images/exclusive-brands/Blackmaxx.svg"
+    color: "#ffc94d"
+    is_left: false
+    title: Edle Börsen & Taschen
+    text:
+    - paragraph: Blackmaxx – die weltweit geschützte Marke für designorientierte,
+        genähte Accessoires und Innovationen im Businessbereich und persönlichen Alltag
+        rund um die Bereiche Portfolios, Gepäck, Personal Bags und edle Börsen. Edle
+        Materialien, sorgfältig verarbeitet und mit pfiffigen Ideen und Extras ausgestattet,
+        erfreuen die Blackmaxx-Artikel den Verwender jeden Tag aufs Neue. Im Mittelpunkt
+        steht die Funktionalität mit maximalen Gebrauchsnutzen, hochwertige Qualität
+        und repräsentativer Optik, um den Artikel als optimale Plattform für Ihre
+        Markenwelt und zu inszenieren. Wichtiger Bestandteil ist außerdem die geprüfte
+        Qualität – konform zu allen gesetzlichen Anforderungen und häufig sogar weit
+        darüber hinaus.
+  image:
+    url: "/images/brands/geldboerse.png"
+    title: z.B. Blackmaxx® Kartensafe „IWalletdeLuxePro“
+    text: Vollrindleder-Geldbörse mit Aluminium-Kartensafe und weiteren Karten-/ Scheinfächern.
+      Für bis zu 5 Karten, RFID geschützt.
+  name: Blackmaxx
+  link: ''
+- brand: Vinomaxx
+  arrow:
+    logo: "/images/exclusive-brands/Vinomaxx.svg"
+    color: "#ff514d"
+    is_left: true
+    title: Wein- & Tischkultur
+    text:
+    - paragraph: Vinomaxx – die geschützte Genuss-Marke für designorientierte Artikel
+        rund um Wein und Tischkultur. Elegante, formschöne Accessoires und Trendartikel
+        angefangen von edlen Glasartikeln wie Wasserkaraffen, Gläsern, Dekantern,
+        aber auch Tee-Genuss-Accessoires der Viva Scandinavia Designschmiede bis hin
+        zu Gourmet-Weinen, -Ölen und -Salzen.
+    - paragraph: Hier steht der Genuss im Vordergrund – nachhaltige Zufriedenheit
+        im Gourmetumfeld sichert Ihnen, Ihrer Marke oder Ihrem Claim die Aufmerksamkeit
+        und positive Konnotation, die sie verdient. Die Vinomaxx Artikel werden mit
+        Leidenschaft und Sorgfalt erzeugt – ebenso die Ausstattung und Verpackung
+        – das perfekte Paket für Genießer.
+  image:
+    url: "/images/brands/55-rocim-mariana-2013.jpg"
+    title: z. B. Rocim Mariana 2013
+    text: 'Das Weingut Herdade do Rocim im Herzen des unteren Alentejo steht für höchste
+      Qualitätsansprüche & portugiesische Weinbautradition. Der Mariana 2011 ist das
+      erste gemeinsame Vinomaxx Projekt als Special Edition. Hier wurden die traditionellen
+      portugiesischen Sorten Alicante Bouschet, Aragonez, Touriga National, Trincadeira
+      und etwas Syrah zu einem sehr eleganten Cuvee komponiert, welches 6 Monate in
+      französischen Barriques gereift ist. Im Glas tiefrot, in der Nase mit Anklängen
+      von dunklen Beeren, einem Hauch Vanille & Kaffee, finden sich im Mund dazu wilde
+      Kräuter & schön eingebundene elegante Tannine. Der volle Körper und schöne Abgang
+      lassen wiederum die Kraft und Stärke dieses Weins erahnen - Perfekt zu: Kaminfeuer,
+      Käsebegleiter, Lammfleisch etc. Analyse: Alc: 14 %, Säure;5,7 g, RZ 2,3 g, PH
+      3,37.'
+  name: Vinomaxx
+  link: ''
+- brand: Thanxx
+  arrow:
+    logo: "/images/exclusive-brands/Thanxx.svg"
+    color: "#ff733d"
+    is_left: false
+    title: Promo- & Trendartikel
+    text:
+    - paragraph: Thanxx – die geschützte Trendmarke mit vielen pfiffigen Alltagshelfern,
+        um dem Kunden mit Artikeln ein kleines Dankeschön zukommen zu lassen. Hier
+        kommt Ihre Werbung groß raus, häufig auch per Digitaldruck besonders professionell
+        und eindrucksvoll inszeniert.
+    - paragraph: Im Mittelpunkt steht die hohe Reichweite bei geringer Budgetbelastung,
+        aber auch die Funktionalität mit hohem Gebrauchsnutzen sowie zuverlässiger
+        Qualität und Optik, um den Artikel als optimale Plattform für Ihre Markenwelt
+        zu inszenieren. Wichtiger Bestandteil ist die geprüfte Qualität – konform
+        zu allen gesetzlichen Anforderungen und häufig sogar weit darüber hinaus.
+  image:
+    url: "/images/brands/kofferwaage.png"
+    title: z.B. thanxx® Koffergurt & Waage "Lock&Check"
+    text: Praktische Kombination aus Koffergurt mit Zahlenschloss und Kofferwaage,
+      zu einem tollen Preis-Leistungs-Verhältnis.
+  name: Thanxx
+  link: ''
+- brand: Creativ-Design
+  arrow:
+    logo: "/images/exclusive-brands/Creativdesign.svg"
+    color: "#ffb79b"
+    is_left: true
+    title: Automobil & Mobilität
+    text:
+    - paragraph: Creativ Design – die geschützte und beliebte Marke für praktische
+        kleine Helfer rund um den Bereich Automobil und Mobilität – angefangen von
+        der Schlüsseltasche als Schutz vor scharfkantigen Schlüsseln oder als Mini-Geldbörse,
+        über Führerschein- und Ausweistaschen bis hin zu Bordbüchern und Wagenpapiertaschen
+        sowie Parkscheiben, Sicherheitsaccessoires und praktischen Bags.
+    - paragraph: Im Mittelpunkt steht praktische Funktionalität mit maximalem Gebrauchsnutzen,
+        zuverlässiger Qualität und repräsentativer Optik um den Artikel als optimale
+        Plattform für Ihre Markenwelt zu inszenieren. Wichtiger Bestandteil ist die
+        geprüfte Qualität – konform zu allen gesetzlichen Anforderungen, häufig sogar
+        auch weit darüber hinaus.
+  image:
+    url: "/images/brands/boerse.png"
+    title: z.B. CreativDesign Schlüsseltasche "BusinessPro"
+    text: Hochwertige Schlüsseltasche im schicken Carbon-Look mit 30 mm Schlüsselring.
+      RFID geschützt.
+  name: Creativ-Design
+  link: ''
+brands_old:
+  brand: []

@@ -1,0 +1,5 @@
+# Hugo default output directory
+/.vscode
+IGNORE/
+resources/_gen/
+public/

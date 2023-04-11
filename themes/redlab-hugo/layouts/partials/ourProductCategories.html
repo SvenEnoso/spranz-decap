@@ -1,0 +1,37 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+{{ $link :=  printf "%s%s" .Site.Params.shopurl_login .Lang }}
+<section class="bg-grey-spacing">
+  <div class="container bg-grey">
+
+    <div class="col-12 text-center ourProductCategories">
+      {{ with $data.homepage.ProductCategories }}
+      <h2 class="section-title">{{ .title }}</h2>
+
+      {{ end }}
+    </div>
+    <div class="slider mt-4">
+      <div class="container-fluid">
+        <div class="row no-gutters">
+          <div class="col-lg-12 col-sm-12 col-md-12 slider-wrap-productCategories">
+            {{ range $data.homepage.ProductCategories.categories }}
+            <div class="slider-item productCategoriesSliderElement">
+
+              <img class="card-img-top" src="{{ .image | absURL }}">
+              <div class="card-body">
+                <h4><a href='{{ if ne .link ""}}{{ .link}}{{ else }}{{ $link }}{{ end }}'>{{ .name }}</a></h4>
+                <p>{{ truncate 120 .description }}</p>
+                <br><br>
+                <a href='{{ if ne .link ""}}{{ .link}}{{ else }}{{ $link }}{{ end }}' class="btn btn-primary btn-sm btn-custom btn-ourProductCategories"
+                  style="border-color:{{ .btnColor }}; background-color:{{ .btnColor }};">{{ i18n "to_shop"}}</a>
+              </div>
+            </div>
+
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</section>

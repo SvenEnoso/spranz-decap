@@ -1,0 +1,498 @@
+---
+banner:
+  bg_image: images/backgrounds/Titelbild_2@1X.jpg
+  title: DESIGN.
+  title2: Naturally.
+  brandImage: images/brand-logo/XX_MetMaxx.svg
+  content: Eco-friendly design promotion
+  button_solid:
+    enable: true
+    label: Subscribe to Newsletter
+    link: about
+  button_outline:
+    enable: false
+    label: Contact Us
+    link: contact
+cta:
+  enable: false
+  title: Looking for First-Class PHP Developer?
+  button:
+    enable: true
+    label: get a qoute
+    link: contact
+ourBrands:
+  enable: true
+  title: Unsere Exklusivmarken.
+  brand_items:
+  - image: images/exclusive-brands/Metmaxx.png
+    label: Metmaxx
+  - image: images/exclusive-brands/Blackmaxx.png
+    label: Blackmaxx
+  - image: images/exclusive-brands/Vinomaxx.png
+    label: Vinomaxx
+  - image: images/exclusive-brands/Thanxx.png
+    label: 'Thanxx '
+  - image: images/exclusive-brands/Creativdesign.png
+    label: Creativ Design
+  content: |2-
+
+    I nostri marchi esclusivi Metmaxx, Blackmaxx, Vinomaxx, Thanxx e Creativ Design sono sinonimo di design del prodotto eccezionale, qualità duratura ed esperienze tangibili. Ci concentriamo su funzionalità intelligenti e materiali rispettosi dell'ambiente.
+  button:
+    enable: true
+    label: Learn More
+    link: brands
+textbanner1:
+  enable: true
+  title: Environmental highlights
+  text: Giving is great. Protect even better. Good to you, good to the environment
+    - with our little world-improver, we are now setting a big example. Sustainable.
+    Conserving resources. That's nice.
+  background: images/textbanner/Umwelt-Bild.jpg
+  color: "#87CD75"
+  align-left: true
+  align_left: true
+Products:
+  enable: true
+  title: ''
+  categories:
+  - name: Metmaxx® "MobileCleaner ProUV"
+    description: 'Grazie alle sue pratiche dimensioni tascabili e alla batteria ricaricabile
+      integrata (500 mAh) xxtra security: il giroscopio integrato spegne lo stick
+      quando il LED è rivolto verso l''alto in modo che l''utente non possa vedere
+      direttamente nel LED UV. (Il contatto diretto con la luce UV-C può danneggiare
+      gli occhi)'
+    isnew: true
+    image: images/products/942-00.002.jpg
+    link: ''
+  - name: Metmaxx® "CleanStation Pro UV"
+    description: CleanStation ProUV disinfetta il telefono cellulare, le chiavi, la
+      maschera, ecc. In modo rapido, efficace e rispettoso dell'ambiente (senza aggiungere
+      prodotti chimici o rilasciare ozono) ed è il tuo garage per chiavi / cellulare
+      / portafoglio / maschera ideale quando torni a casa e disinfetti allo stesso
+      tempo. (Il contatto diretto con la luce UV-C può danneggiare gli occhi)
+    isnew: true
+    image: images/products/946-00.002_1.jpg
+    link: ''
+  - name: Metmaxx® "Charge&CleanStation ProUV"
+    description: 'Charge & CleanStation ProUV disinfetta il tuo cellulare, chiavi,
+      maschera, ecc. In modo rapido, efficace ed ecologico (senza aggiungere sostanze
+      chimiche o rilasciare ozono) - la separazione tra disinfezione e carica induttiva
+      (10W) è particolarmente interessante perché dopo aver disinfettato il telefono
+      cellulare, questo ad es. può essere ricaricato durante la notte e altri oggetti
+      di uso quotidiano possono essere disinfettati allo stesso tempo. (anche altri
+      telefoni cellulari ...) - Funzione di sicurezza: quando il coperchio è sollevato
+      (che funziona anche separatamente come caricatore wireless), la luce UV si spegne
+      automaticamente. (Il contatto diretto con la luce UV-C può danneggiare gli occhi)'
+    isnew: true
+    image: images/products/943-00.002.jpg
+    link: ''
+  - name: Metmaxx® "CorkCup“
+    description: Coffee2Go tazza con polsino in sughero e coperchio a tenuta stagna.
+    isnew: true
+    image: images/products/330-00.000.jpg
+    link: ''
+  - name: Metmaxx® "CremaExtensaBasic"
+    description: Il modello Premium Ecomodel a doppia parete con tecnologia del vuoto
+      e coperchio a tenuta stagna con un ottimo rapporto prezzo/prestazioni.
+    isnew: true
+    image: images/products/355-00.012.jpg
+    link: ''
+  - name: Metmaxx® "CremaExtensaBasic"
+    description: Il modello Premium Ecomodel a doppia parete con tecnologia del vuoto
+      e coperchio a tenuta stagna con un ottimo rapporto prezzo/prestazioni.
+    isnew: true
+    image: images/products/355-00.030.jpg
+    link: ''
+  - name: Metmaxx® "GenerationRefillEco2Go"
+    description: Ricarica per evitare l'immondizia - pratico e maneggevole beverino
+      in vetro termovetro in un corpo bioplastico a risparmio di risorse (protezione
+      per il vetro e dal calore) per il viaggio, nella vita quotidiana e in ufficio
+      - coperchio con chiusura a chiave e cinghia di trasporto - ottimo rapporto prezzo/prestazioni.
+    isnew: true
+    image: images/products/188-77.021.jpg
+    link: ''
+  - name: Metmaxx® "GenerationRefillGourmet"
+    description: Bottiglia in vetro con termo-tessile per bevande calde e fredde.
+    isnew: true
+    image: images/products/332-00.001.jpg
+    link: ''
+  - name: Metmaxx® "GRG-ClickDrink"
+    description: Oggetti extra per migliorare ulteriormente la tua borraccia Generation
+      RefillGourmet e portarla dal divertimento allo sport e alla modalità in movimento
+      - (il filtro del tè può rimanere nella bottiglia o essere rimosso)
+    isnew: true
+    image: images/products/332-AddOn.jpg
+    link: ''
+  - name: Metmaxx® "GenerationRefillProtect"
+    description: Borraccia high-tech all'avanguardia per lo sport, il lavoro, la casa
+      e i viaggi in acciaio inossidabile 18/10 a doppia parete di alta qualità con
+      un rivestimento antibatterico all'esterno, che utilizza la tecnologia degli
+      ioni d'argento per eliminare i batteri sulla superficie nel tempo. La luce UV-C
+      incorporata nel coperchio aiuta anche Uccidi o disattiva batteri e virus nel
+      liquido.
+    isnew: true
+    image: images/products/488-00.001.jpg
+    link: ''
+  - name: Metmaxx® "Fitnesstracker Pro"
+    description: Fitness tracker di lusso (a prova di schizzi) con molte funzioni
+      tra cui cardiofrequenzimetro 24 ore su 24, misurazione dell'ossigeno nel sangue
+      e monitor della pressione arteriosa, selettore sport individuale, app top.
+    isnew: true
+    image: images/products/898-00.001.jpg
+    link: ''
+  - name: Metmaxx® "LademeisterBusinessClass“
+    description: Cavo di ricarica di lusso di classe business con sistema multisteck
+      per tutti i telefoni cellulari con area pubblicitaria centrale XXL eccezionalmente
+      ampia e illuminata.
+    isnew: true
+    image: images/products/878-00.001.jpg
+    link: ''
+  - name: Metmaxx® "Shokutsu"
+    description: Coltelli da cucina secondo la migliore tradizione artigianale giapponese,
+      realizzati a mano in acciaio temprato a fuoco per cuochi gourmet
+    isnew: true
+    image: images/products/760-00.000_1_Neu.jpg
+    link: ''
+  - name: Metmaxx® "Thrill4GrillZange"
+    description: Pinze XXL con ingegnosa serratura e portalampada per il barbecue
+      notturno.
+    isnew: true
+    image: images/products/955-00.000.jpg
+    link: ''
+  - name: Metmaxx® "FutureOutdoorFire"
+    description: L'accendino ad arco Outdoor & Work Future Tech con robusta lampada
+      a LED e pratico punto di accensione multipunto ad arco incrociato per tutte
+      le attività su strada ma anche a casa, pratica copertura protettiva, ricaricabile
+      in modo sostenibile senza gas.
+    isnew: true
+    image: images/products/761-00.001.jpg
+    link: ''
+  - name: Metmaxx® "FutureFireHome&Travel"
+    description: Accendino ad arco elettrico Future-Tech per tutti gli usi - piccolo
+      in tasca in arrivo, ideale per candele e barbecue a casa grazie alla testa allungabile,
+      nobile ottica nera opaca, ricaricabile, sostenibile senza gas.
+    isnew: true
+    image: images/products/766-00.001.jpg
+    link: ''
+  - name: Metmaxx® "RainLedPro"
+    description: Ombrello di lusso con percorso luce a LED.
+    isnew: true
+    image: images/products/591-00.001.jpg
+    link: ''
+  - name: Metmaxx® "CremaCoffeeHouse“
+    description: La scelta moderna - Riutilizzabili caffè casa modello prefekt vuoto
+      & rame isolati per il più lungo possibile isolamento caldo e freddo, con coperchio
+      One Touch protetto da perdite.
+    isnew: true
+    image: images/products/358-00.002.jpg
+    link: ''
+  - name: Metmaxx® "BlackChargeMicro“
+    description: Faretto tascabile ricaricabile, potente e tascabile con LED di potenza
+      focalizzabile (proiettore/abbagliante) - concetto multidirezionale (batteria
+      integrata) e tecnologia di illuminazione sostenibile ed economica.
+    isnew: true
+    image: images/products/507-00.001.jpg
+    link: ''
+  - name: Metmaxx® “BlackChargeHeadgear“
+    description: Lampada da testa sostenibile riutilizzabile (batteria ricaricabile
+      integrata) con tecnologia di illuminazione COB in 2 livelli di luce (100%/60%)
+      per l'uso regolare sportivo e all'aperto.
+    isnew: true
+    image: images/products/612-00.001.jpg
+    link: ''
+  - name: Metmaxx® "WorklightProRecharge"
+    description: Profi Worklight XXL - sostenibile (ricaricabile grazie alla batteria
+      ricaricabile integrata), mega forte (800 lumen) - focalizzabile e pratico, incl.
+      proiettore COB laterale e forte magnete per tutte le situazioni di lavoro.
+    isnew: true
+    image: images/products/504-00.001.jpg
+    link: ''
+  - name: Metmaxx® "WorklightReCharge"
+    description: Profi Worklight Profi professionale e sostenibile con proiettore
+      COB regolabile estremamente luminoso, ricaricabile, opzioni di configurazione
+      flessibile, facile da montare (moschettone) e forte magnete.
+    isnew: true
+    image: images/products/502-00.001.jpg
+    link: ''
+  - name: Metmaxx® "MiniPowerTool"
+    description: Innovativo micro utensile all-in-one per la casa e il lavoro - mega
+      cacciavite a batteria cordless compatto e potente con set di punte al cromo
+      vanadio integrato, luce di lavoro a LED e potente batteria agli ioni di litio
+      ricaricabile - sempre a portata di mano, mega pratico in una custodia in metallo
+      nobile.
+    isnew: true
+    image: images/products/506-00.012.jpg
+    link: ''
+  - name: Metmaxx® "TaiPanPro"
+    description: Coltello di lusso professionale e per il tempo libero con lama forgiata
+      (71x piegata) in acciaio Damasco per la massima affilatura e comfort di taglio,
+      manico in legno esclusivo e perfettamente integrato, ottimo rapporto prezzo/prestazioni.
+    isnew: true
+    image: images/products/782-00.000.jpg
+    link: ''
+  - name: Metmaxx® "AmbientSoundTower"
+    description: Altoparlanti con un suono chiaro e potente e colori della luce selezionabili.
+    isnew: true
+    image: images/products/862-00.008.jpg
+    link: ''
+  - name: Metmaxx® "AmbientSoundTouch"
+    description: Altoparlante Bluetooth ambiente compatto con effetti TouchLight per
+      momenti esclusivi interni ed esterni. Altoparlante Bluetooth ambiente compatto
+      con effetti TouchLight per momenti esclusivi interni ed esterni.
+    isnew: true
+    image: images/products/956-00.002.jpg
+    link: ''
+  - name: Metmaxx® "Mr.BoombasticPocket"
+    description: Altoparlante wireless compatto e sostenibile in bioplastica con grande
+      suono e moschettone - ideale per un prezzo e possibilità pubblicitarie di alto
+      livello grazie alla stampa digitale completa sulla griglia audio.
+    isnew: true
+    image: images/products/860-00.001.jpg
+    link: ''
+  - name: Metmaxx® "BlueOnSilent"
+    description: Cuffie Wireless OnEar con riduzione attiva del rumore, comodamente
+      imbottite.
+    isnew: true
+    image: images/products/536-00.001.jpg
+    link: ''
+  - name: Metmaxx® "BlueOnStyle"
+    description: Cuffie On Ear dal design elegante ed extra-leggero, compatibili con
+      il più recente Bluetooth 5.0, suono superiore, ricaricabile in modo sostenibile
+      (batteria LiIo integrata), facile vivavoce e attivazione di assistenti vocali
+      (Alexa, google, Siri tramite telefono cellulare.....).
+    isnew: true
+    image: images/products/538-00.001.jpg
+    link: ''
+  - name: Metmaxx® "BlueNanoSound+"
+    description: Cuffie Hi-Fi TWS wireless5.0 con scatola di ricarica
+    isnew: true
+    image: images/products/548-00.002.jpg
+    link: ''
+  - name: Metmaxx® "SolarBankProInduction10"
+    description: Safe the planet Business & Outdoor Powerbank - ricarica facile grazie
+      all'energia solare rinnovabile (potente cella solare, ricarica tramite rete
+      elettrica opzionale), attrezzature e prestazioni al top grazie alla moderna
+      tecnologia di ricarica ad induzione wireless, tripla porta USB e radiatore di
+      superficie COB integrato per uso esterno.
+    isnew: true
+    image: images/products/813-00.001.jpg
+    link: ''
+  - name: Metmaxx® "GreenNumbers"
+    description: Calcolatrice tascabile ecologicamente sostenibile con robusta custodia
+      in cartone e azionamento delle celle solari - perfettamente riciclabile - l'omaggio
+      "verde" per una stampa digitale perfetta.
+    isnew: true
+    image: images/products/788-00.020.jpg
+    link: ''
+  - name: Blackmaxx® "Techportefolio Kork A5"
+    description: Organizzatore aziendale A5 sostenibile e di alta qualità in sughero
+      (all'esterno) per notebook aziendali (incl. libretto di carta riciclata) con
+      innovativo layout interno per il trasporto, la ricarica induttiva e l'installazione
+      del telefono cellulare (ricarica wireless tramite il garage Powerbank integrato
+      per la vostra Powerbank) e dei compartimenti penna/accessori.
+    isnew: true
+    image: images/products/497-61.020.jpg
+    link: ''
+  - name: Metmaxx® "Hold'nGravityEcoCharge"
+    description: Caricabatterie senza fili e portacellulare con luce notturna.
+    isnew: true
+    image: images/products/474-00.001.jpg
+    link: ''
+  - name: Metmaxx® "MetropolitanFutureBusiness"
+    description: Custodia da scrittura A5 con ChargingPad senza fili.
+    isnew: true
+    image: images/products/493-00.001.jpg
+    link: ''
+  - name: Metmaxx® "MetropolitanBionicBuisness"
+    description: BusinessOrganizer con caricabatterie senza fili & powerbank.
+    isnew: true
+    image: images/products/496-00.001.jpg
+    link: ''
+  - name: Metmaxx® "IWalletCarbon"
+    description: Pocketwallet, protezione RFID per un massimo di 5 carte
+    isnew: true
+    image: images/products/216-57.001.jpg
+    link: ''
+  - name: Metmaxx® "LademeisterFlex“
+    description: Cavo di ricarica di nuova generazione - innovativo sistema AutoRoll
+      per un trasporto facile e perfetto, sistema multispina integrato per tutti i
+      telefoni cellulari, pratico controllo della ricarica a LED per un facile monitoraggio
+      visivo della carica.
+    isnew: true
+    image: images/products/877-00.001.jpg
+    link: ''
+ProductCategories:
+  enable: true
+  title: Unsere Produktkategorien.
+  categories:
+  - name: Tools
+    description: Strumenti e strumenti con un reale valore aggiunto. Buono in mano.
+      ea portata di mano quando ne hai bisogno.
+    image: images/product-categories/mehrwertzeug.jpg
+    btnColor: "#69cfc0"
+    link: ''
+  - name: Top Manager
+    description: Sai come muoverti e vedi dove manca. Sono a portata di mano. In ufficio
+      e in prima fila, sono davvero bravi lì. Non con noi.
+    image: images/product-categories/topmanager.jpg
+    btnColor: "#ffcc21"
+    link: ''
+  - name: Automotive
+    description: Quanto è bello che esistano. Il piccolo aiutante pratico intorno
+      all'auto. Non perde paroloni al riguardo. E ti mancheresti se non esistessero
+      più, tutto da un'unica fonte.
+    image: images/product-categories/inverkehrbringer.jpg
+    btnColor: "#ffb79b"
+    link: ''
+  - name: Travel Companion
+    description: Non importa quanto tu sia in viaggio, in pochi minuti dovresti andare
+      a The Linger nelle pagine seguenti. Il tempo è buono investito. Perché sarai
+      ancora un viaggio più rilassato.
+    image: images/product-categories/reisebegleiter.jpg
+    btnColor: "#ff723c"
+    link: ''
+  - name: Home & Kitchen
+    description: " Prendi: i migliori ingredienti e un senso del buon gusto, guarnito
+      con la giusta spezia, questione di gusti, culo, questa è arte pubblicitaria
+      in cucina."
+    image: images/product-categories/mehrwertzeug.jpg
+    btnColor: "#69cfc0"
+    link: ''
+about:
+  enable: false
+  image: images/about/about.jpg
+  content: "\n## We are here to always <br> help you\nLorem ipsum dolor sit amet consectetur
+    adipisicing elit. Quasi obcaecati earum quia accusamus quaerat suscipit sit saepe
+    amet explicabo.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Libero
+    voluptatibus quod placeat eius dolorum cumque neque fugiat. Praesentium consequatur
+    beatae eum quibusdam deleniti vero repellat numquam molestiae labore repellendus
+    enim tempore laborum alias aut ex "
+  button:
+    enable: true
+    label: know more
+    link: about
+service:
+  enable: true
+  title: Alles aus einer Hand.
+  service_item:
+  - title: Production
+    logo: images/service-icons/produktion.svg
+    content: In our production facilities in Germany, Europe and the Far East, we
+      can produce our innovative in-house developments to a high standard of quality
+      and yet at a reasonable price. Legal regulations and safety standards are taken
+      into account and controlled by our teams on site. We attach great importance
+      to correct working conditions without child labor, a fair remuneration above
+      the legal minimum wage and insured employees. So you as our customer can be
+      sure to buy the right quality.
+  - title: Refinement
+    logo: images/service-icons/veredelung.svg
+    content: The professional finishing of your articles, such as laser engraving,
+      etching, tampon printing, hot stamping, foil stamping, high-frequency embossing
+      as well as packaging, is done in our 1,000 m2 plant in Germany. We obtain the
+      electricity we need from LichtBlick and it consists of 100% renewable energies,
+      the production of which does not produce any climate-damaging C02.
+  - title: Shipping & Logistics
+    logo: images/service-icons/versand.svg
+    content: Our professional shipping logistics with computer-controlled high-bay
+      warehouse and worldwide shipping service, also in the name of the customer,
+      complete our offer. All goods are transported climate neutral. The C02 resulting
+      from the transport is effectively offset by our cooperation partner myclimate.
+      myclimate is non-profit, science-oriented and is committed worldwide to climate
+      protection through education, consulting and offsetting greenhouse gas emissions
+      in high-quality carbon offset projects in more than 27 countries.
+standards:
+  enable: true
+  title: An indicator of responsibility
+  content: 'With our safety and environmental indicator, we make it easy for you to
+    identify products that give something back: to the people who produce them and
+    to the environment. Why not keep an eye out for it?'
+  standardstext: We comply with the following safety standards
+textbanner2:
+  enable: true
+  title: Browse, rummage... find!
+  text: Use the online version of our main catalog as well as digital ads and mailings
+    to reach your customers quickly and free of charge
+  background: images/textbanner/Titel_downloads.jpg
+  color: "#47C3E6"
+  align-left: false
+  align: ''
+  ausrichtung: false
+downloads:
+  enable: true
+  download: []
+newsletter:
+  enable: true
+  title: Newsletter subscription
+  why: Register now for our free Spranz newsletter to receive the latest news and
+    special offers.
+  instructions: Simply enter your name and e-mail address on the right and click on
+    the confirmation link in the first e-mail.
+statistics:
+  enable: true
+  title: Small gifts maintain friendship
+  subtitle: With haptic emotional customer experiences. A sign of appreciation and
+    trust. Simply sympathetic. This is also proven by the figures...
+  categories:
+  - title: 3.580 billion €
+    color: "#172972"
+    text: were spent on promotional items in Germany in 2018. This means that promotional
+      items rank second directly after TV advertising and ahead of print, outdoor,
+      radio and online advertising.
+    name: ''
+  - title: 70 %
+    color: "#87cd75"
+    text: Compared to other means of communication, promotional items achieve the
+      highest recall values of the advertised product or the brand or company name
+    name: ''
+  - title: 78 %
+    color: "#ff723c"
+    text: the recipients are happy to recommend the company!
+    name: ''
+  - title: 98 %
+    color: "#69cfc0"
+    text: of all Germans over the age of 15 own at least one promotional item.
+    name: ''
+  - title: 89 %
+    color: "#47c3e6"
+    text: of the population have contact with promotional items. Haptic advertising
+      thus achieves a significantly higher reach than radio, print or TV advertising
+    name: ''
+  - title: 62 %
+    color: "#ffc94d"
+    text: of the population have contact with promotional items. Haptic advertising
+      thus achieves a significantly higher reach than radio, print or TV advertising
+    name: ''
+  - title: 100%
+    color: "#ffb79b"
+    text: of the population have contact with promotional items. Haptic advertising
+      thus achieves a significantly higher reach than radio, print or TV advertising
+    name: ''
+footer:
+  columns:
+  - company: ''
+    header: Unternehmen
+    links:
+    - text: Über Spranz
+      link: "#"
+    - text: Exklusiv-Marken
+      link: "#"
+    - text: Jobs
+      link: "#"
+  - service: 
+    header: Service
+    links:
+    - text: Downloads
+      link: "#"
+    - text: Kontakt
+      link: "#"
+    - text: Händlerverzeichnid
+      link: "#"
+    company: ''
+  - dealer: 
+    header: Händlerbereich
+    links:
+    - text: Login
+      link: "#"
+    - text: Händler werden
+      link: "#"
+    company: ''

@@ -1,0 +1,28 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<section class="section bg-grey-spacing">
+  <div class="container bg-grey">
+    <div class="row">
+      {{ with $data.homepage.standards }}
+      <div class="col-sm-6 text-center">
+        <h2 class="section-title">{{ .title }}</h2>
+        <p>{{ .content }}</p>
+        <br>
+        <p>{{ .standardstext }}</p>
+      </div>
+      <div class="col-sm-6 text-center">
+        <img class="img-fluid" src="/images/safety-standards/Metmaxx_Oeko_Signet.png">
+      </div>
+      {{ end }}
+    </div>
+    
+    {{ with .Site.Params.safety_standards }}
+    <div class="client-logo-slider">
+      {{ range . }}
+      <div class="text-center py-3 px-2"><img class="d-unset img-fluid standards-img" src="{{ .logo | absURL }}" alt="client-logo">
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>

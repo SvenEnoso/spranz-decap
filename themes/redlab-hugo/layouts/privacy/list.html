@@ -1,0 +1,37 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "page-title.html" . }}
+
+
+<!-- gallery -->
+
+<section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-title"></h2>
+        <p>{{ .Site.Params.legal_name | markdownify }}<br>
+          {{ .Site.Params.address | markdownify }}<br>
+          {{ .Site.Params.postal_code | markdownify }}<br><br>
+          {{ i18n "phone" }}: {{ .Site.Params.phone | markdownify }}<br>
+          {{ i18n "fax" }}: {{ .Site.Params.fax | markdownify }}<br>
+          {{ i18n "email" }}: {{ .Site.Params.email | markdownify }}<br>
+          {{ i18n "url" }}: {{ .Site.Params.url | markdownify }}<br>
+          {{ i18n "ceo" }}: {{ .Site.Params.ceo | markdownify }}<br><br>
+          {{ i18n "register_court" }}: {{ .Site.Params.register_court | markdownify }}<br>
+          {{ i18n "registration_nr" }}: {{ .Site.Params.registration_nr | markdownify }}<br>
+          {{ i18n "tax_registration_nr" }}: {{ .Site.Params.tax_registration_nr | markdownify }}<br><br>
+          {{ i18n "responsible_for_content" }}: {{ .Site.Params.responsible | markdownify }}<br>
+          {{ i18n "programming_webdesign" }}: {{ .Site.Params.programming_webdesign | markdownify }}</p>
+
+        {{ .Content }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /gallery -->
+
+
+{{ end }}

@@ -1,0 +1,91 @@
+---
+- id: apply_now
+  translation: Apply Now
+  name: Jetzt bewerben
+- id: job_details
+  translation: Job Details
+  name: Job Details
+- id: location
+  translation: Location
+  name: Standort
+- id: job_category
+  translation: Job Category
+  name: Berufsbezeichnung
+- id: job_type
+  translation: Job Type
+  name: Arbeitszeit
+- id: posted_date
+  translation: Posted Date
+  name: Eingestellt am
+- id: featured_jobs
+  translation: Featured Jobs
+  name: Aktuelle Stellenangebote
+- id: keep_in_touch
+  translation: Keep in Touch
+  name: Kontaktieren Sie uns!
+- id: address
+  translation: Address
+  name: Addresse
+- id: email
+  translation: Email
+  name: Email
+- id: mobile
+  translation: Mobile
+  name: Mobil
+- id: phone
+  translation: Telefon
+  name: Telefon
+- id: fax
+  translation: Fax
+  name: Fax
+- id: url
+  translation: URL
+  name: URL
+- id: ceo
+  translation: Geschäftsführer
+  name: Geschäftsführer
+- id: register_court
+  translation: Registergericht
+  name: Registergericht
+- id: registration_nr
+  translation: Registernummer
+  name: Registernummer
+- id: tax_registration_nr
+  translation: Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz
+  name: Umsatzsteuer Identifikationsnummer
+- id: responsible_for_content
+  translation: Inhaltlich Verantwortlicher gemäß § 6 MDStV
+  name: Inhaltlich Verantwortlicher
+- id: programming_webdesign
+  translation: Programmierung und Webdesign
+  name: Programmierung und Webdesign
+- id: to_shop
+  translation: To Shop
+  name: Zum Shop
+- id: your_name
+  translation: Your Name
+  name: Name
+- id: your_email
+  translation: Your email
+  name: Email
+- id: sign_up
+  translation: Sign up
+  name: Anmelden
+- id: read_privacy_statement
+  translation: I have read and agree to the data protection regulations.
+  name: Ich habe die Datenschutzbestimmungen gelesen und stimme zu.
+- id: download
+  translation: Download
+  name: Download
+- id: cookie_banner_text
+  translation: We use cookies and Google Analytics, to make this website as interesting as possible for you. Do you agree with the usage of cookies? (You can recall your decision anytime)
+  name: Cookie-Banner Text
+- id: cookie_agree
+  translation: Agree
+  name: Cookies zustimmen
+- id: cookie_dismiss
+  translation: Dismiss
+  name: Cookies ablehnen
+- id: privacy_statement
+  translation: Privacy Statement
+  name: Datenschutzerklärung

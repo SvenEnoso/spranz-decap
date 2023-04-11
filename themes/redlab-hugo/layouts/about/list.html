@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ partial "page-title.html" . }}
+
+<!-- about company -->
+{{ with $data.about.about }}
+{{ if .enable }}
+<section class="section bg-secondary-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 mb-4 mb-md-0 pr-lg-5">
+        <img src="{{ .url | absURL }}" alt="about" class="img-fluid">
+      </div>
+      <div class="col-md-6 pl-lg-4">
+        <div class="content mb-4">
+          <h3>{{ .title }}</h3>
+          <p>{{ .text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /about company -->
+
+<!-- Philosophy -->
+{{ if $data.about.philosophy.enable }}
+{{ with $data.about.philosophy }}
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 pl-lg-4 text-center">
+        <h2>{{ .title }}</h2>
+        <div class="content mb-4">{{ .content }}</div>
+      </div>
+      <div class="col-md-6">
+        <img src="{{ .img }}">
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /Philosophy -->
+
+<!-- our brands -->
+{{ if $data.about.ourBrands.enable }}
+{{ partial "ourBrands.html" . }}
+{{ end }}
+<!-- /our brands -->
+
+{{ end }}

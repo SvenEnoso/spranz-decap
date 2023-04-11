@@ -1,0 +1,44 @@
+{{ define "main" }}
+{{ $link :=  printf "%s%s" .Site.Params.shopurl_login .Lang }}
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+<!-- hero area -->
+{{ with $data.brands.banner }}
+<section class="hero-section bg-cover position-relative" style="background-image: url('{{ .bg_image | absURL }}');">
+  <div class="hero-content">
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-sm-1">
+          {{ if .button_solid.enable }}
+          {{ with .button_solid }}
+          <div class="btn btn-primary newsletter-box "><a href="{{ .link | absLangURL }}" class="">{{ .label }}</a>
+          </div>
+          {{ end }}
+          {{ end }}
+        </div>
+        <div class="col-sm-10">
+          <div class="banner-text-box">
+            <h1 class="text-black mb-5 text-capitalize banner-text">{{ .title | markdownify | upper }}</h1>
+            <h1 class="text-black mb-5 text-capitalize banner-text">{{ .title2 | markdownify| upper }}</h1>
+            <p class="text-dark banner-logo-text">{{ .content | markdownify }}</p>
+          </div>
+          {{ if .button_outline.enable }}
+          {{ with .button_outline }}
+          <a href="{{ .link | absLangURL }}" class="btn btn-outline-primary m-2">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /hero area -->
+<div class="brands-wrapper mx-auto mt-5">
+  <!-- Brands -->
+  {{ range $data.brands.brands  }}
+  {{ partial "brand.html" (dict "link" $link "context" .)}}
+  {{ end }}
+</div>
+
+{{ end }}

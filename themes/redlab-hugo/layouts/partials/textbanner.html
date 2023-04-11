@@ -1,0 +1,37 @@
+{{ $data := index .context.Site.Data .context.Site.Language.Lang }}
+<!-- find out, which is the current banner -->
+
+{{ $banner := .banner }}
+
+{{ with $banner }}
+{{ $image := .Page.Resources.Get .background }}
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 textbanner">
+                <!-- dynamic banner height and width (in %) -->
+                {{ $height := 0.95 }}
+                <!-- imageConfig: {color model, width, height} -->
+                {{ $ic := imageConfig (printf "%s/%s" "static" .background) }}
+                <!-- ratio = height / width -->
+                {{ $ratio := div (mul $ic.Height 1.0) $ic.Width }}
+                {{ $width := mul $height $ratio }}
+                {{ if .align_left }}
+                <div class="textbanner-textbox"
+                    style="width: {{ mul $width 100 }}%; height: {{ mul $height 100 }}%; background-color: {{ .color }}; left: 0;">
+                {{ else }}
+                <div class="textbanner-textbox"
+                    style="width: {{ mul $width 100 }}%; height: {{ mul $height 100 }}%; background-color: {{ .color }}; right: 0;">
+                {{ end }}
+                    <h2>{{ .title }}</h2>
+                    <p class="textbanner-p1">{{ .text }}</p>
+                </div>
+                <!-- background img -->
+                <img class="textbanner-bg-img" src="{{ .background | absURL }}">
+            </div>
+            <p class="textbanner-p2">{{ .text }}</p>
+        </div>
+    </div>
+</section>
+{{ end }}

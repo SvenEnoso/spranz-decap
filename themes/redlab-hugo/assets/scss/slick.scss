@@ -1,0 +1,75 @@
+.slick-arrow {
+  position     : absolute;
+  top          : 50%;
+  transform    : translateY(-50%);
+  z-index      : 9;
+  height       : 70px;
+  width        : 70px;
+  border-radius: 50%;
+  /*background : rgba($color: $primary-color, $alpha: .5);*/
+
+  background : transparent;
+  color      : $white;
+  border     : 0;
+  line-height: 70px;
+  font-size  : 35px;
+
+  &::before {
+    position  : absolute;
+    content   : '';
+    height    : 20px;
+    width     : 20px;
+    background: transparent;
+    top       : 50%;
+    transform : translateY(-50%) rotate(-45deg);
+    transition: .2s ease;
+  }
+
+  &::after {
+    position  : absolute;
+    content   : '';
+    height    : 2px;
+    width     : 25px;
+    top       : 50%;
+    transform : translateY(-50%);
+    background: $white;
+    transition: .2s ease;
+  }
+}
+
+
+.prevArrow {
+  left: -60px;
+
+  @include desktop {
+    display: none !important;
+  }
+  &::before {
+
+    border-left: 2px solid #707070;
+    border-top : 2px solid #707070;
+    right      : 35px;
+  }
+
+  &::after {
+    right: 20px;
+  }
+}
+
+.nextArrow {
+  right: -60px;
+
+  @include desktop {
+    display: none !important;
+  }
+
+  &::before {
+    border-right : 2px solid #707070;
+    border-bottom: 2px solid #707070;
+    left         : 35px;
+  }
+
+  &::after {
+    left: 20px;
+  }
+}

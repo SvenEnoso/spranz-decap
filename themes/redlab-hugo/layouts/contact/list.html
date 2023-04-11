@@ -1,0 +1,71 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-between">
+      {{ if .Site.Params.map.enable }}
+      <!-- <div class="col-lg-7 mobile-height mb-5 mb-lg-0" id="map_canvas" 
+      data-latitude="{{ .Site.Params.map.map_latitude }}"
+      data-longitude="{{ .Site.Params.map.map_longitude }}"
+      data-marker="{{ .Site.Params.map.map_marker | absURL }}"
+      data-marker-name="{{ .Site.Title }}"></div> -->
+      <div class="col-lg-7">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2544.3532339756152!2d7.592168316038786!3d50.37861340041897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47be7cce150cf749%3A0xba523f1ef8150039!2sSpranz%20GmbH!5e0!3m2!1sde!2sde!4v1600703057206!5m2!1sde!2sde"
+        width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+      </div>
+      {{ end }}
+      <div class="col-lg-4">
+        <div class="p-5 bg-secondary">
+          <h3 class="text-white border-bottom pb-4 mb-5">{{i18n "keep_in_touch"}}</h3>
+          <div class="mb-4">
+            <h6 class="text-white">{{ i18n "address" }}</h6>
+            <p>{{ .Site.Params.postal_code | markdownify }}<br>{{ .Site.Params.address | markdownify }}</p>
+          </div>
+          <div class="mb-4">
+            <h6 class="text-white">{{ i18n "email" }}</h6>
+            <p>{{ .Site.Params.email | markdownify }}</p>
+          </div>
+          <div class="mb-4">
+            <h6 class="text-white">{{ i18n "phone" }}</h6>
+            <p>{{ .Site.Params.phone | markdownify }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section class="section bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-title">Leave A Message</h2>
+      </div>
+      <div class="col-lg-12 text-center">
+        <form action="{{ .Site.Params.contact_form_action }}" class="row">
+          <div class="col-lg-6">
+            <input type="text" class="form-control mb-4" placeholder="Your email">
+          </div>
+          <div class="col-lg-6">
+            <input type="text" class="form-control mb-4" placeholder="Your Name">
+          </div>
+          <div class="col-lg-12">
+            <input type="text" class="form-control mb-4" placeholder="Subject">
+          </div>
+          <div class="col-lg-12">
+            <textarea name="message" class="form-control mb-4" placeholder="Message"></textarea>
+          </div>
+          <div class="col-12">
+            <button type="submit" class="btn btn-primary">Submit Now</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+{{ end }}
