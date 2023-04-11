@@ -28,7 +28,17 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Beschreibung", name: "description", widget: "string"}
       - {label: "Bild", name: "bg_image", widget: "image"}
-      - {label: "Fülltext", name: "body", widget: "markdown"} 
+      - {label: "Fülltext", name: "body", widget: "markdown"}
+      - label: "Übersicht"
+        name: "übersicht"
+        widget: list
+        summary: '{{fields.image}}'
+        fields:
+              - {label: "Bild", name: "image", widget: image}
+              - {label: "Beschreibung", name: "description", widget: string}
+      - {label: "Kategorie", name: "categories", widget: "list"}
+      - {label: "Schlüsselwörter", name: "tags", widget: "list"}  
+      - {label: "Beschreibung", name: "body", widget: "markdown"}  
   - label: "Italian"
     name: "italian"
     folder: "content/italian"
