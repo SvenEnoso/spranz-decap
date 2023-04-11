@@ -23,11 +23,12 @@ collections:
   - label: "German"
     name: "german"
     folder: "content/german"
-    create: false
+    create: true
     fields:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Beschreibung", name: "description", widget: "string"}
-      - {label: "Seitentext", name: "body", widget: "markdown"}
+      - {label: "Bild", name: "bg_image", widget: "image"}
+      - {label: "Fülltext", name: "body", widget: "markdown"} 
   - label: "Italian"
     name: "italian"
     folder: "content/italian"
@@ -36,6 +37,9 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Beschreibung", name: "description", widget: "string"}
       - {label: "Seitentext", name: "body", widget: "markdown"}
+      
+      
+      
             
   
                      
