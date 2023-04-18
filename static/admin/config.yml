@@ -5,14 +5,14 @@ media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
 collections:
   - label: "About-de"
-    name: "about"
-    folder: "data/de"
-    create: true
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
-      - {label: "Featured Image", name: "url", widget: "image"}
-      - {label: "Body", name: "text", widget: "markdown"}
+    name: "aboutDE"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "site/content/about.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Text, name: text, widget: markdown}
           
           
           
