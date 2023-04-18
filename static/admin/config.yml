@@ -7,11 +7,11 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "About DE "
+      - label: "About-DE"
         name: "about"
         file: "data/de/about.yml"
         - label: About Deutsch
-            name: about-de
+            name: überUns
             widget: list
             fields:
               - {label: Titel, name: title, widget: string}
