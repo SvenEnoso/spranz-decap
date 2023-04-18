@@ -11,8 +11,6 @@ collections:
         name: "about"
         file: "data/de/about.yml"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
           - label: Über Uns
             name: about
             widget: list
@@ -20,6 +18,7 @@ collections:
               - {label: Name, name: title, widget: string}
               - {label: Photo, name: text, widget: markdown}
               - {label: Bild, name: url, widget: image}
+          
           
           
           
