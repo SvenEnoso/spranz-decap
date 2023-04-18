@@ -10,7 +10,8 @@ collections:
       - label: "About-DE"
         name: "about"
         file: "data/de/about.yml"
-        - label: About Deutsch
+        fields:
+          - label: About Deutsch
             name: überUns
             widget: list
             fields:
