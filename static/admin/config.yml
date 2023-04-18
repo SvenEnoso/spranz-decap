@@ -11,7 +11,7 @@ collections:
         name: "about"
         file: "data/de/about.yml"
         fields:
-          - {label: Title, name: about, widget: string}
+          - {label: Title, name: title, widget: string}
           - {label: Textfeld, name: about, widget: markdown}
           
           
