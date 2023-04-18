@@ -4,15 +4,15 @@ backend:
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
 collections:
-  - label: "Pages"
-    name: "pages"
-    files:
-      - label: "About Page"
-        name: "about"
-        file: "data/de/about.yml"
-        fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Textfeld, name: about, widget: markdown}
+  - label: "AboutDE"
+    name: "about"
+    folder: "data/de"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown"}
           
           
           
