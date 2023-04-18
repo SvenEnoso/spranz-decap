@@ -7,14 +7,14 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "About Page"
+      - label: "About DE "
         name: "about"
         file: "data/de/about.yml"
         fields:
           - {label: Titel, name: title, widget: string}
-          - {label: Textfeld, name: text, widget: string}
           - {label: Text, name: text, widget: string}
           - {label: Team, name: url, widget: image}
+          
           
           
       
