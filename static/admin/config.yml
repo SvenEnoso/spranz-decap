@@ -123,7 +123,7 @@ collections:
         extension: "yml"
         format: "yml"
         fields:
-          - label: Marken
+          - label: Banner DE
             name: banner
             widget: object
             fields:
@@ -168,7 +168,7 @@ collections:
         extension: "yml"
         format: "yml"
         fields:
-          - label: banner
+          - label: banner IT
             name: banner
             widget: object
             fields:
@@ -176,7 +176,22 @@ collections:
               - {label: nome 1, name: title, widget: string}
               - {label: nome 2, name: title2, widget: string}
               - {label: immagine, name: brandImage, widget: image}                 
-              - {label: testo, name: content, widget: string}                          
+              - {label: testo, name: content, widget: string}
+  - label: "Brands/Marken (DE,EN,FR,IT)"
+    name: "brands"
+    files:
+      - label: "Banner DE"
+        name: "bannerDE"
+        file: "data/de/brands.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: Marke
+            name: brands
+            widget: object
+            fields:
+              - {label: Marke, name: brand, widget: markdown}
+              
     
     
     
