@@ -4,7 +4,7 @@ backend:
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
 collections:
-  - label: "Über Uns (DE.EN,FR,IT)"
+  - label: "Über Uns (DE,EN,FR,IT)"
     name: "about"
     files:
       - label: "About DE"
@@ -16,6 +16,8 @@ collections:
           - label: Über Uns
             name: about
             widget: object
+            editor:
+            preview: false
             fields:
               - {label: Name, name: title, widget: string}
               - {label: Text, name: text, widget: text}
@@ -29,6 +31,8 @@ collections:
           - label: About Us
             name: about
             widget: object
+            editor:
+            preview: false
             fields:
               - {label: Name, name: title, widget: string}
               - {label: Text, name: text, widget: text}
@@ -42,6 +46,8 @@ collections:
           - label: À propos de nous
             name: about
             widget: object
+            editor:
+            preview: false
             fields:
               - {label: le nom, name: title, widget: string}
               - {label: texte, name: text, widget: text}
@@ -55,6 +61,8 @@ collections:
           - label: su noi
             name: about
             widget: object
+            editor:
+            preview: false
             fields:
               - {label: Nome, name: title, widget: string}
               - {label: il testo, name: text, widget: text}
