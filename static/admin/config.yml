@@ -113,7 +113,26 @@ collections:
             fields:
               - {label: titolo, name: title, widget: string}
               - {label: il testo, name: content, widget: text}
-              - {label: immagine, name: img, widget: image}     
+              - {label: immagine, name: img, widget: image} 
+  - label: "Marken (DE,EN,FR,IT)"
+    name: "brands"
+    files:
+      - label: "Marken DE"
+        name: "aboutDE"
+        file: "data/de/brands.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: Marken
+            name: banner
+            widget: object
+            fields:
+              - {label: Name 1, name: title, widget: string}
+              - {label: Name 2, name: title2, widget: string}
+              - {label: Name 2, name: content, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Hintergrundbild, name: bg_image, widget: image}
+              - {label: Bild, name: brandImage, widget: image}                 
 
 
                                  
