@@ -7,18 +7,18 @@ public_folder: "static/images"
   
 collections:
   - name: Folder1
-      label: Posts
-      folder: images/about
-      path: '{{slug}}/index'
-      media_folder: ''
-      public_folder: ''
-      fields:
-        - label: Title
-          name: title
-          widget: string
-        - label: 'Cover Image'
-          name: 'image'
-          widget: 'image'
+    label: Posts
+    folder: images/about
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: 'Cover Image'
+        name: 'image'
+        widget: 'image'
   - label: "Über Uns (DE,EN,FR,IT)"
     name: "about"
     files:
