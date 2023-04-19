@@ -59,6 +59,22 @@ collections:
               - {label: Nome, name: title, widget: string}
               - {label: il testo, name: text, widget: text}
               - {label: immagine, name: url, widget: image}
+  - label: "Philosophie (DE,EN,FR,IT)"
+    name: "phil"
+    files:
+      - label: "Philosophie DE"
+        name: "philDE"
+        file: "data/de/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "Philosophie"
+            name: "philosophy"
+            widget: object
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Text, name: content, widget: text}
+              - {label: Bild, name: img, widget: image}              
                                  
 
   
