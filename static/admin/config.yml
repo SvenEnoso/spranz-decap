@@ -3,7 +3,24 @@ backend:
   branch: main
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
-collections: - label: "Pages" name: "pages" files: - label: "About Page" name: "about-de" file: "data/de/about.yml" extension: "yml" format: "yml" fields: - label: Über Uns name: about widget: object fields: - {label: Name, name: title, widget: string} - {label: Text, name: text, widget: text} - {label: Bild, name: url, widget: image}
+collections:
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "data/de/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: Über Uns
+            name: about
+            widget: object
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Bild, name: url, widget: image}
+          
         
           
           
