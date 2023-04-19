@@ -10,6 +10,8 @@ collections:
       - label: "About Page"
         name: "about-de"
         file: "data/de/about.yml"
+        extension: "yml"
+        format: "yml"
         fields:
           - label: Über Uns
             name: about
