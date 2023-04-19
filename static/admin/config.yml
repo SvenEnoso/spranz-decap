@@ -8,7 +8,7 @@ collections:
     name: "pages"
     files:
       - label: "About Page"
-        name: "about"
+        name: "about-de"
         file: "data/de/about.yml"
         fields:
           - label: Über Uns
@@ -16,7 +16,7 @@ collections:
             widget: list
             fields:
               - {label: Name, name: title, widget: string}
-              - {label: Photo, name: text, widget: markdown}
+              - {label: Text, name: text, widget: markdown}
               - {label: Bild, name: url, widget: image}
           
           
