@@ -5,7 +5,7 @@ media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
 collections:
   - label: "About"
-    name: "ÜberUns AboutUs tutto tut le havre"
+    name: "about"
     files:
       - label: "About DE"
         name: "aboutDE"
@@ -32,37 +32,34 @@ collections:
             fields:
               - {label: Name, name: title, widget: string}
               - {label: Text, name: text, widget: text}
-              - {label: Picture, name: url, widget: image}   
-  - label: "Philosophy"
-    name: "phil"
-    files:
-      - label: "About DE"
-        name: "aboutDE"
-        file: "data/de/about.yml"
+              - {label: Picture, name: url, widget: image}
+      - label: "About FR"
+        name: "aboutFR"
+        file: "data/fr/about.yml"
         extension: "yml"
         format: "yml"
         fields:
-          - label: Über Uns
+          - label: À propos de nous
             name: about
             widget: object
             fields:
-              - {label: Name, name: title, widget: string}
-              - {label: Text, name: text, widget: text}
-              - {label: Bild, name: url, widget: image}
-      - label: "About EN"
-        name: "aboutEN"
-        file: "data/en/about.yml"
+              - {label: le nom, name: title, widget: string}
+              - {label: texte, name: text, widget: text}
+              - {label: Image, name: url, widget: image}
+      - label: "About IT"
+        name: "aboutIT"
+        file: "data/it/about.yml"
         extension: "yml"
         format: "yml"
         fields:
-          - label: About Us
+          - label: su noi
             name: about
             widget: object
             fields:
-              - {label: Name, name: title, widget: string}
-              - {label: Text, name: text, widget: text}
-              - {label: Picture, name: url, widget: image}                 
-          
+              - {label: Nome, name: title, widget: string}
+              - {label: il testo, name: text, widget: text}
+              - {label: immagine, name: url, widget: image}                     
+  
         
           
           
