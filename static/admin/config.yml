@@ -13,7 +13,7 @@ collections:
         fields:
           - label: Über Uns
             name: about
-            widget: list
+            widget: code
             fields:
               - {label: Name, name: title, widget: string}
               - {label: Photo, name: text, widget: markdown}
