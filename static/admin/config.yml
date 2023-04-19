@@ -65,8 +65,8 @@ collections:
         extension: "yml"
         format: "yml"
         fields:
-          - label: Philosophie
-            name: philosophy
+          - label: "Philosophie"
+            name: "philosophy"
             widget: object
             fields:
               - {label: Name, name: title, widget: string}
