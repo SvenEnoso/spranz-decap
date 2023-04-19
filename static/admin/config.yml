@@ -1,9 +1,22 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "static/images"
-media_folder: "static/images/about"  # Folder where user uploaded files should go
+media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
+collections:
+  - name: Folder1
+    label: Posts
+    folder: images/about
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: 'Cover Image'
+        name: 'image'
+        widget: 'image'
 collections:
   - label: "Über Uns (DE,EN,FR,IT)"
     name: "about"
@@ -80,3 +93,4 @@ collections:
       
          
         
+    
