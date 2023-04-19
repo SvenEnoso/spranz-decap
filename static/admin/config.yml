@@ -4,8 +4,8 @@ backend:
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
 collections:
-  - label: "Pages"
-    name: "pages"
+  - label: "About"
+    name: "ÜberUns AboutUs tutto tut le havre"
     files:
       - label: "About DE"
         name: "aboutDE"
@@ -32,7 +32,36 @@ collections:
             fields:
               - {label: Name, name: title, widget: string}
               - {label: Text, name: text, widget: text}
-              - {label: Picture, name: url, widget: image}        
+              - {label: Picture, name: url, widget: image}   
+  - label: "Philosophy"
+    name: "phil"
+    files:
+      - label: "About DE"
+        name: "aboutDE"
+        file: "data/de/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: Über Uns
+            name: about
+            widget: object
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Bild, name: url, widget: image}
+      - label: "About EN"
+        name: "aboutEN"
+        file: "data/en/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: About Us
+            name: about
+            widget: object
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Picture, name: url, widget: image}                 
           
         
           
