@@ -132,14 +132,13 @@ collections:
               - {label: Name 2, name: title2, widget: string}
               - {label: Bild, name: brandImage, widget: image}                 
               - {label: Text, name: content, widget: string}
-    files:
       - label: "Banner EN"
         name: "bannerEN"
         file: "data/en/brands.yml"
         extension: "yml"
         format: "yml"
         fields:
-          - label: banner
+          - label: banner IT
             name: banner
             widget: object
             fields:
@@ -148,7 +147,6 @@ collections:
               - {label: Name 2, name: title2, widget: string}
               - {label: Picture, name: brandImage, widget: image}                 
               - {label: text, name: content, widget: string}
-    files:
       - label: "Banner FR"
         name: "bannerFR"
         file: "data/fr/brands.yml"
@@ -164,8 +162,7 @@ collections:
               - {label: nom 2, name: title2, widget: string}
               - {label: image, name: brandImage, widget: image}                 
               - {label: text, name: content, widget: string}
-    files:
-      - label: "banner IT"
+      - label: "banner"
         name: "bannerIT"
         file: "data/it/brands.yml"
         extension: "yml"
@@ -180,6 +177,9 @@ collections:
               - {label: nome 2, name: title2, widget: string}
               - {label: immagine, name: brandImage, widget: image}                 
               - {label: testo, name: content, widget: string}                          
+    
+    
+    
               
               
 
