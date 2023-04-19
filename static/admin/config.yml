@@ -74,7 +74,48 @@ collections:
             fields:
               - {label: Name, name: title, widget: string}
               - {label: Text, name: content, widget: text}
-              - {label: Bild, name: img, widget: image}              
+              - {label: Bild, name: img, widget: image}   
+      - label: "Philosophie EN"
+        name: "philEN"
+        file: "data/en/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "philosophy"
+            name: "philosophy"
+            widget: object
+            fields:
+              - {label: title, name: title, widget: string}
+              - {label: text, name: content, widget: text}
+              - {label: Picture, name: img, widget: image}
+      - label: "Philosophie FR"
+        name: "philFR"
+        file: "data/fr/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "philosophie"
+            name: "philosophy"
+            widget: object
+            fields:
+              - {label: titre, name: title, widget: string}
+              - {label: texte, name: content, widget: text}
+              - {label: immage, name: img, widget: image}
+      - label: "Philosophie IT"
+        name: "philIT"
+        file: "data/it/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "filosofia"
+            name: "philosophy"
+            widget: object
+            fields:
+              - {label: titolo, name: title, widget: string}
+              - {label: il testo, name: content, widget: text}
+              - {label: immagine, name: img, widget: image}     
+
+
                                  
 
   
