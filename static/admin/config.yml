@@ -115,7 +115,7 @@ collections:
               - {label: il testo, name: content, widget: text}
               - {label: immagine, name: img, widget: image} 
   - label: "Banner (DE,EN,FR,IT)"
-    name: "banner"
+    name: "banners"
     files:
       - label: "Banner DE"
         name: "bannerDE"
