@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   branch: main
-media_folder: "static/images", "static/images/about" # Folder where user uploaded files should go
+media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
 collections:
   - label: "Über Uns (DE,EN,FR,IT)"
@@ -58,7 +58,20 @@ collections:
             fields:
               - {label: Nome, name: title, widget: string}
               - {label: il testo, name: text, widget: text}
-              - {label: immagine, name: url, widget: image}                     
+              - {label: immagine, name: url, widget: image}
+      - label: "Philosophie DE"
+        name: "philDE"
+        file: "data/de/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: Philosophie
+            name: philosophy
+            widget: object
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Text, name: content, widget: text}
+              - {label: Bild, name: img, widget: image}                             
 
   
         
