@@ -201,7 +201,7 @@ collections:
         format: "yml"
         fields:
           - label: Artikelbeschreibung
-            name: arrow
+            name: brand
             widget: object
             fields:
               - {label: Farbe Pfeil, name: color, widget: color}
