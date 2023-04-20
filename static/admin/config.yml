@@ -24,7 +24,7 @@ collections:
               - {label: Text, name: content, widget: text}
       - label: "Unsere Exklusivmarken"
         name: "ourBrands"
-        file: "data/en/homepage.yml"
+        file: "data/de/homepage.yml"
         extension: "yml"
         format: "yml"
         fields:
@@ -32,7 +32,7 @@ collections:
             name: ourBrands
             widget: object
             fields:
-              - {label: Name, name: content, widget: string}
+              - {label: Name, name: content, widget: text}
                    
 
       
