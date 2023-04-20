@@ -4,30 +4,20 @@ backend:
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
 collections:
-  - label: "Definitionen"
-    name: "definitionen"
-    folder: "content/german/about"
-    create: false
-    fields:
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Bild", name: "bg_image", widget: "image"}
-      - {label: "Beschreibung", name: "description", widget: "string"}
-      - {label: "Seitentext", name: "body", widget: "markdown"}
-  - label: "Impressum"
-    name: "impressum"
-    folder: "content/german/brands"
-    create: false
-    fields:
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Datum", name: "date", widget: "date"}
-      - {label: "Beschreibung", name: "description", widget: "string"}
-      - {label: "Seitentext", name: "aliases", widget: "list"}
-  - label: "Regeln-Fallstricke"
-    name: "regeln-fallstricke"
-    folder: "content/german/contact"
-    create: false
-    fields:
-      - {label: "Titel", name: "title", widget: "string"}
-      - {label: "Datum", name: "date", widget: "date"}
-      - {label: "Beschreibung", name: "description", widget: "string"}
-      - {label: "Seitentext", name: "body", widget: "markdown"}
+  - label: "Startseite"
+    name: "startseite"
+    files:
+      - label: "Hauptbanner"
+        name: "banner"
+        file: "data/de/homepage.yml"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Photo, name: photo, widget: image}
+  
