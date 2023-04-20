@@ -13,14 +13,7 @@ collections:
         extension: "yml"
         format: "yml"
         fields:
-          - {label: Title, name: title, widget: text}
-          - {label: Intro, name: title2, widget: text}
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
-  
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
           
-        
+  
