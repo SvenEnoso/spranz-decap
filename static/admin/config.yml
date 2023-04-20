@@ -188,7 +188,7 @@ collections:
         fields:
           - label: Marke
             name: brands
-            widget: object
+            widget: list
             fields:
               - {label: Marke, name: brand, widget: string}
               
