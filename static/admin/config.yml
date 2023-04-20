@@ -13,7 +13,7 @@ collections:
         extension: "yml"
         format: "yml"
         fields:
-          - label: Hauptbanner
+          - label: "Hauptbanner"
             name: banner
             widget: object
             fields:
@@ -22,6 +22,7 @@ collections:
               - {label: Bild, name: bg_image, widget: image}
               - {label: Bild, name: brandImage, widget: image}
               - {label: Text, name: content, widget: text}
+              
       - label: "Unsere Exklusivmarken"
         name: "ourBrands"
         file: "data/de/homepage.yml"
