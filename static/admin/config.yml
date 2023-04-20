@@ -28,7 +28,7 @@ collections:
         extension: "yml"
         format: "yml"
         fields:
-          - label: Unsere Exklusivmarken
+          - label: "Unsere Exklusivmarken"
             name: ourBrands
             widget: object
             fields:    
