@@ -4,10 +4,10 @@ backend:
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "static/images"
 collections:
-  - label: "fülltext"
+  - label: "Startseite (de)"
     name: "startseite"
     files:
-      - label: "Startseite (de)"
+      - label: "Hauptbanner"
         name: "banner"
         file: "data/de/homepage.yml"
         extension: "yml"
@@ -22,7 +22,7 @@ collections:
               - {label: Bild, name: bg_image, widget: image}
               - {label: Bild, name: brandImage, widget: image}
               - {label: Text, name: content, widget: text}
-          - label: Unsere Exklusivmarken
+      - label: Unsere Exklusivmarken
             name: ourBrands
             widget: object
             fields:
@@ -30,5 +30,5 @@ collections:
               - {label: Text, name: title2, widget: text}
               - {label: Bild, name: bg_image, widget: image}
               - {label: Bild, name: brandImage, widget: image}
-              - {label: Text, name: content, widget: text}    
+              - {label: Text, name: content, widget: text}        
   
