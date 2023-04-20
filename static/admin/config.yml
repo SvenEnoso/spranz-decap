@@ -24,15 +24,14 @@ collections:
               - {label: Text, name: content, widget: text}
       - label: "Unsere Exklusivmarken"
         name: "ourBrands"
-        file: "data/de/homepage.yml"
-        extension: "yml"
-        format: "yml"
         fields:
           - label: "Unsere Exklusivmarken"
             name: ourBrands
             widget: object
             fields:
               - {label: Name, name: content, widget: text}
+       
+        
                    
 
       
