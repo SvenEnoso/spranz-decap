@@ -22,17 +22,12 @@ collections:
               - {label: Bild, name: bg_image, widget: image}
               - {label: Bild, name: brandImage, widget: image}
               - {label: Text, name: content, widget: text}
-      - label: "xcd"
-        name: "ourBrands"
-        file: "data/de/homepage.yml"
-        extension: "yml"
-        format: "yml"
-        fields:
           - label: "xcd"
             name: ourBrands
             widget: object
             fields:
               - {label: Name, name: content, widget: string}
+      
               
        
         
