@@ -27,7 +27,8 @@ ourBrands:
     label: 'Thanxx '
   - image: images/exclusive-brands/Creativdesign.png
     label: Creativ Design
-  content: Unsere Exklusivmarken Metmaxx, Blackmaxx, Vinomaxx, Thanxx und Creativ
+  content: |
+    Unsere Exklusivmarken Metmaxx, Blackmaxx, Vinomaxx, Thanxx und Creativ
     Design stehen für außergewöhnliches Produktdesign, lang anhaltende Qualität und
     fühlbare Erlebnisse. Wir setzen auf clevere Funktionalität und umweltverträgliche
     Materialien
