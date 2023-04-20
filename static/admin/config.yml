@@ -191,10 +191,10 @@ collections:
             widget: list
             fields:
               - {label: Marke, name: brand, widget: markdown}
-               label: brand
-               name: arrow
-               widget: object
-               fields:
+                label: brand
+                name: arrow
+                widget: object
+                fields:
                   - {label: Farbe Pfeil, name: color, widget: color}
                   - {label: Logo, name: logo, widget: image} 
                   - {label: Marke, name: is left, widget: boollean} 
