@@ -190,7 +190,9 @@ collections:
             name: brands
             widget: object
             fields:
-              - {label: Marke, name: brand, widget: object}
+              - {label: Marke, name: brand, widget: string}
+              
+
               
     
     
