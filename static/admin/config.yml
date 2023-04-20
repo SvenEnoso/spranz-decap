@@ -177,16 +177,16 @@ collections:
               - {label: nome 2, name: title2, widget: string}
               - {label: immagine, name: brandImage, widget: image}                 
               - {label: testo, name: content, widget: string}
-  - label: "Brands/Marken (DE,EN,FR,IT)"
+  - label: "Brands/Marken"
     name: "brands"
     files:
-      - label: "Banner DE"
-        name: "bannerDE"
+      - label: "Brands"
+        name: "brandsList"
         file: "data/de/brands.yml"
         extension: "yml"
         format: "yml"
         fields:
-          - label: Marke
+          - label: brand
             name: brands
             widget: list
             fields:
