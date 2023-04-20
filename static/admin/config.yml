@@ -12,11 +12,9 @@ collections:
         file: "data/de/homepage.yml"
         extension: "yml"
         format: "yml"
-        widget: "object"
         fields:
-          - {label: Title, name: title, widget: mardown}
-          - {label: Intro, name: title2, widget: markdown}
-          - label: Team
+          - {label: Title, name: title, widget: text}
+          - {label: Intro, name: title2, widget: text}
             name: team
             widget: list
             fields:
@@ -24,3 +22,5 @@ collections:
               - {label: Position, name: position, widget: string}
               - {label: Photo, name: photo, widget: image}
   
+          
+        
