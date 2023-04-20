@@ -10,9 +10,12 @@ collections:
       - label: "Hauptbanner"
         name: "banner"
         file: "data/de/homepage.yml"
+        extension: "yml"
+        format: "yml"
+        widget: "object"
         fields:
-          - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
+          - {label: Title, name: title, widget: mardown}
+          - {label: Intro, name: title2, widget: markdown}
           - label: Team
             name: team
             widget: list
