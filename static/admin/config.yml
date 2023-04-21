@@ -83,7 +83,10 @@ collections:
             collapsed: true
             fields:
                - {label: Name, name: content, widget: string}
-  - label: "Startseite (en)"
+   - label: "English (en)"
+    name: "english"
+    files:
+      - label: "Startseite (en)"
         name: "startseiteEN"
         file: "data/en/homepage.yml"
         extension: "yml"
@@ -158,7 +161,16 @@ collections:
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}                                                               
+               - {label: Name, name: content, widget: string}
+                                                              
+      
+              
+       
+        
+                   
+
+      
+                                                                 
       
               
        
