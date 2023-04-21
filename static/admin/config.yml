@@ -23,6 +23,13 @@ collections:
               - {label: Titel, name: title2, widget: text}
               - {label: Logo, name: brandImage, widget: image}
               - {label: Text, name: content, widget: text}
+              - label: Button
+                name: button_solid
+                widget: list
+                fields:
+                   - {label: Name, name: enabled, widget: boolean}
+                   - {label: Label, name: label, widget: string}
+                   - {label: Link, name: link, widget: string}
           - label: "Unsere Exklusivmarken"
             name: ourBrands
             widget: object
