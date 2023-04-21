@@ -26,9 +26,15 @@ collections:
               - label: Button
                 name: button_solid
                 widget: list
-                collapsed: true
                 fields:
-                   - {label: Newsletter abonieren, name: enabled, widget: boolean}
+                  - label: "Newsletter"
+                    name: button_solid
+                    widget: object
+                    collapsed: true
+                    fields:
+                       - {label: Newsletter abonieren, name: enabled, widget: boolean}
+                
+                   
                    
           - label: "Unsere Exklusivmarken"
             name: ourBrands
