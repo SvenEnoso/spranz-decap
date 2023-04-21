@@ -82,7 +82,83 @@ collections:
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}                                               
+               - {label: Name, name: content, widget: string}
+  - label: "Startseite (en)"
+        name: "startseiteEN"
+        file: "data/en/homepage.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "Hauptbanner"
+            name: banner
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Text, name: title2, widget: text}
+              - {label: Bild, name: bg_image, widget: image}
+              - {label: Bild, name: brandImage, widget: image}
+              - {label: Text, name: content, widget: text}
+          - label: "Unsere Exklusivmarken"
+            name: ourBrands
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}
+          - label: "Texbanner 1"
+            name: textbanner1
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}   
+          - label: "Produkte"
+            name: products
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}
+          - label: "Produktkatgorien"
+            name: ProductCategories
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}
+          - label: "Service"
+            name: service
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}
+          - label: "Textbanner 2"
+            name: textbanner2
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}
+          - label: "Downnloads"
+            name: downloads
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}
+          - label: "Newsletter"
+            name: newsletter
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}
+          - label: "Statistiken"
+            name: statistics
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}
+          - label: "Standards"
+            name: standards
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}                                                               
       
               
        
