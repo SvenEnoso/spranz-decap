@@ -83,7 +83,7 @@ collections:
             collapsed: true
             fields:
                - {label: Name, name: content, widget: string}
-   - label: "English (en)"
+  - label: "English (en)"
     name: "english"
     files:
       - label: "Startseite (en)"
