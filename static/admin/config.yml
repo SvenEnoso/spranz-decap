@@ -18,17 +18,19 @@ collections:
             widget: object
             collapsed: true
             fields:
-              - {label: Name, name: title, widget: string}
-              - {label: Text, name: title2, widget: text}
-              - {label: Bild, name: bg_image, widget: image}
-              - {label: Bild, name: brandImage, widget: image}
+              - {label: Hintergrundbild, name: bg_image, widget: image}
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: title2, widget: text}
+              - {label: Logo, name: brandImage, widget: image}
               - {label: Text, name: content, widget: text}
           - label: "Unsere Exklusivmarken"
             name: ourBrands
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Name, name: title, widget: string}
+               - {label: Text, name: content, widget: string}
+               - {label: Marken, name: brand_items, widget: image}
           - label: "Texbanner 1"
             name: textbanner1
             widget: object
