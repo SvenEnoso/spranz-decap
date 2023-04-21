@@ -26,10 +26,10 @@ collections:
               - label: Button
                 name: button_solid
                 widget: list
+                collapsed: true
                 fields:
-                   - {label: Name, name: enabled, widget: boolean}
-                   - {label: Label, name: label, widget: string}
-                   - {label: Link, name: link, widget: string}
+                   - {label: Newsletter abonieren, name: enabled, widget: boolean}
+                   
           - label: "Unsere Exklusivmarken"
             name: ourBrands
             widget: object
