@@ -23,16 +23,13 @@ collections:
               - {label: Titel, name: title2, widget: text}
               - {label: Logo, name: brandImage, widget: image}
               - {label: Text, name: content, widget: text}
-              - label: Button
+              - label: "Newsletter"
                 name: button_solid
-                widget: list
+                widget: object
+                collapsed: true
                 fields:
-                  - label: "Newsletter"
-                    name: button_solid
-                    widget: object
-                    collapsed: true
-                    fields:
-                       - {label: Newsletter abonieren, name: enabled, widget: boolean}
+                   - {label: Newsletter abonieren, name: enabled, widget: boolean}
+              
                 
                    
                    
