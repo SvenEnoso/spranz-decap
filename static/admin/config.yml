@@ -23,12 +23,12 @@ collections:
               - {label: Bild, name: bg_image, widget: image}
               - {label: Bild, name: brandImage, widget: image}
               - {label: Text, name: content, widget: text}
-      - label: "xcd"
-        name: ourBrands
-        widget: object
-        collapsed: true
-        fields:
-              - {label: Name, name: content, widget: string}    
+          - label: "xcd"
+            name: ourBrands
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}    
       
               
        
