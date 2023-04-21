@@ -6,17 +6,17 @@ public_folder: "/images"
 collections:
   - label: "Startseite (de)"
     name: "startseite"
-    file: "data/de/homepage.yml"
-    extension: "yml"
-    format: "yml"
-    widget: list
     files:
       - label: "Hauptbanner"
         name: "banner"
+        file: "data/de/homepage.yml"
+        extension: "yml"
+        format: "yml"
         fields:
           - label: "Hauptbanner"
             name: banner
             widget: object
+            collapsed: true
             fields:
               - {label: Name, name: title, widget: string}
               - {label: Text, name: title2, widget: text}
@@ -26,14 +26,9 @@ collections:
       - label: "xcd"
         name: ourBrands
         widget: object
+        collapsed: true
         fields:
-            label: "xcdr"
-            name: banner
-            widget: object
-            fields:
               - {label: Name, name: content, widget: string}    
-        
-
       
               
        
