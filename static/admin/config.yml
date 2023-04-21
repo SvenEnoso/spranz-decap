@@ -30,20 +30,23 @@ collections:
             fields:
                - {label: Name, name: title, widget: string}
                - {label: Text, name: content, widget: text}
-               - label: Team
+               - label: Marken
                  name: brand_items
                  widget: list
                  fields:
                     - {label: Name, name: label, widget: string}
-                    - {label: Photo, name: image, widget: image}
+                    - {label: Bild, name: image, widget: image}
                     
-                 
           - label: "Texbanner 1"
             name: textbanner1
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}   
+               - {label: Titel, name: title, widget: string}  
+               - {label: Text, name: text, widget: text}
+               - {label: Hintergrundbild, name: background, widget: image} 
+               - {label: Farbe, name: color, widget: color}
+               - {label: Ausrichtung(aktiviert:links  deaktiviert:rechts), name: align_left, widget: boolean}
           - label: "Produkte"
             name: products
             widget: object
@@ -188,3 +191,4 @@ collections:
 
       
     
+                 
