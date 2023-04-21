@@ -29,8 +29,8 @@ collections:
             collapsed: true
             fields:
                - {label: Name, name: title, widget: string}
-               - {label: Text, name: content, widget: string}
-               - {label: Marken, name: brand_items, widget: image}
+               - {label: Text, name: content, widget: text}
+               - {label: Marken, name: brand_items, widget: object}
           - label: "Texbanner 1"
             name: textbanner1
             widget: object
