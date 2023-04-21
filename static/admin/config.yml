@@ -30,7 +30,14 @@ collections:
             fields:
                - {label: Name, name: title, widget: string}
                - {label: Text, name: content, widget: text}
-               - {label: Marken, name: brand_items, widget: object}
+               - label: Team
+                 name: brand_items
+                 widget: list
+                 fields:
+                    - {label: Name, name: label, widget: string}
+                    - {label: Photo, name: image, widget: image}
+                    
+                 
           - label: "Texbanner 1"
             name: textbanner1
             widget: object
