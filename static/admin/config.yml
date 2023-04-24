@@ -71,6 +71,8 @@ collections:
             name: ProductCategories
             widget: object
             collapsed: true
+            fields:
+               
                - label: Kategorien
                  name: categories
                  widget: list
@@ -80,7 +82,12 @@ collections:
                     - {label: Beschreibung, name: description, widget: text}
                     - {label: Bild, name: image, widget: image}
                     - {label: Buttonfarbe, name: btnColor, widget: color}
-          
+          - label: "Service"
+            name: service
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: content, widget: string}
           - label: "Textbanner 2"
             name: textbanner2
             widget: object
@@ -213,4 +220,3 @@ collections:
                    
                    
                
-            fields:
