@@ -84,8 +84,6 @@ collections:
             name: service
             widget: object
             collapsed: true
-            fields:
-               - {label: Name, name: title, widget: string}
                - label: Kategorien
                  name: service_item
                  widget: list
