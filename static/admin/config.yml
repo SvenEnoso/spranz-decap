@@ -781,10 +781,12 @@ collections:
               - {label: Text, name: content, widget: string}
           - label: A (de)
             name: brands
-            widget: object
+            widget: list
             collapsed: true
             fields:
-               - {label: Marke, name: brand, widget: text}
+               - {label: Marke, name: brand, widget: string}
+               - {label: Name, name: name, widget: string}
+               - {label: Link, name: link, widget: string}
           - label: B (de)
             name: arrow
             widget: object
