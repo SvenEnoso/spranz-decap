@@ -768,6 +768,7 @@ collections:
         file: "data/de/brands.yml"
         extension: "yml"
         format: "yml"
+        collapsed: true
         fields:
           - label: Banner (de)
             name: banner
@@ -781,8 +782,29 @@ collections:
           - label: Marken (de)
             name: brands
             widget: list
+            collapsed: true
             fields:
-              - {label: Marke, name: brand, widget: markdown}
+               - {label: Marke, name: brand, widget: text}
+               - label: Marken (de)
+                 name: arrow
+                 widget: object
+                 collapsed: true
+                 fields:
+                    - {label: Farbe, name: color, widget: Color}
+                    - {label: Bild, name: logo, widget: image}
+                    - {label: Ausrichtung(aktiv = links), name: isLeft, widget: boolean}
+                    - {label: Titel, name: title, widget: string}
+                    - {label: Beschreibung, name: text, widget: text}
+                - label: Marken (de)
+                 name: image
+                 widget: object
+                 collapsed: true
+                 fields:
+                    - {label: Shoplink, name: url, widget: string}
+                    - {label: Titel, name: title, widget: string}
+                    - {label: Beschreibung, name: text, widget: text}    
+                    
+                    
                                     
 
 
