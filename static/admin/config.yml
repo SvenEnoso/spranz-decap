@@ -687,7 +687,17 @@ collections:
             fields:
               - {label: Titel, name: title, widget: string}
               - {label: Titel, name: content, widget: text}
-              - {label: Logo, name: img, widget: image}                                                   
+              - {label: Logo, name: img, widget: image}
+  - label: "Impressum / Datenschutz (de)"
+    name: "privacyDE"
+    folder: "content/german/privacy"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Bild", name: "bg_image", widget: "image"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}            
+
                              
               
                
