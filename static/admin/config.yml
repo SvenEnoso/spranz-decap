@@ -783,7 +783,7 @@ collections:
             name: brands
             widget: list
             fields:
-              - {label: Name, name: brands, widget: markdown}
+              - {label: Name, name: brands, widget: object}
               
           
          
