@@ -696,7 +696,74 @@ collections:
       - {label: "Titel", name: "title", widget: "string"}
       - {label: "Bild", name: "bg_image", widget: "image"}
       - {label: "Beschreibung", name: "description", widget: "string"}
-      - {label: "Seitentext", name: "body", widget: "markdown"}            
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+  - label: "Impressum / Datenschutz (en)"
+    name: "privacyEN"
+    folder: "content/english/privacy"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Bild", name: "bg_image", widget: "image"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+  - label: "Impressum / Datenschutz (fr)"
+    name: "privacyFR"
+    folder: "content/french/privacy"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Bild", name: "bg_image", widget: "image"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"} 
+  - label: "Impressum / Datenschutz (it)"
+    name: "privacyIT"
+    folder: "content/italian/privacy"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Bild", name: "bg_image", widget: "image"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+  - label: "AGB (de)"
+    name: "termsDE"
+    folder: "content/german/terms"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Bild", name: "bg_image", widget: "image"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+  - label: "AGB (en)"
+    name: "termsEN"
+    folder: "content/english/terms"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Bild", name: "bg_image", widget: "image"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+  - label: "AGB (fr)"
+    name: "termsFR"
+    folder: "content/french/terms"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Bild", name: "bg_image", widget: "image"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+  - label: "AGB (it)"
+    name: "termsIT"
+    folder: "content/italian/terms"
+    create: false
+    fields:
+      - {label: "Titel", name: "title", widget: "string"}
+      - {label: "Bild", name: "bg_image", widget: "image"}
+      - {label: "Beschreibung", name: "description", widget: "string"}
+      - {label: "Seitentext", name: "body", widget: "markdown"}
+                                                                          
+                                        
+                                    
+
 
                              
               
