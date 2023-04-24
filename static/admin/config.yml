@@ -605,6 +605,14 @@ collections:
               - {label: Titel, name: title, widget: string}
               - {label: Titel, name: text, widget: text}
               - {label: Logo, name: url, widget: image}
+          - label: "Philisophie"
+            name: philosophy
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: content, widget: text}
+              - {label: Logo, name: img, widget: image}    
                              
               
                
