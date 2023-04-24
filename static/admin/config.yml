@@ -780,29 +780,29 @@ collections:
               - {label: Bild, name: brandImage, widget: image}                 
               - {label: Text, name: content, widget: string}
           - label: A (de)
-                name: brands
-                widget: object
-                collapsed: true
-                fields:
-                   - {label: Marke, name: brand, widget: text}
-                   - label: B (de)
-                     name: arrow
-                     widget: object
-                     collapsed: true
-                     fields:
-                        - {label: Farbe, name: color, widget: Color}
-                        - {label: Bild, name: logo, widget: image}
-                        - {label: Ausrichtung(aktiv = links), name: isLeft, widget: boolean}
-                        - {label: Titel, name: title, widget: string}
-                        - {label: Beschreibung, name: text, widget: text}    
-                        - label: C (de)
-                          name: image
-                          widget: object
-                          collapsed: true
-                          fields:
-                             - {label: Shoplink, name: url, widget: string}
-                             - {label: Titel, name: title, widget: string}
-                             - {label: Beschreibung, name: text, widget: text}           
+            name: brands
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Marke, name: brand, widget: text}
+          - label: B (de)
+            name: arrow
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Farbe, name: color, widget: Color}
+               - {label: Bild, name: logo, widget: image}
+               - {label: Ausrichtung(aktiv = links), name: isLeft, widget: boolean}
+               - {label: Titel, name: title, widget: string}
+               - {label: Beschreibung, name: text, widget: text}    
+          - label: C (de)
+            name: image
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Shoplink, name: url, widget: string}
+               - {label: Titel, name: title, widget: string}
+               - {label: Beschreibung, name: text, widget: text}           
            
                     
                     
