@@ -4,7 +4,7 @@ backend:
 media_folder: "static/images" # Folder where user uploaded files should go
 public_folder: "/images"
 collections:
-  - label: "Deutsch (de)"
+  - label: "Startseite (de)"
     name: "deutsch"
     files:
       - label: "Startseite (de)"
@@ -150,7 +150,7 @@ collections:
                - {label: Titel, name: title, widget: string}
                - {label: Beschreibung, name: content, widget: text}
                - {label: Text, name: standardstext, widget: text}
-  - label: "Englisch (en)"
+  - label: "Startseite (en)"
     name: "english"
     files:
       - label: "Startseite (en)"
@@ -296,7 +296,7 @@ collections:
                - {label: Titel, name: title, widget: string}
                - {label: Beschreibung, name: content, widget: text}
                - {label: Text, name: standardstext, widget: text}
-  - label: "Französisch (fr)"
+  - label: "Startseite (fr)"
     name: "french"
     files:
       - label: "Startseite (fr)"
@@ -442,7 +442,7 @@ collections:
                - {label: Titel, name: title, widget: string}
                - {label: Beschreibung, name: content, widget: text}
                - {label: Text, name: standardstext, widget: text}
-  - label: "Italienisch (it)"
+  - label: "Startseite (it)"
     name: "italien"
     files:
       - label: "Startseite (it)"
@@ -663,7 +663,7 @@ collections:
               - {label: Titel, name: title, widget: string}
               - {label: Titel, name: content, widget: text}
               - {label: Logo, name: img, widget: image} 
-  - label: "Über Uns (IT)"
+  - label: "Über Uns (it)"
     name: "aboutIT"
     files:
       - label: "Über Uns (it)"
