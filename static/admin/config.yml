@@ -150,8 +150,7 @@ collections:
                - {label: Titel, name: title, widget: string}
                - {label: Beschreibung, name: content, widget: text}
                - {label: Text, name: standardstext, widget: text}
-               
-  - label: "English (en)"
+  - label: "Englisch (en)"
     name: "english"
     files:
       - label: "Startseite (en)"
@@ -165,91 +164,435 @@ collections:
             widget: object
             collapsed: true
             fields:
-              - {label: Name, name: title, widget: string}
-              - {label: Text, name: title2, widget: text}
-              - {label: Bild, name: bg_image, widget: image}
-              - {label: Bild, name: brandImage, widget: image}
+              - {label: Hintergrundbild, name: bg_image, widget: image}
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: title2, widget: text}
+              - {label: Logo, name: brandImage, widget: image}
               - {label: Text, name: content, widget: text}
+              - label: "Newsletter"
+                name: button_solid
+                widget: object
+                collapsed: true
+                fields:
+                   - {label: Newsletter abonieren, name: enabled, widget: boolean}
           - label: "Unsere Exklusivmarken"
             name: ourBrands
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Name, name: title, widget: string}
+               - {label: Text, name: content, widget: text}
+               - label: Marken
+                 name: brand_items
+                 widget: list
+                 fields:
+                    - {label: Name, name: label, widget: string}
+                    - {label: Bild, name: image, widget: image}
+                    
           - label: "Texbanner 1"
             name: textbanner1
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}   
+               - {label: Titel, name: title, widget: string}  
+               - {label: Text, name: text, widget: text}
+               - {label: Hintergrundbild, name: background, widget: image} 
+               - {label: Farbe, name: color, widget: color}
+               - {label: Ausrichtung(aktiviert:links  deaktiviert:rechts), name: align_left, widget: boolean}
           - label: "Produkte"
-            name: products
+            name: Products
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
-          - label: "Produktkatgorien"
+               - label: Unsere Produkte
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Name, name: name, widget: string}
+                    - {label: Artikelbeschreibung, name: description, widget: text}
+                    - {label: Artikel ist neu(wird markiert), name: isnew, widget: boolean}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Link zum Shop, name: link, widget: string}
+          - label: "Produktkategorien"
             name: ProductCategories
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               
+               - label: Kategorien
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Name, name: name, widget: string}
+                    - {label: Link, name: link, widget: string}
+                    - {label: Beschreibung, name: description, widget: text}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Buttonfarbe, name: btnColor, widget: color}
           - label: "Service"
             name: service
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
-          - label: "Textbanner 2"
+               - {label: Servicebeschreibung, name: title, widget: string}
+               - label: Kategorien
+                 name: service_item
+                 widget: list
+                 fields:
+                    - {label: Bereich, name: title, widget: string}
+                    - {label: Bild, name: logo, widget: image}
+                    - {label: Beschreibung, name: content, widget: text}
+                    
+          - label: "Texbanner 2"
             name: textbanner2
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
-          - label: "Downnloads"
+               - {label: Titel, name: title, widget: string}  
+               - {label: Text, name: text, widget: text}
+               - {label: Hintergrundbild, name: background, widget: image} 
+               - {label: Farbe, name: color, widget: color}
+               - {label: Ausrichtung(aktiviert:rechts  deaktiviert:links), name: align_left, widget: boolean}
+          - label: "Download"
             name: downloads
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - label: Download
+                 name: download
+                 widget: list
+                 fields:
+                    - {label: Bereich, name: title, widget: string}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Beschreibung, name: content, widget: text}
+                    - {label: Downloadlink, name: link, widget: string}
           - label: "Newsletter"
             name: newsletter
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Titel, name: title, widget: string}
+               - {label: Text Newsletteranmeldung, name: why, widget: text}
+               - {label: Text Beschreibung, name: instructions, widget: text}
           - label: "Statistiken"
             name: statistics
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Titel, name: title, widget: string}
+               - {label: Beschreibung, name: subtitle, widget: text}
+               - label: Kategorien
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Titel, name: title, widget: string}
+                    - {label: Farbe, name: color, widget: Color}
+                    - {label: Beschreibung, name: text, widget: text}
+                    - {label: Bereich, name: name, widget: string}
           - label: "Standards"
             name: standards
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
-                                                              
-      
-              
-       
-        
-                   
-
-      
-                                                                 
-      
-              
-       
-        
-                   
-
-      
-    
-                 
-              
-                
-                   
-                   
+               - {label: Titel, name: title, widget: string}
+               - {label: Beschreibung, name: content, widget: text}
+               - {label: Text, name: standardstext, widget: text}
+  - label: "Französisch (fr)"
+    name: "french"
+    files:
+      - label: "Startseite (fr)"
+        name: "startseiteFR"
+        file: "data/fr/homepage.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "Hauptbanner"
+            name: banner
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Hintergrundbild, name: bg_image, widget: image}
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: title2, widget: text}
+              - {label: Logo, name: brandImage, widget: image}
+              - {label: Text, name: content, widget: text}
+              - label: "Newsletter"
+                name: button_solid
+                widget: object
+                collapsed: true
+                fields:
+                   - {label: Newsletter abonieren, name: enabled, widget: boolean}
+          - label: "Unsere Exklusivmarken"
+            name: ourBrands
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: title, widget: string}
+               - {label: Text, name: content, widget: text}
+               - label: Marken
+                 name: brand_items
+                 widget: list
+                 fields:
+                    - {label: Name, name: label, widget: string}
+                    - {label: Bild, name: image, widget: image}
+                    
+          - label: "Texbanner 1"
+            name: textbanner1
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Titel, name: title, widget: string}  
+               - {label: Text, name: text, widget: text}
+               - {label: Hintergrundbild, name: background, widget: image} 
+               - {label: Farbe, name: color, widget: color}
+               - {label: Ausrichtung(aktiviert:links  deaktiviert:rechts), name: align_left, widget: boolean}
+          - label: "Produkte"
+            name: Products
+            widget: object
+            collapsed: true
+            fields:
+               - label: Unsere Produkte
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Name, name: name, widget: string}
+                    - {label: Artikelbeschreibung, name: description, widget: text}
+                    - {label: Artikel ist neu(wird markiert), name: isnew, widget: boolean}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Link zum Shop, name: link, widget: string}
+          - label: "Produktkategorien"
+            name: ProductCategories
+            widget: object
+            collapsed: true
+            fields:
                
+               - label: Kategorien
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Name, name: name, widget: string}
+                    - {label: Link, name: link, widget: string}
+                    - {label: Beschreibung, name: description, widget: text}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Buttonfarbe, name: btnColor, widget: color}
+          - label: "Service"
+            name: service
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Servicebeschreibung, name: title, widget: string}
+               - label: Kategorien
+                 name: service_item
+                 widget: list
+                 fields:
+                    - {label: Bereich, name: title, widget: string}
+                    - {label: Bild, name: logo, widget: image}
+                    - {label: Beschreibung, name: content, widget: text}
+                    
+          - label: "Texbanner 2"
+            name: textbanner2
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Titel, name: title, widget: string}  
+               - {label: Text, name: text, widget: text}
+               - {label: Hintergrundbild, name: background, widget: image} 
+               - {label: Farbe, name: color, widget: color}
+               - {label: Ausrichtung(aktiviert:rechts  deaktiviert:links), name: align_left, widget: boolean}
+          - label: "Download"
+            name: downloads
+            widget: object
+            collapsed: true
+            fields:
+               - label: Download
+                 name: download
+                 widget: list
+                 fields:
+                    - {label: Bereich, name: title, widget: string}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Beschreibung, name: content, widget: text}
+                    - {label: Downloadlink, name: link, widget: string}
+          - label: "Newsletter"
+            name: newsletter
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Titel, name: title, widget: string}
+               - {label: Text Newsletteranmeldung, name: why, widget: text}
+               - {label: Text Beschreibung, name: instructions, widget: text}
+          - label: "Statistiken"
+            name: statistics
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Titel, name: title, widget: string}
+               - {label: Beschreibung, name: subtitle, widget: text}
+               - label: Kategorien
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Titel, name: title, widget: string}
+                    - {label: Farbe, name: color, widget: Color}
+                    - {label: Beschreibung, name: text, widget: text}
+                    - {label: Bereich, name: name, widget: string}
+          - label: "Standards"
+            name: standards
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Titel, name: title, widget: string}
+               - {label: Beschreibung, name: content, widget: text}
+               - {label: Text, name: standardstext, widget: text}
+  - label: "Italienisch (it)"
+    name: "italien"
+    files:
+      - label: "Startseite (it)"
+        name: "startseiteIT"
+        file: "data/it/homepage.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "Hauptbanner"
+            name: banner
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Hintergrundbild, name: bg_image, widget: image}
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: title2, widget: text}
+              - {label: Logo, name: brandImage, widget: image}
+              - {label: Text, name: content, widget: text}
+              - label: "Newsletter"
+                name: button_solid
+                widget: object
+                collapsed: true
+                fields:
+                   - {label: Newsletter abonieren, name: enabled, widget: boolean}
+          - label: "Unsere Exklusivmarken"
+            name: ourBrands
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Name, name: title, widget: string}
+               - {label: Text, name: content, widget: text}
+               - label: Marken
+                 name: brand_items
+                 widget: list
+                 fields:
+                    - {label: Name, name: label, widget: string}
+                    - {label: Bild, name: image, widget: image}
+                    
+          - label: "Texbanner 1"
+            name: textbanner1
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Titel, name: title, widget: string}  
+               - {label: Text, name: text, widget: text}
+               - {label: Hintergrundbild, name: background, widget: image} 
+               - {label: Farbe, name: color, widget: color}
+               - {label: Ausrichtung(aktiviert:links  deaktiviert:rechts), name: align_left, widget: boolean}
+          - label: "Produkte"
+            name: Products
+            widget: object
+            collapsed: true
+            fields:
+               - label: Unsere Produkte
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Name, name: name, widget: string}
+                    - {label: Artikelbeschreibung, name: description, widget: text}
+                    - {label: Artikel ist neu(wird markiert), name: isnew, widget: boolean}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Link zum Shop, name: link, widget: string}
+          - label: "Produktkategorien"
+            name: ProductCategories
+            widget: object
+            collapsed: true
+            fields:
+               
+               - label: Kategorien
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Name, name: name, widget: string}
+                    - {label: Link, name: link, widget: string}
+                    - {label: Beschreibung, name: description, widget: text}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Buttonfarbe, name: btnColor, widget: color}
+          - label: "Service"
+            name: service
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Servicebeschreibung, name: title, widget: string}
+               - label: Kategorien
+                 name: service_item
+                 widget: list
+                 fields:
+                    - {label: Bereich, name: title, widget: string}
+                    - {label: Bild, name: logo, widget: image}
+                    - {label: Beschreibung, name: content, widget: text}
+                    
+          - label: "Texbanner 2"
+            name: textbanner2
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Titel, name: title, widget: string}  
+               - {label: Text, name: text, widget: text}
+               - {label: Hintergrundbild, name: background, widget: image} 
+               - {label: Farbe, name: color, widget: color}
+               - {label: Ausrichtung(aktiviert:rechts  deaktiviert:links), name: align_left, widget: boolean}
+          - label: "Download"
+            name: downloads
+            widget: object
+            collapsed: true
+            fields:
+               - label: Download
+                 name: download
+                 widget: list
+                 fields:
+                    - {label: Bereich, name: title, widget: string}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Beschreibung, name: content, widget: text}
+                    - {label: Downloadlink, name: link, widget: string}
+          - label: "Newsletter"
+            name: newsletter
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Titel, name: title, widget: string}
+               - {label: Text Newsletteranmeldung, name: why, widget: text}
+               - {label: Text Beschreibung, name: instructions, widget: text}
+          - label: "Statistiken"
+            name: statistics
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Titel, name: title, widget: string}
+               - {label: Beschreibung, name: subtitle, widget: text}
+               - label: Kategorien
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Titel, name: title, widget: string}
+                    - {label: Farbe, name: color, widget: Color}
+                    - {label: Beschreibung, name: text, widget: text}
+                    - {label: Bereich, name: name, widget: string}
+          - label: "Standards"
+            name: standards
+            widget: object
+            collapsed: true
+            fields:
+               - {label: Titel, name: title, widget: string}
+               - {label: Beschreibung, name: content, widget: text}
+               - {label: Text, name: standardstext, widget: text}
+               
+               
+               
+               
+               
+               
+               
+  
