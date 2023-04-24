@@ -781,9 +781,26 @@ collections:
               - {label: Text, name: content, widget: string}
           - label: Artikelbeschreibung
             name: brands
-            widget: list
+            widget: object
             fields:
-              - {label: Name, name: brands, widget: object}
+               - {label: Titel, name: brand, widget: string}
+               - label: Arrow
+                 name: arrow
+                 widget: object
+                 fields:
+                   - {label: Bild, name: color, widget: color}
+                   - label: Txt
+                     name: text
+                     widget: object
+                     fields:
+                       - {label: Beschreibung, name: paragraph, widget: text} 
+               - label: pic
+                 name: image
+                 widget: object
+                 fields:
+                   - {label: Beschreibung, name: title, widget: text}       
+                 
+              
               
           
          
