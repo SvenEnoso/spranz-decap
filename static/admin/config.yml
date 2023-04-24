@@ -110,8 +110,7 @@ collections:
             name: downloads
             widget: object
             collapsed: true
-            fields:
-               - {label: Downloadbereich, name: title, widget: string}
+               
                - label: Download
                  name: download
                  widget: list
@@ -240,3 +239,4 @@ collections:
                    
                    
                
+            fields:
