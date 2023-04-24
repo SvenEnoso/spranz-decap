@@ -132,7 +132,16 @@ collections:
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Titel, name: title, widget: string}
+               - {label: Titel, name: subtitle, widget: string}
+               - label: Kategorien
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Bereich, name: title, widget: string}
+                    - {label: Farbe, name: color, widget: Color}
+                    - {label: Beschreibung, name: text, widget: text}
+                    - {label: Name, name: name, widget: string}
           - label: "Standards"
             name: standards
             widget: object
