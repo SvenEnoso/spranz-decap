@@ -779,32 +779,20 @@ collections:
               - {label: Name 2, name: title2, widget: string}
               - {label: Bild, name: brandImage, widget: image}                 
               - {label: Text, name: content, widget: string}
-          - label: A (de)
-            name: brands
-            widget: list
-            collapsed: true
+          - label: Banner (de)
+            name: banner
+            widget: object
             fields:
-               - {label: Marke, name: brand, widget: string}
-               - {label: Name, name: name, widget: string}
-               - {label: Link, name: link, widget: string}
-          - label: B (de)
+          - label: Artikelbeschreibung
             name: arrow
             widget: object
-            collapsed: true
             fields:
-               - {label: Farbe, name: color, widget: Color}
-               - {label: Bild, name: logo, widget: image}
-               - {label: Ausrichtung(aktiv = links), name: isLeft, widget: boolean}
-               - {label: Titel, name: title, widget: string}
-               - {label: Beschreibung, name: text, widget: text}    
-          - label: C (de)
-            name: image
-            widget: object
-            collapsed: true
-            fields:
-               - {label: Shoplink, name: url, widget: string}
-               - {label: Titel, name: title, widget: string}
-               - {label: Beschreibung, name: text, widget: text}           
+              - {label: Farbe Pfeil, name: color, widget: color}
+              - {label: Logo, name: logo, widget: image} 
+              - {label: Marke, name: is left, widget: boollean} 
+              - {label: Titel, name: title, widget: string}
+              - {label: Textfeld, name: text, widget: string}     
+          
            
                     
                     
