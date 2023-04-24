@@ -80,21 +80,7 @@ collections:
                     - {label: Beschreibung, name: description, widget: text}
                     - {label: Bild, name: image, widget: image}
                     - {label: Buttonfarbe, name: btnColor, widget: color}
-          - label: "Service"
-            name: service
-            widget: object
-            collapsed: true
-               - label: Kategorien
-                 name: service_item
-                 widget: list
-                 fields:
-                    - {label: Name, name: title, widget: string}
-                    - {label: Bild, name: logo, widget: image}
-                    - {label: Beschreibung, name: content, widget: text}
-               
-               
-                    
-                    
+          
           - label: "Textbanner 2"
             name: textbanner2
             widget: object
