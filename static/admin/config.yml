@@ -87,7 +87,15 @@ collections:
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Servicebeschreibung, name: title, widget: string}
+               - label: Kategorien
+                 name: service_item
+                 widget: list
+                 fields:
+                    - {label: Bereich, name: title, widget: string}
+                    - {label: Bild, name: logo, widget: image}
+                    - {label: Beschreibung, name: content, widget: text}
+                    
           - label: "Textbanner 2"
             name: textbanner2
             widget: object
