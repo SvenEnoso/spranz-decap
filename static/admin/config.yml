@@ -29,10 +29,6 @@ collections:
                 collapsed: true
                 fields:
                    - {label: Newsletter abonieren, name: enabled, widget: boolean}
-              
-                
-                   
-                   
           - label: "Unsere Exklusivmarken"
             name: ourBrands
             widget: object
@@ -58,11 +54,21 @@ collections:
                - {label: Farbe, name: color, widget: color}
                - {label: Ausrichtung(aktiviert:links  deaktiviert:rechts), name: align_left, widget: boolean}
           - label: "Produkte"
-            name: products
+            name: Products
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Name, name: title, widget: string}
+               - {label: Text, name: content, widget: text}
+               - label: Unsere Produkte
+                 name: categories
+                 widget: list
+                 fields:
+                    - {label: Name, name: name, widget: string}
+                    - {label: Artikelbeschreibung, name: description, widget: text}
+                    - {label: Artikel ist neu(wird markiert), name: isnew, widget: boolean}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Link zum Shop, name: link, widget: string}
           - label: "Produktkatgorien"
             name: ProductCategories
             widget: object
@@ -202,3 +208,7 @@ collections:
       
     
                  
+              
+                
+                   
+                   
