@@ -760,8 +760,29 @@ collections:
       - {label: "Bild", name: "bg_image", widget: "image"}
       - {label: "Beschreibung", name: "description", widget: "string"}
       - {label: "Seitentext", name: "body", widget: "markdown"}
-                                                                          
-                                        
+  - label: "Marken (de)"
+    name: "brandsDE"
+    files:
+      - label: "Marken (de)"
+        name: "brandsDE"
+        file: "data/de/brands.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: Banner (de)
+            name: banner
+            widget: object
+            fields:
+              - {label: Hintergrundbild, name: bg_image, widget: image}
+              - {label: Name 1, name: title, widget: string}
+              - {label: Name 2, name: title2, widget: string}
+              - {label: Bild, name: brandImage, widget: image}                 
+              - {label: Text, name: content, widget: string}
+          - label: Marken (de)
+            name: brands
+            widget: list
+            fields:
+              - {label: Marke, name: brand, widget: markdown}
                                     
 
 
