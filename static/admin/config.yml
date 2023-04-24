@@ -96,12 +96,16 @@ collections:
                     - {label: Bild, name: logo, widget: image}
                     - {label: Beschreibung, name: content, widget: text}
                     
-          - label: "Textbanner 2"
+          - label: "Texbanner 2"
             name: textbanner2
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Titel, name: title, widget: string}  
+               - {label: Text, name: text, widget: text}
+               - {label: Hintergrundbild, name: background, widget: image} 
+               - {label: Farbe, name: color, widget: color}
+               - {label: Ausrichtung(aktiviert:links  deaktiviert:rechts), name: align_left, widget: boolean}
           - label: "Downnloads"
             name: downloads
             widget: object
