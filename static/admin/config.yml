@@ -119,13 +119,14 @@ collections:
                     - {label: Bild, name: image, widget: image}
                     - {label: Beschreibung, name: content, widget: text}
                     - {label: Downloadlink, name: link, widget: string}
-               
           - label: "Newsletter"
             name: newsletter
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Titel, name: title, widget: string}
+               - {label: Text Newsletteranmeldung, name: why, widget: text}
+               - {label: Text Beschreibung, name: instructions, widget: text}
           - label: "Statistiken"
             name: statistics
             widget: object
@@ -138,6 +139,7 @@ collections:
             collapsed: true
             fields:
                - {label: Name, name: content, widget: string}
+               
   - label: "English (en)"
     name: "english"
     files:
