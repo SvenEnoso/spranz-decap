@@ -58,8 +58,6 @@ collections:
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: title, widget: string}
-               - {label: Text, name: content, widget: text}
                - label: Unsere Produkte
                  name: categories
                  widget: list
@@ -212,3 +210,4 @@ collections:
                 
                    
                    
+               
