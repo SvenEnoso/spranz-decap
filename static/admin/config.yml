@@ -105,13 +105,21 @@ collections:
                - {label: Text, name: text, widget: text}
                - {label: Hintergrundbild, name: background, widget: image} 
                - {label: Farbe, name: color, widget: color}
-               - {label: Ausrichtung(aktiviert:links  deaktiviert:rechts), name: align_left, widget: boolean}
-          - label: "Downnloads"
+               - {label: Ausrichtung(aktiviert:rechts  deaktiviert:links), name: align_left, widget: boolean}
+          - label: "Download"
             name: downloads
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Downloadbereich, name: title, widget: string}
+               - label: Download
+                 name: download
+                 widget: list
+                 fields:
+                    - {label: Bereich, name: title, widget: string}
+                    - {label: Bild, name: image, widget: image}
+                    - {label: Beschreibung, name: content, widget: text}
+                    - {label: Downloadlink, name: link, widget: string}
           - label: "Newsletter"
             name: newsletter
             widget: object
