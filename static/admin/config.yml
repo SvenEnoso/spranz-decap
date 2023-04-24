@@ -588,6 +588,193 @@ collections:
                - {label: Titel, name: title, widget: string}
                - {label: Beschreibung, name: content, widget: text}
                - {label: Text, name: standardstext, widget: text}
+  - label: "Über Uns (DE,EN,FR,IT)"
+    name: "about"
+    files:
+      - label: "About DE"
+        name: "aboutDE"
+        file: "data/de/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: Über Uns
+            name: about
+            widget: object
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Bild, name: url, widget: image}
+      - label: "About EN"
+        name: "aboutEN"
+        file: "data/en/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: About Us
+            name: about
+            widget: object
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Text, name: text, widget: text}
+              - {label: Picture, name: url, widget: image}
+      - label: "About FR"
+        name: "aboutFR"
+        file: "data/fr/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: À propos de nous
+            name: about
+            widget: object
+            fields:
+              - {label: le nom, name: title, widget: string}
+              - {label: texte, name: text, widget: text}
+              - {label: Image, name: url, widget: image}
+      - label: "About IT"
+        name: "aboutIT"
+        file: "data/it/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: su noi
+            name: about
+            widget: object
+            fields:
+              - {label: Nome, name: title, widget: string}
+              - {label: il testo, name: text, widget: text}
+              - {label: immagine, name: url, widget: image}
+  - label: "Philosophie (DE,EN,FR,IT)"
+    name: "phil"
+    files:
+      - label: "Philosophie DE"
+        name: "philDE"
+        file: "data/de/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "Philosophie"
+            name: "philosophy"
+            widget: object
+            fields:
+              - {label: Name, name: title, widget: string}
+              - {label: Text, name: content, widget: text}
+              - {label: Bild, name: img, widget: image}   
+      - label: "Philosophie EN"
+        name: "philEN"
+        file: "data/en/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "philosophy"
+            name: "philosophy"
+            widget: object
+            fields:
+              - {label: title, name: title, widget: string}
+              - {label: text, name: content, widget: text}
+              - {label: Picture, name: img, widget: image}
+      - label: "Philosophie FR"
+        name: "philFR"
+        file: "data/fr/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "philosophie"
+            name: "philosophy"
+            widget: object
+            fields:
+              - {label: titre, name: title, widget: string}
+              - {label: texte, name: content, widget: text}
+              - {label: immage, name: img, widget: image}
+      - label: "Philosophie IT"
+        name: "philIT"
+        file: "data/it/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "filosofia"
+            name: "philosophy"
+            widget: object
+            fields:
+              - {label: titolo, name: title, widget: string}
+              - {label: il testo, name: content, widget: text}
+              - {label: immagine, name: img, widget: image} 
+  - label: "Banner (DE,EN,FR,IT)"
+    name: "banners"
+    files:
+      - label: "Banner DE"
+        name: "bannerDE"
+        file: "data/de/brands.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: Banner DE
+            name: banner
+            widget: object
+            fields:
+              - {label: Hintergrundbild, name: bg_image, widget: image}
+              - {label: Name 1, name: title, widget: string}
+              - {label: Name 2, name: title2, widget: string}
+              - {label: Bild, name: brandImage, widget: image}                 
+              - {label: Text, name: content, widget: string}
+      - label: "Banner EN"
+        name: "bannerEN"
+        file: "data/en/brands.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: banner IT
+            name: banner
+            widget: object
+            fields:
+              - {label: Background, name: bg_image, widget: image}
+              - {label: Name 1, name: title, widget: string}
+              - {label: Name 2, name: title2, widget: string}
+              - {label: Picture, name: brandImage, widget: image}                 
+              - {label: text, name: content, widget: string}
+      - label: "Banner FR"
+        name: "bannerFR"
+        file: "data/fr/brands.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: bannière
+            name: banner
+            widget: object
+            fields:
+              - {label: fond d'écranBild, name: bg_image, widget: image}
+              - {label: nom 1, name: title, widget: string}
+              - {label: nom 2, name: title2, widget: string}
+              - {label: image, name: brandImage, widget: image}                 
+              - {label: text, name: content, widget: string}
+      - label: "banner"
+        name: "bannerIT"
+        file: "data/it/brands.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: banner IT
+            name: banner
+            widget: object
+            fields:
+              - {label: immagine di sfondo, name: bg_image, widget: image}
+              - {label: nome 1, name: title, widget: string}
+              - {label: nome 2, name: title2, widget: string}
+              - {label: immagine, name: brandImage, widget: image}                 
+              - {label: testo, name: content, widget: string}
+  - label: "Brands/Marken"
+    name: "brands"
+    files:
+      - label: "Brands"
+        name: "brandsList"
+        file: "data/de/brands.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+            label: brand
+            name: brands
+            widget: list
+            fields:
+              - {label: Marke, name: brand, widget: markdown}             
                
                
                
