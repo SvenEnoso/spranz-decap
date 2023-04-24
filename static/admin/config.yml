@@ -110,7 +110,7 @@ collections:
             name: downloads
             widget: object
             collapsed: true
-               
+            fields:
                - label: Download
                  name: download
                  widget: list
@@ -119,6 +119,7 @@ collections:
                     - {label: Bild, name: image, widget: image}
                     - {label: Beschreibung, name: content, widget: text}
                     - {label: Downloadlink, name: link, widget: string}
+               
           - label: "Newsletter"
             name: newsletter
             widget: object
@@ -239,4 +240,3 @@ collections:
                    
                    
                
-            fields:
