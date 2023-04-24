@@ -612,7 +612,82 @@ collections:
             fields:
               - {label: Titel, name: title, widget: string}
               - {label: Titel, name: content, widget: text}
-              - {label: Logo, name: img, widget: image}    
+              - {label: Logo, name: img, widget: image}
+  - label: "Über Uns (en)"
+    name: "aboutEN"
+    files:
+      - label: "Über Uns (en)"
+        name: "aboutEN"
+        file: "data/en/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "Über Uns"
+            name: about
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: text, widget: text}
+              - {label: Logo, name: url, widget: image}
+          - label: "Philisophie"
+            name: philosophy
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: content, widget: text}
+              - {label: Logo, name: img, widget: image}
+  - label: "Über Uns (fr)"
+    name: "aboutFR"
+    files:
+      - label: "Über Uns (fr)"
+        name: "aboutFR"
+        file: "data/fr/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "Über Uns"
+            name: about
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: text, widget: text}
+              - {label: Logo, name: url, widget: image}
+          - label: "Philisophie"
+            name: philosophy
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: content, widget: text}
+              - {label: Logo, name: img, widget: image} 
+  - label: "Über Uns (IT)"
+    name: "aboutIT"
+    files:
+      - label: "Über Uns (it)"
+        name: "aboutIT"
+        file: "data/it/about.yml"
+        extension: "yml"
+        format: "yml"
+        fields:
+          - label: "Über Uns"
+            name: about
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: text, widget: text}
+              - {label: Logo, name: url, widget: image}
+          - label: "Philisophie"
+            name: philosophy
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Titel, name: title, widget: string}
+              - {label: Titel, name: content, widget: text}
+              - {label: Logo, name: img, widget: image}                                                   
                              
               
                
