@@ -147,7 +147,9 @@ collections:
             widget: object
             collapsed: true
             fields:
-               - {label: Name, name: content, widget: string}
+               - {label: Titel, name: title, widget: string}
+               - {label: Beschreibung, name: content, widget: text}
+               - {label: Text, name: standardstext, widget: text}
                
   - label: "English (en)"
     name: "english"
