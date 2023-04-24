@@ -781,7 +781,7 @@ collections:
               - {label: Text, name: content, widget: string}
           - label: Artikelbeschreibung
             name: brands
-            widget: object
+            widget: list
             fields:
                - {label: Titel, name: brand, widget: string}
                - label: Arrow
