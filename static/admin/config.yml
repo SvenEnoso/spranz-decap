@@ -285,7 +285,7 @@ collections:
                  widget: list
                  fields:
                     - {label: Titel, name: title, widget: string}
-                    - {label: Farbe, name: color, widget: Color}
+                    - {label: Farbe, name: color, widget: color}
                     - {label: Beschreibung, name: text, widget: text}
                     - {label: Bereich, name: name, widget: string}
           - label: "Standards"
@@ -431,7 +431,7 @@ collections:
                  widget: list
                  fields:
                     - {label: Titel, name: title, widget: string}
-                    - {label: Farbe, name: color, widget: Color}
+                    - {label: Farbe, name: color, widget: color}
                     - {label: Beschreibung, name: text, widget: text}
                     - {label: Bereich, name: name, widget: string}
           - label: "Standards"
@@ -577,7 +577,7 @@ collections:
                  widget: list
                  fields:
                     - {label: Titel, name: title, widget: string}
-                    - {label: Farbe, name: color, widget: Color}
+                    - {label: Farbe, name: color, widget: color}
                     - {label: Beschreibung, name: text, widget: text}
                     - {label: Bereich, name: name, widget: string}
           - label: "Standards"
@@ -800,7 +800,7 @@ collections:
                      widget: list
                      fields:
                        - {label: Artikeldetails, name: paragraph, widget: text} 
-               - label: pic
+               - label: Bild
                  name: image
                  widget: object
                  collapsed: true
@@ -848,7 +848,7 @@ collections:
                      widget: list
                      fields:
                        - {label: Artikeldetails, name: paragraph, widget: text} 
-               - label: pic
+               - label: Bild
                  name: image
                  widget: object
                  collapsed: true
@@ -896,7 +896,7 @@ collections:
                      widget: list
                      fields:
                        - {label: Artikeldetails, name: paragraph, widget: text} 
-               - label: pic
+               - label: Bild
                  name: image
                  widget: object
                  collapsed: true
@@ -944,7 +944,7 @@ collections:
                      widget: list
                      fields:
                        - {label: Artikeldetails, name: paragraph, widget: text} 
-               - label: pic
+               - label: Bild
                  name: image
                  widget: object
                  collapsed: true
