@@ -139,7 +139,7 @@ collections:
                  widget: list
                  fields:
                     - {label: Titel, name: title, widget: string}
-                    - {label: Farbe, name: color, widget: Color}
+                    - {label: Farbe, name: color, widget: color}
                     - {label: Beschreibung, name: text, widget: text}
                     - {label: Bereich, name: name, widget: string}
           - label: "Standards"
@@ -760,7 +760,7 @@ collections:
       - {label: "Bild", name: "bg_image", widget: "image"}
       - {label: "Beschreibung", name: "description", widget: "string"}
       - {label: "Seitentext", name: "body", widget: "markdown"}
-      
+
   - label: "Marken (de)"
     name: "brandsDE"
     files:
