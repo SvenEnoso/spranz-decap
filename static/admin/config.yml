@@ -807,6 +807,53 @@ collections:
                    - {label: Bild, name: url, widget: image}
                    - {label: Titel, name: title, widget: string}
                    - {label: Beschreibung, name: text, widget: text}
+  - label: "Marken (en)"
+    name: "brandsDE"
+    files:
+      - label: "Marken (en)"
+        name: "brandsEN"
+        file: "data/en/brands.yml"
+        extension: "yml"
+        format: "yml"
+        collapsed: true
+        fields:
+          - label: Banner (en)
+            name: banner
+            widget: object
+            collapsed: true
+            fields:
+              - {label: Hintergrundbild, name: bg_image, widget: image}
+              - {label: Name 1, name: title, widget: string}
+              - {label: Name 2, name: title2, widget: string}
+              - {label: Bild, name: brandImage, widget: image}                 
+              - {label: Text, name: content, widget: string}
+          - label: Artikeldetails & Optionen (en)
+            name: brands
+            widget: list
+            fields:
+               - {label: Titel, name: brand, widget: string}
+               - label: Details
+                 name: arrow
+                 widget: object
+                 collapsed: true
+                 fields:
+                   - {label: Logo, name: logo, widget: image}
+                   - {label: Bild, name: color, widget: color}
+                   - {label: Ausrichtung (aktiv = links, inaktiv = rechts), name: is_left, widget: boolean}
+                   - {label: Beschreibung, name: title, widget: text}
+                   - label: Artikelbeschreibung
+                     name: text
+                     widget: list
+                     fields:
+                       - {label: Artikeldetails, name: paragraph, widget: text} 
+               - label: pic
+                 name: image
+                 widget: object
+                 collapsed: true
+                 fields:
+                   - {label: Bild, name: url, widget: image}
+                   - {label: Titel, name: title, widget: string}
+                   - {label: Beschreibung, name: text, widget: text}                 
 
 
   
