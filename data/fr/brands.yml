@@ -1,9 +1,9 @@
 ---
 banner:
-  bg_image: images/backgrounds/Titelbild-Exklusiv-marken.jpg
+  bg_image: /images/backgrounds/Titelbild-Exklusiv-marken.jpg
   title: EXKLUSIV
   title2: MARKEN.
-  brandImage: images/brand-logo/XX_MetMaxx.svg
+  brandimage: /images/brand-logo/XX_MetMaxx.svg
   content: 'Mit unserem Sortiment bieten wir Ihnen fünf innovative Marken:'
   button_solid:
     enable: true

@@ -1,7 +1,7 @@
 ---
 title: Web Project Manager - Team of PHP MySQL Developers
 date: 2019-04-10T03:51:57+00:00
-bg_image: images/backgrounds/career-page.jpg
+bg_image: /images/backgrounds/career-page.jpg
 description: this is meta description
 image: ''
 location: London, United Kingdom

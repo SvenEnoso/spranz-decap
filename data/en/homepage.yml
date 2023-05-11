@@ -1,9 +1,9 @@
 ---
 banner:
-  bg_image: images/backgrounds/Titelbild_2@1X.jpg
+  bg_image: /images/backgrounds/Titelbild_2@1X.jpg
   title: DESIGN.
   title2: Naturally.
-  brandImage: images/brand-logo/XX_MetMaxx.svg
+  brandimage: /images/brand-logo/XX_MetMaxx.svg
   content: Eco-friendly design promotion
   button_solid:
     enable: true
@@ -24,15 +24,15 @@ ourBrands:
   enable: true
   title: Our exclusive brands.
   brand_items:
-  - image: images/exclusive-brands/Metmaxx.png
+  - image: /images/exclusive-brands/Metmaxx.png
     label: Metmaxx
-  - image: images/exclusive-brands/Blackmaxx.png
+  - image: /images/exclusive-brands/Blackmaxx.png
     label: Blackmaxx
-  - image: images/exclusive-brands/Vinomaxx.png
+  - image: /images/exclusive-brands/Vinomaxx.png
     label: Vinomaxx
-  - image: images/exclusive-brands/Thanxx.png
+  - image: /images/exclusive-brands/Thanxx.png
     label: 'Thanxx '
-  - image: images/exclusive-brands/Creativdesign.png
+  - image: /images/exclusive-brands/Creativdesign.png
     label: Creativ Design
   content: Our exclusive brands Metmaxx, Blackmaxx, Vinomaxx, Thanxx and Creativ Design
     stand for exceptional product design, long-lasting quality and tangible experiences.
@@ -61,7 +61,7 @@ Products:
       LED is turned upside down. So that the user cannot see directly into the UV
       LED. (Direct UV-C light eye contact can injure the eyes)'
     isnew: true
-    image: images/products/942-00.002.jpg
+    image: /images/products/942-00.002.jpg
     link: ''
   - name: Metmaxx® "CleanStation Pro UV"
     description: 'The CleanStation ProUV disinfects your cell phone, keys, mask etc.
@@ -70,7 +70,7 @@ Products:
       when you come home and disinfect at the same time. Safety function: Auto off
       after 60 sec. (Direct UV-C light eye contact can damage the eyes)'
     isnew: true
-    image: images/products/946-00.002_1.jpg
+    image: /images/products/946-00.002_1.jpg
     link: ''
   - name: Metmaxx® "Charge&CleanStation ProUV"
     description: 'The Charge & CleanStation ProUV disinfects your cell phone, keys,
@@ -83,24 +83,24 @@ Products:
       the UV light switches off automatically. (Direct UV-C light eye contact can
       damage the eyes)'
     isnew: true
-    image: images/products/943-00.002.jpg
+    image: /images/products/943-00.002.jpg
     link: ''
   - name: Metmaxx® "CorkCup“
     description: Coffee2Go cup with cork cuff and leak proof lid.
     isnew: true
-    image: images/products/330-00.000.jpg
+    image: /images/products/330-00.000.jpg
     link: ''
   - name: Metmaxx® "CremaExtensaBasic"
     description: The double-walled premium Ecomodell with vaccum technology and leak-proof
       lid at a top price / performance ratio
     isnew: true
-    image: images/products/355-00.012.jpg
+    image: /images/products/355-00.012.jpg
     link: ''
   - name: Metmaxx® "CremaExtensaBasic"
     description: The double-walled premium Ecomodell with vaccum technology and leak-proof
       lid at a top price / performance ratio
     isnew: true
-    image: images/products/355-00.030.jpg
+    image: /images/products/355-00.030.jpg
     link: ''
   - name: Metmaxx® "GenerationRefillEco2Go"
     description: Refill to avoid garbage - practical and handy glass bottle of thermo
@@ -108,12 +108,12 @@ Products:
       on the go, in everyday life and office - lockable spill-proof lid incl. Strap
       - top price / performance ratio
     isnew: true
-    image: images/products/188-77.021.jpg
+    image: /images/products/188-77.021.jpg
     link: ''
   - name: Metmaxx® "GenerationRefillGourmet"
     description: Glass drinking bottle with thermo-textile for hot & cold drinks.
     isnew: true
-    image: images/products/332-00.001.jpg
+    image: /images/products/332-00.001.jpg
     link: ''
   - name: Metmaxx® "GRG-ClickDrink"
     description: Glass drinking bottle with thermo-textile for hot & cold drinks.
@@ -121,7 +121,7 @@ Products:
       steel lid, 800ml.  PU / 40. Tea strainer (removable), thermo sleeve (removable),
       design box
     isnew: true
-    image: images/products/332-AddOn.jpg
+    image: /images/products/332-AddOn.jpg
     link: ''
   - name: Metmaxx® "GenerationRefillProtect"
     description: State-of-the-art high-tech drinking bottle for sport, work, home
@@ -132,84 +132,84 @@ Products:
       or deactivate bacteria and viruses in the liquid (effectiveness depends on the
       degree of liquid clarity)
     isnew: true
-    image: images/products/488-00.001.jpg
+    image: /images/products/488-00.001.jpg
     link: ''
   - name: Metmaxx® "Fitnesstracker Pro"
     description: Luxury fitness tracker (splash-proof) with many functions incl. 24h
       heart monitor, blood oxygen measurement & blood pressure monitor, individual
       sport selector, top App.
     isnew: true
-    image: images/products/898-00.001.jpg
+    image: /images/products/898-00.001.jpg
     link: ''
   - name: Metmaxx® "LademeisterBusinessClass“
     description: Luxury business class charging cable with multi-plug system for all
       mobile phones with an extra large illuminated XXL advertising space.
     isnew: true
-    image: images/products/878-00.001.jpg
+    image: /images/products/878-00.001.jpg
     link: ''
   - name: Metmaxx® "Shokutsu"
     description: Japanese kitchen knife made of fire-hardened steel.
     isnew: true
-    image: images/products/760-00.000_1_Neu.jpg
+    image: /images/products/760-00.000_1_Neu.jpg
     link: ''
   - name: Metmaxx® "Thrill4GrillZange"
     description: XXL grill tongs.
     isnew: true
-    image: images/products/955-00.000.jpg
+    image: /images/products/955-00.000.jpg
     link: ''
   - name: Metmaxx® "FutureOutdoorFire"
     description: The Outfdoor & Work Future Tech electric arc lighter with powerful
       LED lamp and practical cross arc multi-point for all tasks on the move but also
       at home, practical protective cover, sustainably rechargeable without gas
     isnew: true
-    image: images/products/761-00.001.jpg
+    image: /images/products/761-00.001.jpg
     link: ''
   - name: Metmaxx® "FutureFireHome&Travel"
     description: Future-Tech electric arc lighter for all purposes - on the go small
       in the bag, at home Thanks to the retractable head ideal for candles and BBQ,
       noble matt black look, rechargeable sustainable without gas
     isnew: true
-    image: images/products/766-00.001.jpg
+    image: /images/products/766-00.001.jpg
     link: ''
   - name: Metmaxx® "RainLedPro"
     description: Luxury umbrella with LED path light.
     isnew: true
-    image: images/products/591-00.001.jpg
+    image: /images/products/591-00.001.jpg
     link: ''
   - name: Metmaxx® "CremaCoffeeHouse“
     description: The modern choice - Reusable coffee house model prefekt vacuum &
       copper insulated for the longest possible warm & cold insulation, with leak-proof
       One Touch lid.
     isnew: true
-    image: images/products/358-00.002.jpg
+    image: /images/products/358-00.002.jpg
     link: ''
   - name: Metmaxx® "BlackChargeMicro“
     description: Rechargeable powerful pocket spotlight with focusable power LED (floodlight
       / high beam) - reusable concept (integrated rechargeable battery) & sustainable,
       economical lighting technology
     isnew: true
-    image: images/products/507-00.001.jpg
+    image: /images/products/507-00.001.jpg
     link: ''
   - name: Metmaxx® “BlackChargeHeadgear“
     description: Sustainable reusable head lamp (integrated rechargeable battery)
       with economical floodlight COB light technology in 2 light levels (100% / 60%)
       for regular sports and outdoor use
     isnew: true
-    image: images/products/612-00.001.jpg
+    image: /images/products/612-00.001.jpg
     link: ''
   - name: Metmaxx® "WorklightProRecharge"
     description: XXL-Profi Worklight - sustainable (thanks to inbuilt  rechargeable
       battery), mega-powerful (800 lumens) - focusable and practical incl. Side COB
       floodlight and strong magnet for all work situations
     isnew: true
-    image: images/products/504-00.001.jpg
+    image: /images/products/504-00.001.jpg
     link: ''
   - name: Metmaxx® "WorklightReCharge"
     description: Professional and sustainable professional worklight with extremely
       bright adjustable COB floodlight, rechargeable, flexible installation options,
       easy to attach (carabiner clip) and strong magnet -
     isnew: true
-    image: images/products/502-00.001.jpg
+    image: /images/products/502-00.001.jpg
     link: ''
   - name: Metmaxx® "MiniPowerTool"
     description: Innovative micro all-in-one tool for household and work - mega compact
@@ -217,38 +217,38 @@ Products:
       work light and powerful rechargeable lithium ion battery - always handy, mega-practical
       in a noble metal case
     isnew: true
-    image: images/products/506-00.012.jpg
+    image: /images/products/506-00.012.jpg
     link: ''
   - name: Metmaxx® "TaiPanPro"
     description: Luxury professional and leisure knife with forged blade made of Damascus
       steel (71x folded). For maximum sharpness and cutting comfort, exclusive perfectly
       integrated wood handle, top price / performance ratio
     isnew: true
-    image: images/products/782-00.000.jpg
+    image: /images/products/782-00.000.jpg
     link: ''
   - name: Metmaxx® "AmbientSoundTower"
     description: Speakers with powerful clear sound and selectable light colours.
     isnew: true
-    image: images/products/862-00.008.jpg
+    image: /images/products/862-00.008.jpg
     link: ''
   - name: Metmaxx® "AmbientSoundTouch"
     description: Compact Ambient Bluetooth Speaker with TouchLight effects for exclusive
       indoor and outdoor moments
     isnew: true
-    image: images/products/956-00.002.jpg
+    image: /images/products/956-00.002.jpg
     link: ''
   - name: Metmaxx® "Mr.BoombasticPocket"
     description: Sustainable compact wireless loudspeaker made of bioplastic with
       great sound and carabiner - ideal for traveling top price and advertising possibilities
       through full-scale digital printing on the sound grid
     isnew: true
-    image: images/products/860-00.001.jpg
+    image: /images/products/860-00.001.jpg
     link: ''
   - name: Metmaxx® "BlueOnSilent"
     description: Wireless OnEar headphones with active noise reduction, comfortably
       padded.
     isnew: true
-    image: images/products/536-00.001.jpg
+    image: /images/products/536-00.001.jpg
     link: ''
   - name: Metmaxx® "BlueOnStyle"
     description: Stylish & lightweight design on-ear headphones compatible with modded
@@ -256,12 +256,12 @@ Products:
       easy hands-free and voice assistant activation (Alexa, google, siri via mobile
       ...)
     isnew: true
-    image: images/products/538-00.001.jpg
+    image: /images/products/538-00.001.jpg
     link: ''
   - name: Metmaxx® "BlueNanoSound+"
     description: Wireless TWS Hifi headphones 5.0 with charging box.
     isnew: true
-    image: images/products/548-00.002.jpg
+    image: /images/products/548-00.002.jpg
     link: ''
   - name: Metmaxx® "SolarBankProInduction10"
     description: Safe the planet Business & Outdoor Power Bank - easy recharge by
@@ -269,14 +269,14 @@ Products:
       top equipment and performance by modern wireless induction charging technology,
       triple USB port and integrated COB surface floodlight for outdoor use.
     isnew: true
-    image: images/products/813-00.001.jpg
+    image: /images/products/813-00.001.jpg
     link: ''
   - name: Metmaxx® "GreenNumbers"
     description: Ecologically sustainable pocket calculator with robust cardboard
       housing & solar cell drive - perfectly recyclable - the "green" gift for perfect
       digital printing
     isnew: true
-    image: images/products/788-00.020.jpg
+    image: /images/products/788-00.020.jpg
     link: ''
   - name: Blackmaxx® "Techportefolio Kork A5"
     description: Sustainable & high-quality A5 business organizer made of cork material
@@ -285,35 +285,35 @@ Products:
       up the mobile phone (wireless charging via integrated powerbank garage for your
       power bank) and pens / accessory compartments
     isnew: true
-    image: images/products/497-61.020.jpg
+    image: /images/products/497-61.020.jpg
     link: ''
   - name: Metmaxx® "Hold'nGravityEcoCharge"
     description: Wireless Charger & mobile phone holder with night light.
     isnew: true
-    image: images/products/474-00.001.jpg
+    image: /images/products/474-00.001.jpg
     link: ''
   - name: Metmaxx® "MetropolitanFutureBusiness"
     description: A5 writing case with wireless ChargingPad.
     isnew: true
-    image: images/products/493-00.001.jpg
+    image: /images/products/493-00.001.jpg
     link: ''
   - name: Metmaxx® "MetropolitanBionicBuisness"
     description: BusinessOrganizer with wireless ChargingPad & Powerbank.
     isnew: true
-    image: images/products/496-00.001.jpg
+    image: /images/products/496-00.001.jpg
     link: ''
   - name: Metmaxx® "IWalletCarbon"
     description: The modern wallet in exclusive carbon optics to protect your cards
       in the RFID metal safe, including cards / note and brand new coin compartment
     isnew: true
-    image: images/products/216-57.001.jpg
+    image: /images/products/216-57.001.jpg
     link: ''
   - name: Metmaxx® "LademeisterFlex“
     description: Next generation charging cable - innovative AutoRoll system for the
       simple and perfect transport, integrated multi-plug system for all mobile phones,
       practical LED charge control for effortless visual charge monitoring
     isnew: true
-    image: images/products/877-00.001.jpg
+    image: /images/products/877-00.001.jpg
     link: ''
 ProductCategories:
   enable: true
@@ -322,39 +322,39 @@ ProductCategories:
   - name: Tools
     description: Tools with real added value. Good in the hand. And at hand when you
       need them
-    image: images/product-categories/mehrwertzeug.jpg
+    image: /images/product-categories/mehrwertzeug.jpg
     btnColor: "#69cfc0"
     link: ''
   - name: Top Manager
     description: You know your way around and see where is missing. They are on hand.
       In the office and out at the front. They're really good there. Overpaid? Not
       with us.
-    image: images/product-categories/topmanager.jpg
+    image: /images/product-categories/topmanager.jpg
     btnColor: "#ffcc21"
     link: ''
   - name: Automotive
     description: How good that they exist. The smallpractical helper around the car.
       No one says much about it. And yet you would miss them if they would no longer
       exist. Everything from one source.
-    image: images/product-categories/inverkehrbringer.jpg
+    image: /images/product-categories/inverkehrbringer.jpg
     btnColor: "#ffb79b"
     link: ''
   - name: Travel Companion
     description: No matter how much you are on the road - a few minutes you should
       go to the category on the following pages. The time is good invested. Because
       you will travel even more relaxed afterwards.
-    image: images/product-categories/reisebegleiter.jpg
+    image: /images/product-categories/reisebegleiter.jpg
     btnColor: "#ff723c"
     link: ''
   - name: Home & Kitchen
     description: 'You take: Best ingredients and a sense of good taste. Garnished
       with the right spice. No matter of taste. This is advertising art in the kitchen.'
-    image: images/product-categories/mehrwertzeug.jpg
+    image: /images/product-categories/mehrwertzeug.jpg
     btnColor: "#69cfc0"
     link: ''
 about:
   enable: false
-  image: images/about/about.jpg
+  image: /images/about/about.jpg
   content: "\n## We are here to always <br> help you\nLorem ipsum dolor sit amet consectetur
     adipisicing elit. Quasi obcaecati earum quia accusamus quaerat suscipit sit saepe
     amet explicabo.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Libero

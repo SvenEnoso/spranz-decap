@@ -1,9 +1,9 @@
 ---
 banner:
-  bg_image: images/backgrounds/Titelbild_2@1X.jpg
+  bg_image: /images/backgrounds/Titelbild_2@1X.jpg
   title: DESIGN.
   title2: Naturally.
-  brandImage: images/brand-logo/XX_MetMaxx.svg
+  brandimage: /images/brand-logo/XX_MetMaxx.svg
   content: Eco-friendly design promotion
   button_solid:
     enable: true
@@ -17,15 +17,15 @@ ourBrands:
   enable: true
   title: Unsere Exklusivmarken.
   brand_items:
-  - image: images/exclusive-brands/Metmaxx.png
+  - image: /images/exclusive-brands/Metmaxx.png
     label: Metmaxx
-  - image: images/exclusive-brands/Blackmaxx.png
+  - image: /images/exclusive-brands/Blackmaxx.png
     label: Blackmaxx
-  - image: images/exclusive-brands/Vinomaxx.png
+  - image: /images/exclusive-brands/Vinomaxx.png
     label: Vinomaxx
-  - image: images/exclusive-brands/Thanxx.png
+  - image: /images/exclusive-brands/Thanxx.png
     label: 'Thanxx '
-  - image: images/exclusive-brands/Creativdesign.png
+  - image: /images/exclusive-brands/Creativdesign.png
     label: Creativ Design
   content: |
     Unsere Exklusivmarken Metmaxx, Blackmaxx, Vinomaxx, Thanxx und Creativ
@@ -56,7 +56,7 @@ Products:
       Anwender nicht direkt in die UV-LED sehen kann. (Direkter UV-C Licht Blickkontakt
       kann die Augen schädigen).'
     isnew: true
-    image: images/products/942-00.002.jpg
+    image: /images/products/942-00.002.jpg
     link: ''
   - name: Metmaxx® "CleanStationProUV"
     description: Die CleanStation ProUV desinfiziert schnell, effektiv und umweltschonend
@@ -64,7 +64,7 @@ Products:
       Maske etc. und ist Ihre ideale Schlüssel-/Handy-/Geldbörsen-/Maskengarage beim
       Nachhausekommen. (Direkter UV-C Licht Blickkontakt kann die Augen schädigen).
     isnew: true
-    image: images/products/946-00.002_1.jpg
+    image: /images/products/946-00.002_1.jpg
     link: ''
   - name: Metmaxx® "Charge&CleanStation ProUV"
     description: 'Die Charge&CleanStation ProUV desinfiziert schnell, effektiv und
@@ -77,26 +77,26 @@ Products:
       schaltet sich das UV-Licht automatisch aus. (Direkter UV-C Licht Blickkontakt
       kann die Augen schädigen).'
     isnew: true
-    image: images/products/943-00.002.jpg
+    image: /images/products/943-00.002.jpg
     link: ''
   - name: Metmaxx® "CorkCup“
     description: Praktischer Coffee2Go Becher, mit ökologisch wertvoller Korkmanschette
       zur Wärmedämmung und sichereren Handhabung, mit auslaufhemmendem Deckel. Korkmanschette,
       abnehmbarer Trinkdeckel, 300 ml, Design-Manschette.
     isnew: true
-    image: images/products/330-00.000.jpg
+    image: /images/products/330-00.000.jpg
     link: ''
   - name: Metmaxx®              "CremaExtensaBasic"
     description: Das doppelwandige Premium Ecomodell mit Vakuumtechnik und auslaufgeschütztem
       Deckel zum top Preis-Leistungs-Verhältnis.
     isnew: true
-    image: images/products/355-00.012.jpg
+    image: /images/products/355-00.012.jpg
     link: ''
   - name: Metmaxx®               "CremaExtensaBasic"
     description: Das doppelwandige Premium Ecomodell mit Vakuumtechnik und auslaufgeschütztem
       Deckel zum Top Preis-Leistungs-Verhältnis.
     isnew: true
-    image: images/products/355-00.030.jpg
+    image: /images/products/355-00.030.jpg
     link: ''
   - name: Metmaxx® "GenerationRefillEco2Go"
     description: Nachfüllen, um Müll zu vermeiden - praktische & handliche Glastrinkflasche
@@ -104,21 +104,21 @@ Products:
       und vor Hitze) für unterwegs, im Alltag und Büro - verschließbarer auslaufgeschützter
       Deckel inkl. Trageschlaufe - top Preis-Leistung-Verhältnis.
     isnew: true
-    image: images/products/188-77.021.jpg
+    image: /images/products/188-77.021.jpg
     link: ''
   - name: Metmaxx® "GenerationRefillGourmet"
     description: 'Nachfüllen statt Plastikmüll: Glastrinkflasche mit Thermotextil
       für Heiß- und Kaltgetränke, perfekt für die Generation Refill. Neu mit Teesiebfach
       im Deckel.'
     isnew: true
-    image: images/products/332-00.001.jpg
+    image: /images/products/332-00.001.jpg
     link: ''
   - name: Metmaxx® "GRG-ClickDrink"
     description: Extra Artikel, um Ihre Generation RefillGourmet Trinkflasche weiter
       aufzuwerten und vom Genuss in den Sport und Unterwegsmodus zu bringen -  (das
       Teesieb kann in der Flasche verbleiben oder herausgenommen werden).
     isnew: true
-    image: images/products/332-AddOn.jpg
+    image: /images/products/332-AddOn.jpg
     link: ''
   - name: Metmaxx® "GenerationRefillProtect"
     description: Modernste High- Tech Trinkflasche für Sport, Beruf, Heim und Reise
@@ -128,31 +128,31 @@ Products:
       Bakterien und Viren in der Flüssigkeit abzutöten bzw. zu deaktivieren. Kein
       Medizinprodukt, keine PSA.
     isnew: true
-    image: images/products/488-00.001.jpg
+    image: /images/products/488-00.001.jpg
     link: ''
   - name: Metmaxx® "Fitnesstracker Pro"
     description: Luxus FitnessTracker (spritzwassergeschützt) mit vielen Funktionen
       inkl. 24h Herzmonitor, Blutsauerstoffmessung & Blutdruckmonitor, individueller
       Sportartenselektor, top App. Im Bullaugendesign.
     isnew: true
-    image: images/products/898-00.001.jpg
+    image: /images/products/898-00.001.jpg
     link: ''
   - name: Metmaxx® "LademeisterBusinessClass“
     description: Luxus Business-Class Ladekabel mit Multistecksystem für alle Handys
       mit außergewöhnlich großer beleuchteter XXL-Zentralwerbefläche.
     isnew: true
-    image: images/products/878-00.001.jpg
+    image: /images/products/878-00.001.jpg
     link: ''
   - name: Metmaxx® "Shokutsu"
     description: Küchenmesser in bester japanischer Handwerkstradition, handgearbeitet
       aus feuergehärtetem Stahl für Gourmetköche.
     isnew: true
-    image: images/products/760-00.000_1_Neu.jpg
+    image: /images/products/760-00.000_1_Neu.jpg
     link: ''
   - name: Metmaxx® "Thrill4GrillZange"
     description: XXL-Grillzange aus robustem Edelstahl mit raffiniertem Arretierungsmechanismus.
     isnew: true
-    image: images/products/955-00.000.jpg
+    image: /images/products/955-00.000.jpg
     link: ''
   - name: Metmaxx® "FutureOutdoorFire"
     description: Das Outdoor & Work Future-Tech Lichtbogenfeuerzeug mit starker LED-Lampe
@@ -160,55 +160,55 @@ Products:
       aber auch zu Hause, praktischer Schutzdeckel, nachhaltig wiederaufladbar ohne
       Gas.
     isnew: true
-    image: images/products/761-00.001.jpg
+    image: /images/products/761-00.001.jpg
     link: ''
   - name: Metmaxx® "FutureFireHome&Travel"
     description: Future-Tech Lichtbogenfeuerzeug für alle Einsatzzwecke - unterwegs
       klein in der Tasche, zu Hause Dank ausziehbarem Kopf ideal für Kerzen und BBQ,
       edle mattschwarze Optik, wiederaufladbar, nachhaltig ohne Gas.
     isnew: true
-    image: images/products/766-00.001.jpg
+    image: /images/products/766-00.001.jpg
     link: ''
   - name: Metmaxx® "RainLedPro"
     description: Kompakter Luxus-Regeschirm mit integriertem LED-Wegelicht und allen
       Eigenschaften der Referenzklasse zum Economypreis.
     isnew: true
-    image: images/products/591-00.001.jpg
+    image: /images/products/591-00.001.jpg
     link: ''
   - name: Metmaxx® "CremaCoffeeHouse“
     description: The modern choice - Mehrweg Coffeehousemodell prefekt vakuum- & kupferisoliert
       für längstmögliche Warm- & Kaltisolierung, mit auslaufgeschütztem One-Touch
       Deckel.
     isnew: true
-    image: images/products/358-00.002.jpg
+    image: /images/products/358-00.002.jpg
     link: ''
   - name: Metmaxx® "BlackChargeMicro“
     description: Aufladbarer leistungsstarker Pocketstrahler mit fokussierbarer Power-LED
       (Flutlicht/Fernlicht) - Mehrwegkonzept (integrierter Akku) & nachhaltige, sparsame
       Lichttechnik.
     isnew: true
-    image: images/products/507-00.001.jpg
+    image: /images/products/507-00.001.jpg
     link: ''
   - name: Metmaxx® “BlackChargeHeadgear“
     description: Nachhaltige Mehrweg Kopflampe (integrierter wiederaufladbarer Akku)
       mit sparsamer Flutlicht COB Lichttechnologie in 2 Lichtstufen (100%/60%) für
       regelmäßige Sport- & Outdooreinsätze.
     isnew: true
-    image: images/products/612-00.001.jpg
+    image: /images/products/612-00.001.jpg
     link: ''
   - name: Metmaxx® "WorklightProRecharge"
     description: XXL Profi Worklight - nachhaltig (wiederaufladbar Dank integriertem
       Akku), megastark (800 Lumen)- fokussierbar und praktisch inkl. seitlichem COB
       Flutlicht und starkem Magneten für alle Arbeitssituationen.
     isnew: true
-    image: images/products/504-00.001.jpg
+    image: /images/products/504-00.001.jpg
     link: ''
   - name: Metmaxx® "WorklightReCharge"
     description: Professionelles und nachhaltiges Profi Worklight mit extrem hellem
       regelbarem COB-Flutlicht, wiederaufladbar, flexible Aufstellmöglichkeiten, einfach
       zu befestigen (Karabinerclip) und starkem Magnet.
     isnew: true
-    image: images/products/502-00.001.jpg
+    image: /images/products/502-00.001.jpg
     link: ''
   - name: Metmaxx® "MiniPowerTool"
     description: Innovatives micro All-in-one Tool für Haushalt und Arbeit - megakompakter
@@ -216,40 +216,40 @@ Products:
       und leistungsfähigem wiederaufladbarem Lithium-Ionen-Akku - stets griffbereit,
       megapraktisch im edlen Metallgehäuse.
     isnew: true
-    image: images/products/506-00.012.jpg
+    image: /images/products/506-00.012.jpg
     link: ''
   - name: Metmaxx® "TaiPanPro"
     description: Luxus Profi- und Freizeitmesser mit geschmiedeter Klinge (71x gefaltet)
       aus Damaszenerstahl für höchsten Schärfe- und Schneidekomfort, exklusiver, perfekt
       integrierter Edelholzgriff, top Preis-Leistungs-Verhältnis.
     isnew: true
-    image: images/products/782-00.000.jpg
+    image: /images/products/782-00.000.jpg
     link: ''
   - name: Metmaxx® "AmbientSoundTower"
     description: Der AmbientSound Tower sorgt mit kraftvoll klarem Sound und wählbaren
       Lichtfarben für ein stimmungsvolles Ambiente und ist überall der perfekte Begleiter.
     isnew: true
-    image: images/products/862-00.008.jpg
+    image: /images/products/862-00.008.jpg
     link: ''
   - name: Metmaxx® "AmbientSoundTouch"
     description: Kompakter Ambient Bluetooth® Speaker mit TouchLight Effekten für
       exklusive Indoor- und Outdoormomente.
     isnew: true
-    image: images/products/956-00.002.jpg
+    image: /images/products/956-00.002.jpg
     link: ''
   - name: Metmaxx® "Mr.BoombasticPocket"
     description: Nachhaltiger kompakter wireless Lautsprecher aus Bioplastik mit großem
       Sound und Karabiner - ideal für unterwegs, top Preis und Werbemöglichkeiten
       durch vollflächigen Digitaldruck auf dem Soundgitter.
     isnew: true
-    image: images/products/860-00.001.jpg
+    image: /images/products/860-00.001.jpg
     link: ''
   - name: Metmaxx® "BlueOnSilent"
     description: Wireless OnEar-Kopfhörer mit aktiver Geräuschunterdückung, die sonst
       den guten Klang stören. Kompfortabel zu tragen, durch die Polsterungen an Ohrmuscheln
       und Bügel.
     isnew: true
-    image: images/products/536-00.001.jpg
+    image: /images/products/536-00.001.jpg
     link: ''
   - name: Metmaxx® "BlueOnStyle"
     description: Stylischer & extraleichter Design OnEar Kopfhörer kompatibel zum
@@ -257,12 +257,12 @@ Products:
       Li-Ionen Akku), einfaches Freisprechen und Aktivierung von Sprachassistenten
       (Alexa, Google, Siri via Handy...).
     isnew: true
-    image: images/products/538-00.001.jpg
+    image: /images/products/538-00.001.jpg
     link: ''
   - name: Metmaxx® "BlueNanoSound+"
     description: Wireless TWS Hifi-Kopfhörer 5.0 mit Ladebox.
     isnew: true
-    image: images/products/548-00.002.jpg
+    image: /images/products/548-00.002.jpg
     link: ''
   - name: Metmaxx® "SolarBankProInduction10"
     description: Safe the planet Business & Outdoor Powerbank - einfaches Nachladen
@@ -271,14 +271,14 @@ Products:
       Induktionsladetechnik, Triple USB-Port und integriertem COB Flächenstrahler
       für Ausseneinsätze.
     isnew: true
-    image: images/products/813-00.001.jpg
+    image: /images/products/813-00.001.jpg
     link: ''
   - name: Metmaxx® "GreenNumbers"
     description: Ökologisch nachhaltiger Taschenrechner mit robustem Pappgehäuse &
       Solarzellenantrieb - perfekt recyclebar  - der "grüne" Streuartikel für perfekten
       Digitaldruck.
     isnew: true
-    image: images/products/788-00.020.jpg
+    image: /images/products/788-00.020.jpg
     link: ''
   - name: Blackmaxx® "Techportefolio Kork A5"
     description: Nachhaltiger & hochwertiger A5 Businessorganizer aus Korkmaterial
@@ -287,38 +287,38 @@ Products:
       (wireless charging via integrierter Powerbankgarage für Ihre Powerbank) und
       Stifte-/Accessoiresfächern.
     isnew: true
-    image: images/products/497-61.020.jpg
+    image: /images/products/497-61.020.jpg
     link: ''
   - name: Metmaxx® "Hold'nGravityEcoCharge"
     description: Next Generation Wireless Charger und Handyhalter fürs Auto mit elegantem
       Nightlight zum top Preis.
     isnew: true
-    image: images/products/474-00.001.jpg
+    image: /images/products/474-00.001.jpg
     link: ''
   - name: Metmaxx® "MetropolitanFutureBusiness"
     description: Kompakte A5 Schreibmappe für den Businessalltag mit wireless ChargingPad
       fürs Telefon und einer Halterung für die eigene Powerbank.
     isnew: true
-    image: images/products/493-00.001.jpg
+    image: /images/products/493-00.001.jpg
     link: ''
   - name: Metmaxx® "MetropolitanBionicBuisness"
     description: BusinessOrganizer und Schreibmappe mit wireless Ladepad fürs Handy,
       eingebauter Powerbank, Padfach (auch 10,1') und Handyaufsteller.
     isnew: true
-    image: images/products/496-00.001.jpg
+    image: /images/products/496-00.001.jpg
     link: ''
   - name: Metmaxx® "IWalletCarbon"
     description: Die moderne Geldbörse in exklusiver Carbon Optik zum Schutz Ihrer
       Karten im RFID Metallsafe, inkl. Karten-/Schein- und, ganz neu, Münzfach.
     isnew: true
-    image: images/products/216-57.001.jpg
+    image: /images/products/216-57.001.jpg
     link: ''
   - name: Metmaxx® "LademeisterFlex“
     description: Next generation Ladekabel - innovatives AutoRoll System für einfachsten
       perfekten Transport, integriertes Multistecksystem für alle Handys, praktische
       LED-Ladekontrolle für mühelose visuelle Ladeüberwachung.
     isnew: true
-    image: images/products/877-00.001.jpg
+    image: /images/products/877-00.001.jpg
     link: ''
 ProductCategories:
   enable: true
@@ -328,39 +328,39 @@ ProductCategories:
     link: ''
     description: Werkzeuge und Tools mit echten Mehrwerten. Gut in der Hand. Und gut
       zur Hand, wenn man sie braucht.
-    image: images/product-categories/mehrwertzeug.jpg
+    image: /images/product-categories/mehrwertzeug.jpg
     btnColor: "#69cfc0"
   - name: Topmanager
     link: ''
     description: Sie kennen sich aus und sehen, wo es fehlt. Sie sind zur Stelle.
       Im Büro und draußen an der Front. Da sind sie richtig gut. Überbezahlt? Nicht
       bei uns.
-    image: images/product-categories/topmanager.jpg
+    image: /images/product-categories/topmanager.jpg
     btnColor: "#ffcc21"
   - name: Inverkehrbringer
     link: ''
     description: Wie gut, dass es sie gibt. Die kleinen praktischen Helfer rund ums
       Auto. Keiner verliert große Worte darüber. Und doch würde man sie vermissen,
       wenn es sie nicht mehr gäbe.
-    image: images/product-categories/inverkehrbringer.jpg
+    image: /images/product-categories/inverkehrbringer.jpg
     btnColor: "#ffb79b"
   - name: Reisebegleiter
     link: ''
     description: Wie viel auch immer Sie unterwegs sind – ein paar Minuten sollten
       Sie in dieser Rubrik verweilen. Die Zeit ist gut investiert. Denn Sie werden
       danach noch entspannter reisen.
-    image: images/product-categories/reisebegleiter.jpg
+    image: /images/product-categories/reisebegleiter.jpg
     btnColor: "#ff723c"
   - name: Kochkünstler
     link: ''
     description: 'Man nehme: Beste Zutaten und ein Gespür für guten Geschmack. Garniert
       mit der richtigen Würze. Von wegen Geschmackssache. Das ist werbliche Kunst
       in der Küche.'
-    image: images/product-categories/mehrwertzeug.jpg
+    image: /images/product-categories/mehrwertzeug.jpg
     btnColor: "#69cfc0"
 about:
   enable: false
-  image: images/about/about.jpg
+  image: /images/about/about.jpg
   content: "\n## We are here to always <br> help you\nLorem ipsum dolor sit amet consectetur
     adipisicing elit. Quasi obcaecati earum quia accusamus quaerat suscipit sit saepe
     amet explicabo.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Libero

@@ -1,6 +1,6 @@
 ---
 title: Nutzungsbedingungen
-bg_image: images/backgrounds/Titel_downloads.jpg
+bg_image: /images/backgrounds/Titel_downloads.jpg
 description: Nutzungsbedingungen
 aliases:
 - "/terms"
