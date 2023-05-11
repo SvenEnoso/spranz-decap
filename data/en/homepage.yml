@@ -47,7 +47,7 @@ textbanner1:
   text: Giving is great. Protect even better. Good to you, good to the environment
     - with our little world-improver, we are now setting a big example. Sustainable.
     Conserving resources. That's nice.
-  background: images/textbanner/Umwelt-Bild.jpg
+  background: /images/textbanner/Umwelt-Bild.jpg
   color: "#87CD75"
   align-left: true
   align_left: true
@@ -370,7 +370,7 @@ service:
   title: Alles aus einer Hand.
   service_item:
   - title: Production
-    logo: images/service-icons/produktion.svg
+    logo: /images/service-icons/produktion.svg
     content: In our production facilities in Germany, Europe and the Far East, we
       can produce our innovative in-house developments to a high standard of quality
       and yet at a reasonable price. Legal regulations and safety standards are taken
@@ -379,14 +379,14 @@ service:
       the legal minimum wage and insured employees. So you as our customer can be
       sure to buy the right quality.
   - title: Refinement
-    logo: images/service-icons/veredelung.svg
+    logo: /images/service-icons/veredelung.svg
     content: The professional finishing of your articles, such as laser engraving,
       etching, tampon printing, hot stamping, foil stamping, high-frequency embossing
       as well as packaging, is done in our 1,000 m2 plant in Germany. We obtain the
       electricity we need from LichtBlick and it consists of 100% renewable energies,
       the production of which does not produce any climate-damaging C02.
   - title: Shipping & Logistics
-    logo: images/service-icons/versand.svg
+    logo: /images/service-icons/versand.svg
     content: Our professional shipping logistics with computer-controlled high-bay
       warehouse and worldwide shipping service, also in the name of the customer,
       complete our offer. All goods are transported climate neutral. The C02 resulting
@@ -406,7 +406,7 @@ textbanner2:
   title: Browse, rummage... find!
   text: Use the online version of our main catalog as well as digital ads and mailings
     to reach your customers quickly and free of charge
-  background: images/textbanner/Titel_downloads.jpg
+  background: /images/textbanner/Titel_downloads.jpg
   color: "#47C3E6"
   align-left: false
   align: ''

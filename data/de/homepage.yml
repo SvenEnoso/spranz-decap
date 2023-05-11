@@ -42,7 +42,7 @@ textbanner1:
   text: Schenken ist toll. Schützen noch besser. Gut zu Ihnen, gut zur Umwelt - mit
     unseren kleinen Weltverbesserern jetzt große Zeichen setzen. Nachhaltig. Ressourcenschonend.
     Schon schön.
-  background: images/textbanner/Umwelt-Bild.jpg
+  background: /images/textbanner/Umwelt-Bild.jpg
   color: "#87CD75"
   align_left: true
 Products:
@@ -376,7 +376,7 @@ service:
   title: Alles aus einer Hand.
   service_item:
   - title: Produktion
-    logo: images/service-icons/produktion.svg
+    logo: /images/service-icons/produktion.svg
     content: In unseren Produktionsstätten in Deutschland, Europa und Fernost können
       wir unsere innovativen Eigenentwicklungen qualitativ hochwertig und dennoch
       preiswert herstellen. Dabei werden die gesetzlichen Vorschriften und Sicherheitsstandards
@@ -385,14 +385,14 @@ service:
       über den gesetzlichen Mindestlöhnen und versicherte Arbeitnehmer. So können
       Sie als unser Kunde sicher sein, die richtige Qualität einzukaufen.
   - title: Veredelung
-    logo: images/service-icons/veredelung.svg
+    logo: /images/service-icons/veredelung.svg
     content: Die professionelle Veredelung Ihrer Artikel, wie z. B. Lasergravur, Ätzung,
       Tampon-Druck, Heißprägung, Folienprägung, Hochfrequenzprägung sowie die Konfektionierung,
       erfolgt in unserem 1.000 m2 großen Werk in Deutschland. Den benötigten Strom
       beziehen wir über LichtBlick und besteht zu 100 % aus erneuerbaren Energien,
       bei dessen Erzeugung kein klimaschädliches C02 entsteht.
   - title: Versand & Logistik
-    logo: images/service-icons/versand.svg
+    logo: /images/service-icons/versand.svg
     content: 'Unsere professionelle Versandlogistik mit computergesteuertem Hochregallager
       und weltweitem Versandservice, auch im Namen des Kunden, runden unser Angebot
       ab. Alle Waren wer­den klimaneutral transportiert. Das beim Transport entstehende
@@ -405,7 +405,7 @@ textbanner2:
   title: Blättern, stöbern... finden!
   text: Nutzen Sie die Online-Variante unseres Hauptkatalogs sowie Digital-Anzeigen
     und Mailings, um schnell und kostenfrei Ihre Kunden zu erreichen
-  background: images/textbanner/Titel_downloads.jpg
+  background: /images/textbanner/Titel_downloads.jpg
   color: "#47C3E6"
   align_left: false
   align: ''
