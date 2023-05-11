@@ -374,8 +374,7 @@ fax = "+49 261 98 488-40"
 google_analitycs_id = ""
 home = "Home"
 legal_name = "Spranz Gmbh"
-logo = "//images/
-Spranz GmbH.svg"
+logo = "/images/Spranz GmbH.svg"
 phone = "+49 261 98 488-0"
 postal_code = "56070 Koblenz"
 programming_webdesign = "www.sowatech.de"
@@ -393,10 +392,7 @@ enable = true
 label = "get a quote"
 link = "contact"
 [params.partners]
-links = ["//images/
-myclimate-logo-rgb-1-pos-2x.jpg", "//images/
-footer/amfori.png", "//images/
-footer/LichtBlick.png"]
+links = ["/images/myclimate-logo-rgb-1-pos-2x.jpg", "/images/footer/amfori.png", "/images/footer/LichtBlick.png"]
 title = "Kooperationspartner"
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
@@ -432,29 +428,21 @@ link = "plugins/google-map/gmap.js"
 enable = false
 preloader = ""
 [[params.safety_standards]]
-logo = "/images/
-safety-standards/CE-Icon.png"
+logo = "images/safety-standards/CE-Icon.png"
 [[params.safety_standards]]
-logo = "/images/
-safety-standards/dekra-icon.png"
+logo = "images/safety-standards/dekra-icon.png"
 [[params.safety_standards]]
-logo = "/images/
-safety-standards/gruenePunkt.png"
+logo = "images/safety-standards/gruenePunkt.png"
 [[params.safety_standards]]
-logo = "/images/
-safety-standards/icon_6P-AZO-CD.png"
+logo = "images/safety-standards/icon_6P-AZO-CD.png"
 [[params.safety_standards]]
-logo = "/images/
-safety-standards/Icon-EN.png"
+logo = "images/safety-standards/Icon-EN.png"
 [[params.safety_standards]]
-logo = "/images/
-safety-standards/Icon-lebensmittelecht.png"
+logo = "images/safety-standards/Icon-lebensmittelecht.png"
 [[params.safety_standards]]
-logo = "/images/
-safety-standards/ISO-Icon.png"
+logo = "images/safety-standards/ISO-Icon.png"
 [[params.safety_standards]]
-logo = "/images/
-safety-standards/RoHS_Icon-2.png"
+logo = "images/safety-standards/RoHS_Icon-2.png"
 [[params.social]]
 icon = "ti-facebook"
 link = "#"

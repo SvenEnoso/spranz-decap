@@ -1,7 +1,6 @@
 ---
 title: Impressum
-bg_image: //images/
-backgrounds/Titel_downloads.jpg
+bg_image: /images/backgrounds/Titel_downloads.jpg
 description: Impressum
 
 ---

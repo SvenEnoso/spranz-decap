@@ -11,8 +11,7 @@ about:
     et magasinier des cadeaux publicitaires avec une propre imprimerie autant qu’un
     stockage de grande hauteur et centre logistique pour rencontrer et satisfaire
     les besoins croissants des clients d’une manière flexible et individuelle.
-  url: /images/
-about/Teambild Firma Spranz GmbH IMG 006 FINAL_Farbekleiner.jpg
+  url: images/about/Teambild Firma Spranz GmbH IMG 006 FINAL_Farbekleiner.jpg
 philosophy:
   enable: true
   title: Design articles sans extra-côuts de design!
@@ -21,7 +20,6 @@ philosophy:
     nous sommes à votre disposition avec orientation des clients intensives et soutient
     juste à chaque point de la chaine de vente pendant offrant des produits de haute
     qualité avec le « je-ne-sais-quoi » au coûts attractifs.
-  img: "//images/
-product-categories/topmanager.jpg"
+  img: "/images/product-categories/topmanager.jpg"
 ourBrands:
   enable: true

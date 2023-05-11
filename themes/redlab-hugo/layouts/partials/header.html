@@ -15,8 +15,7 @@
 
       <div class="collapse navbar-collapse text-center" id="navigation">
         <div class="navbar-first-row">
-          <a href="{{ .Site.Params.shopurl_login }}{{.Lang }}"><img src="//images/
-user-icon.svg" style="height:22px;"> Login</a>
+          <a href="{{ .Site.Params.shopurl_login }}{{.Lang }}"><img src="/images/user-icon.svg" style="height:22px;"> Login</a>
           {{ $siteLanguages := .Site.Languages}}
         {{ $pageLang := .Page.Lang}}
         {{ range .Page.AllTranslations }}
@@ -67,8 +66,7 @@ user-icon.svg" style="height:22px;"> Login</a>
           {{ end }}
           <!-- -->
           <!-- -->
-          <li class="nav-item menu-small"><a class="nav-link" href="{{ .Site.Params.shopurl_login }}"><img src="//images/
-user-icon.svg" style="height:22px;"> Login</a></li>
+          <li class="nav-item menu-small"><a class="nav-link" href="{{ .Site.Params.shopurl_login }}"><img src="/images/user-icon.svg" style="height:22px;"> Login</a></li>
         </ul>
 
         <!-- Language List -->

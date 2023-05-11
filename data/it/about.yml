@@ -9,15 +9,13 @@ about:
     sviluppatori, importatori e grossisti di articoli promozionali con stampa propria,
     oltre a magazzino a scaffali alti e centro logistico per soddisfare le crescenti
     esigenze dei clienti in modo flessibile e individuale.
-  url: /images/
-about/Teambild Firma Spranz GmbH IMG 006 FINAL_Farbekleiner.jpg
+  url: images/about/Teambild Firma Spranz GmbH IMG 006 FINAL_Farbekleiner.jpg
 philosophy:
   enable: true
   title: " Articoli di design senza supplemento di design!"
   content: |2-
 
     Progettiamo noi stessi! Troviamo la tessera giusta per il tuo concetto di marketing in linea con il tuo CI e il tuo gruppo target: versatile e flessibile. Offriamo consulenza e supporto intensivo ai clienti in ogni punto della catena di vendita e garantiamo prodotti di alta qualità con quel tocco in più a prezzi di acquisto interessanti.
-  img: "//images/
-product-categories/topmanager.jpg"
+  img: "/images/product-categories/topmanager.jpg"
 ourBrands:
   enable: true

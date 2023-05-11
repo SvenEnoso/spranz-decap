@@ -1,11 +1,9 @@
 ---
 banner:
-  bg_image: //images/
-backgrounds/Titelbild-Exklusiv-marken.jpg
+  bg_image: /images/backgrounds/Titelbild-Exklusiv-marken.jpg
   title: EXKLUSIV
   title2: MARKEN.
-  brandimage: //images/
-brand-logo/XX_MetMaxx.svg
+  brandimage: /images/brand-logo/XX_MetMaxx.svg
   content: 'Mit unserem Sortiment bieten wir Ihnen fünf innovative Marken:'
   button_solid:
     enable: true
@@ -19,8 +17,7 @@ brands:
 - brand: Metmaxx
   arrow:
     color: "#4ac4e6"
-    logo: "//images/
-exclusive-brands/Metmaxx.svg"
+    logo: "/images/exclusive-brands/Metmaxx.svg"
     is_left: true
     title: Edle Metall- und Elektronik-Produkte
     text:
@@ -37,8 +34,7 @@ exclusive-brands/Metmaxx.svg"
         und die geprüfte Qualität – konform zu allen gesetzlichen Anforderungen und
         häufig sogar weit darüber hinaus.
   image:
-    url: "//images/
-brands/bassbox.png"
+    url: "/images/brands/bassbox.png"
     title: z.B. Metmaxx Lautsprecher "BoombasticBase"
     text: Soundstarker Bluetooth® Lautsprecher mit Aktivboxen, Bass-Subwoofer, Scan
       Radio und integrierter Powerbank.
@@ -46,8 +42,7 @@ brands/bassbox.png"
   link: ''
 - brand: Blackmaxx
   arrow:
-    logo: "//images/
-exclusive-brands/Blackmaxx.svg"
+    logo: "/images/exclusive-brands/Blackmaxx.svg"
     color: "#ffc94d"
     is_left: false
     title: Edle Börsen & Taschen
@@ -63,8 +58,7 @@ exclusive-brands/Blackmaxx.svg"
         Qualität – konform zu allen gesetzlichen Anforderungen und häufig sogar weit
         darüber hinaus.
   image:
-    url: "//images/
-brands/geldboerse.png"
+    url: "/images/brands/geldboerse.png"
     title: z.B. Blackmaxx® Kartensafe „IWalletdeLuxePro“
     text: Vollrindleder-Geldbörse mit Aluminium-Kartensafe und weiteren Karten-/ Scheinfächern.
       Für bis zu 5 Karten, RFID geschützt.
@@ -72,8 +66,7 @@ brands/geldboerse.png"
   link: ''
 - brand: Vinomaxx
   arrow:
-    logo: "//images/
-exclusive-brands/Vinomaxx.svg"
+    logo: "/images/exclusive-brands/Vinomaxx.svg"
     color: "#ff514d"
     is_left: true
     title: Wein- & Tischkultur
@@ -89,8 +82,7 @@ exclusive-brands/Vinomaxx.svg"
         Leidenschaft und Sorgfalt erzeugt – ebenso die Ausstattung und Verpackung
         – das perfekte Paket für Genießer.
   image:
-    url: "//images/
-brands/55-rocim-mariana-2013.jpg"
+    url: "/images/brands/55-rocim-mariana-2013.jpg"
     title: z. B. Rocim Mariana 2013
     text: 'Das Weingut Herdade do Rocim im Herzen des unteren Alentejo steht für höchste
       Qualitätsansprüche & portugiesische Weinbautradition. Der Mariana 2011 ist das
@@ -107,8 +99,7 @@ brands/55-rocim-mariana-2013.jpg"
   link: ''
 - brand: Thanxx
   arrow:
-    logo: "//images/
-exclusive-brands/Thanxx.svg"
+    logo: "/images/exclusive-brands/Thanxx.svg"
     color: "#ff733d"
     is_left: false
     title: Promo- & Trendartikel
@@ -123,8 +114,7 @@ exclusive-brands/Thanxx.svg"
         zu inszenieren. Wichtiger Bestandteil ist die geprüfte Qualität – konform
         zu allen gesetzlichen Anforderungen und häufig sogar weit darüber hinaus.
   image:
-    url: "//images/
-brands/kofferwaage.png"
+    url: "/images/brands/kofferwaage.png"
     title: z.B. thanxx® Koffergurt & Waage "Lock&Check"
     text: Praktische Kombination aus Koffergurt mit Zahlenschloss und Kofferwaage,
       zu einem tollen Preis-Leistungs-Verhältnis.
@@ -132,8 +122,7 @@ brands/kofferwaage.png"
   link: ''
 - brand: Creativ-Design
   arrow:
-    logo: "//images/
-exclusive-brands/Creativdesign.svg"
+    logo: "/images/exclusive-brands/Creativdesign.svg"
     color: "#ffb79b"
     is_left: true
     title: Automobil & Mobilität
@@ -149,8 +138,7 @@ exclusive-brands/Creativdesign.svg"
         geprüfte Qualität – konform zu allen gesetzlichen Anforderungen, häufig sogar
         auch weit darüber hinaus.
   image:
-    url: "//images/
-brands/boerse.png"
+    url: "/images/brands/boerse.png"
     title: z.B. CreativDesign Schlüsseltasche "BusinessPro"
     text: Hochwertige Schlüsseltasche im schicken Carbon-Look mit 30 mm Schlüsselring.
       RFID geschützt.

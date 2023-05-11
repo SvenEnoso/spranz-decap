@@ -1,7 +1,6 @@
 ---
 title: Terms And Conditions
-bg_image: //images/
-backgrounds/Titel_downloads.jpg
+bg_image: /images/backgrounds/Titel_downloads.jpg
 description: Terms And Conditions
 aliases: []
 url: ''
