@@ -30,6 +30,8 @@ collections:
                 fields:
                    - {label: Newsletter abonieren, name: enabled, widget: boolean}
           - label: "Unsere Exklusivmarken"
+            media_folder: "static/images/brands"
+            public_folder: "/images/brands"
             name: ourBrands
             widget: object
             collapsed: true
