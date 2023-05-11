@@ -9,7 +9,8 @@ about:
     Wir sind nach wie vor Produzent, aber auch Entwickler, Importeur und Lagerist
     von Werbeartikeln mit eigener Bedruckung sowie Hochregallager und Logistikzentrum,
     um den wachsenden Kundenanforderungen flexibel und individuell gerecht zu werden.
-  url: images/about/Teambild Firma Spranz GmbH IMG 006 FINAL_Farbekleiner.jpg
+  url: /images/
+about/Teambild Firma Spranz GmbH IMG 006 FINAL_Farbekleiner.jpg
 philosophy:
   enable: true
   title: Designartikel ohne Designzuschlag!
@@ -18,7 +19,8 @@ philosophy:
     bieten wir intensive Kundenberatung und Unterstützung an jedem Punkt der Verkaufskette
     und stehen für qualitativ hochwertige Produkte mit dem gewissen Extra zu attraktiven
     Einkaufspreisen.
-  img: "/images/product-categories/topmanager.jpg"
+  img: "//images/
+product-categories/topmanager.jpg"
 ourBrands:
   enable: true
 ---

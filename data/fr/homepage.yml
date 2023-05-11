@@ -1,9 +1,11 @@
 ---
 banner:
-  bg_image: /images/backgrounds/Titelbild_2@1X.jpg
+  bg_image: //images/
+backgrounds/Titelbild_2@1X.jpg
   title: DESIGN.
   title2: Naturally.
-  brandimage: /images/brand-logo/XX_MetMaxx.svg
+  brandimage: //images/
+brand-logo/XX_MetMaxx.svg
   content: Eco-friendly design promotion
   button_solid:
     enable: true
@@ -24,15 +26,20 @@ ourBrands:
   enable: true
   title: Unsere Exklusivmarken.
   brand_items:
-  - image: /images/exclusive-brands/Metmaxx.png
+  - image: //images/
+exclusive-brands/Metmaxx.png
     label: Metmaxx
-  - image: /images/exclusive-brands/Blackmaxx.png
+  - image: //images/
+exclusive-brands/Blackmaxx.png
     label: Blackmaxx
-  - image: /images/exclusive-brands/Vinomaxx.png
+  - image: //images/
+exclusive-brands/Vinomaxx.png
     label: Vinomaxx
-  - image: /images/exclusive-brands/Thanxx.png
+  - image: //images/
+exclusive-brands/Thanxx.png
     label: 'Thanxx '
-  - image: /images/exclusive-brands/Creativdesign.png
+  - image: //images/
+exclusive-brands/Creativdesign.png
     label: Creativ Design
   content: Nos marques exclusives Metmaxx, Blackmaxx, Vinomaxx, Thanxx et Creativ
     Design sont synonymes de conception de produits exceptionnelle, de qualité durable
@@ -48,7 +55,8 @@ textbanner1:
   text: Donner, c'est génial. Protégez encore mieux. Bon pour vous, bon pour l'environnement
     - avec notre petit améliorateur du monde, nous donnons maintenant l'exemple. Durable.
     Préserver les ressources. C'est zonte.
-  background: images/textbanner/Umwelt-Bild.jpg
+  background: /images/
+textbanner/Umwelt-Bild.jpg
   color: "#87CD75"
   align-left: true
   align_left: true
@@ -70,7 +78,8 @@ Products:
       de sorte que l''utilisateur ne peut pas regarder directement la LED UV (le contact
       direct de la lumière UV-C peut endommager les yeux.'
     isnew: true
-    image: /images/products/942-00.002.jpg
+    image: //images/
+products/942-00.002.jpg
     link: ''
   - name: Metmaxx® "CleanStation Pro UV"
     description: 'Sécurité et santé: la lumière UV-C neutralise les virus, les germes
@@ -85,7 +94,8 @@ Products:
       portable, il est possible de le recharger (1 A), par exemple la nuit, et en
       même temps, désinfectez les autres objets d''usage quotidien.'
     isnew: true
-    image: /images/products/946-00.002_1.jpg
+    image: //images/
+products/946-00.002_1.jpg
     link: ''
   - name: Metmaxx® "Charge&CleanStation ProUV"
     description: 'Sécurité et santé: la lumière UV-C neutralise les virus, les germes
@@ -103,31 +113,36 @@ Products:
       comme chargeur sans fil), la lumière UV s''éteint automatiquement. (Le contact
       direct de la lumière UV-C avec les yeux peut endommager les yeux)'
     isnew: true
-    image: /images/products/943-00.002.jpg
+    image: //images/
+products/943-00.002.jpg
     link: ''
   - name: Metmaxx® "CorkCup“
     description: 'Tasse Coffee2Go avec manchon en liège écologique pour l''isolation
       thermique.300 ml.  '
     isnew: true
-    image: /images/products/330-00.000.jpg
+    image: //images/
+products/330-00.000.jpg
     link: ''
   - name: Metmaxx® "CremaExtensaBasic"
     description: Thermos 450ml - Isolant double paroi - Couvercle étanche  - Adapté
       au lave-vaisselle - Acier inoxydable haut de gamme 18/10
     isnew: true
-    image: /images/products/355-00.012.jpg
+    image: //images/
+products/355-00.012.jpg
     link: ''
   - name: Metmaxx® "CremaExtensaBasic"
     description: Thermos 300ml - Isolant double paroi - Couvercle étanche  - Adapté
       au lave-vaisselle - Acier inoxydable haut de gamme 18/10,
     isnew: true
-    image: /images/products/355-00.030.jpg
+    image: //images/
+products/355-00.030.jpg
     link: ''
   - name: Metmaxx® "GenerationRefillEco2Go"
     description: Gourde écoresponsable en bioplastique de 250ml. Composé de paille
       de blé. Verre en borosilicate. Couvercle verrouillable étanche.
     isnew: true
-    image: /images/products/188-77.021.jpg
+    image: //images/
+products/188-77.021.jpg
     link: ''
   - name: Metmaxx® "GenerationRefillGourmet"
     description: 'Bouteille isotherme - Couvercle étanche - Isolant double paroi -
@@ -136,7 +151,8 @@ Products:
       XL sur le verre 50x25 / L7 XL sur métal 40x15 / T9 sur le verre 35x30 / DP-UV
       au-dessus sur le couvercle 25mm - Dimensions de l''article: 306 x Ø'
     isnew: true
-    image: /images/products/332-00.001.jpg
+    image: //images/
+products/332-00.001.jpg
     link: ''
   - name: Metmaxx® "GRG-ClickDrink"
     description: 'Changez de dimensions avec ce nouveau couvercle. Pratique à ouvrir
@@ -144,7 +160,8 @@ Products:
       à clic anti fuite -Livré sous boite individuelle de qualité -  - Livré sous
       boite individuelle de qualité - Espace d''impression: L7 XL sur métal 40x15'
     isnew: true
-    image: /images/products/332-AddOn.jpg
+    image: //images/
+products/332-AddOn.jpg
     link: ''
   - name: Metmaxx® "GenerationRefillProtect"
     description: Gourde haute technologie pour le sport, le travail, la maison et
@@ -155,42 +172,48 @@ Products:
       également à tuer ou à désactiver les bactéries et les virus présents dans le
       liquide (l'efficacité dépend du degré de clarté du liquide)
     isnew: true
-    image: /images/products/488-00.001.jpg
+    image: //images/
+products/488-00.001.jpg
     link: ''
   - name: Metmaxx® "Fitnesstracker Pro"
     description: 'Fitness Tracker - Waterproof : IP67 - Bluetooth 40 - Sélecteur multi-sports
       - Matière: Plastique - Autonomie : 4 à 5 jours - Livré sous boite individuelle
       de qualité'
     isnew: true
-    image: /images/products/898-00.001.jpg
+    image: //images/
+products/898-00.001.jpg
     link: ''
   - name: Metmaxx® "LademeisterBusinessClass“
     description: 'Câble de chargement pour smartphone avec possibilité d''impression
       XXL avec logo rétroéclairé. Compatible avec tous les smartphones grâce aux 3
       embouts : USB-C, Micro-USB et Lightning®.'
     isnew: true
-    image: /images/products/878-00.001.jpg
+    image: //images/
+products/878-00.001.jpg
     link: ''
   - name: Metmaxx® "Shokutsu"
     description: 'Couteau de cuisine - Matière: Métal/Bois - Livré sous boite individuelle
       de qualité - Espace d''impression: L8 CO2 120x45 / L6 CO2 60x10 / T6 60x10 -
       Dimensions de l''article: 305 x 72 x 39'
     isnew: true
-    image: /images/products/760-00.000_1_Neu.jpg
+    image: //images/
+products/760-00.000_1_Neu.jpg
     link: ''
   - name: Metmaxx® "Thrill4GrillZange"
     description: 'Outil barbecue - Sécurité enfant - Matière: Aluminium/Plastique
       - Livré sous boite individuelle de qualité - Espace d''impression: L4 70x10
       / T6 60x10 - Dimensions de l''article: 375 x 110 x 50  mm'
     isnew: true
-    image: /images/products/955-00.000.jpg
+    image: //images/
+products/955-00.000.jpg
     link: ''
   - name: Metmaxx® "FutureOutdoorFire"
     description: 'Outil 2 en 1 : Briquet à arc électrique rechargeable avec sécurité
       et lampe torche LED puissante avec 3 mode d''éclairage : 50%, 100%, clignotant.
       Livré sous boîte individuelle de qualité.'
     isnew: true
-    image: /images/products/761-00.001.jpg
+    image: //images/
+products/761-00.001.jpg
     link: ''
   - name: Metmaxx® "FutureFireHome&Travel"
     description: Briquet arc électrique en acier inoxydable. 60 à 80 allumages. Tête
@@ -199,14 +222,16 @@ Products:
       bouton de sécurité. S'éteint automatiquement après 10 secondes d'allumage. Livré
       sous boîte individuelle de qualité.
     isnew: true
-    image: /images/products/766-00.001.jpg
+    image: //images/
+products/766-00.001.jpg
     link: ''
   - name: Metmaxx® "RainLedPro"
     description: 'Parapluie avec éclairage LED intégré.Teflon, windproof, Auto Open/Auto
       Close.  CU/50,  - Matière: Pongee 190d/Carbon - Dimensions de l''article: 303
       x 56 x 56 - Impression: T9 10x20 / Siebdruck auf Anfrage'
     isnew: true
-    image: /images/products/591-00.001.jpg
+    image: //images/
+products/591-00.001.jpg
     link: ''
   - name: Metmaxx® "CremaCoffeeHouse“
     description: 'Mug isotherme - Couvercle étanche - Isolant double paroi - Capacité
@@ -214,20 +239,23 @@ Products:
       - Espace d''impression: T8 35x40 / L7-XL 45x40 / L6-CO2 40x6 / DP-UV8 25x80
       - Dimensions de l''article: 165 x 72Ø'
     isnew: true
-    image: /images/products/358-00.002.jpg
+    image: //images/
+products/358-00.002.jpg
     link: ''
   - name: Metmaxx® "BlackChargeMicro“
     description: Lampe de poche LED focalisable 500 mAh avec COB sur le côté. Batterie
       rechargeable intégrée. Livré sous boîte individuelle de qualité.
     isnew: true
-    image: /images/products/507-00.001.jpg
+    image: //images/
+products/507-00.001.jpg
     link: ''
   - name: Metmaxx® “BlackChargeHeadgear“
     description: 'Lampe frontale COB 800 mAh avec  élastique ajustable et batterie
       rechargeable intégrée. 2 modes d''éclairage : 60% et 100%. Livré sous boîte
       individuelle de qualité.'
     isnew: true
-    image: /images/products/612-00.001.jpg
+    image: //images/
+products/612-00.001.jpg
     link: ''
   - name: Metmaxx® "WorklightProRecharge"
     description: 'Lampe torche de travail focalisable 800 lumens avec batterie rechargeable
@@ -235,14 +263,16 @@ Products:
       latérale avec 3 modes d''éclairage : rouge, blanc et rouge clignotant. Équipée
       d''un aimant puissant et livré sous boîte individuelle de qualité.'
     isnew: true
-    image: /images/products/504-00.001.jpg
+    image: //images/
+products/504-00.001.jpg
     link: ''
   - name: Metmaxx® "WorklightReCharge"
     description: Lampe de travail COB avec batterie rechargeable intégrée. Munie d'un
       aimant puissant, d'un mousqueton et d'un système d'angle ajustable. Livrée sous
       boîte individuelle de qualité, câble de chargement inclus.
     isnew: true
-    image: /images/products/502-00.001.jpg
+    image: //images/
+products/502-00.001.jpg
     link: ''
   - name: Metmaxx® "MiniPowerTool"
     description: 'Outil multifonctions design en métal : Tournevis avec jeu d''embouts
@@ -250,13 +280,15 @@ Products:
       batterie lithium/ion rechargeable intégrée et aimant. Câble de chargement inclus,
       livré sous boite individuelle de qualité.'
     isnew: true
-    image: /images/products/506-00.012.jpg
+    image: //images/
+products/506-00.012.jpg
     link: ''
   - name: Metmaxx® "TaiPanPro"
     description: Couteau  pliant en acier de Damas (plié 71x) avec poignée en bois
       et clip pour ceinture. Livré sous boîte individuelle de qualité.
     isnew: true
-    image: /images/products/782-00.000.jpg
+    image: //images/
+products/782-00.000.jpg
     link: ''
   - name: Metmaxx® "AmbientSoundTower"
     description: 'Lampe d''ambiance - Capacité 200 mAh - Bluetooth 50 - Câble USB
@@ -266,19 +298,22 @@ Products:
       Espace d''impression: T11 50x15 / T11 25x45 / DP-UV9 30x90 / DP-UV9 50x15 -
       Dimensions de l''article: 199 x 110 x 110'
     isnew: true
-    image: /images/products/862-00.008.jpg
+    image: //images/
+products/862-00.008.jpg
     link: ''
   - name: Metmaxx® "AmbientSoundTouch"
     description: 'Enceinte Bluetooth - Lampe ambiante - Capacité 1200 mAh - Puissance
       3 Watts - Matière: Plastique/métal - Emplacement Micro SD - Livré sous boite
       individuelle de qualité'
     isnew: true
-    image: /images/products/956-00.002.jpg
+    image: //images/
+products/956-00.002.jpg
     link: ''
   - name: Metmaxx® "Mr.BoombasticPocket"
     description: ''
     isnew: true
-    image: /images/products/860-00.001.jpg
+    image: //images/
+products/860-00.001.jpg
     link: ''
   - name: Metmaxx® "BlueOnSilent"
     description: 'Casque sans fil - Bluetooth 42 - Câble USB inclus - Sensibilité:
@@ -286,7 +321,8 @@ Products:
       ANC de 15 à 20 db - Matière: Plastique - Livré sous boite individuelle de qualité
       - Espace d''impression: T9 35x45 - Dimensions de l''article: 211 x 165 x 77'
     isnew: true
-    image: /images/products/536-00.001.jpg
+    image: //images/
+products/536-00.001.jpg
     link: ''
   - name: Metmaxx® "BlueOnStyle"
     description: 'Casque audio compatible Bluetooth 5.0. Compatible avec les assistants
@@ -294,14 +330,16 @@ Products:
       200 mAh. Compatible Câble de charge fourni. Livré sous boîte individuelle de
       qualité.'
     isnew: true
-    image: /images/products/538-00.001.jpg
+    image: //images/
+products/538-00.001.jpg
     link: ''
   - name: Metmaxx® "BlueNanoSound+"
     description: 'Écouteurs sans fil - Batterie : Li-ion 500 mAh - Câble micro-USB
       - Autonomie en conversation/musique : jusqu’à 5h - Bluetooth 42 - Matière: Plastique
       - Livré sous boite individuelle de qualité - Espace d''impression: 30 x 25 mm'
     isnew: true
-    image: /images/products/548-00.002.jpg
+    image: //images/
+products/548-00.002.jpg
     link: ''
   - name: Metmaxx® "SolarBankProInduction10"
     description: Powerbank à induction 10 000 mAh. Possibilité de le recharger soit
@@ -309,13 +347,15 @@ Products:
       USB, embouts USB-C, Sortie :2A et 5W en induction - Micro-USB et Lightning®
       fournis. Livré sous boîte individuelle de qualité.
     isnew: true
-    image: /images/products/813-00.001.jpg
+    image: //images/
+products/813-00.001.jpg
     link: ''
   - name: Metmaxx® "GreenNumbers"
     description: Calculatrice éco-résponsable  et munie d'une cellule solaire. Adaptée
       à l'impression digitale.
     isnew: true
-    image: /images/products/788-00.020.jpg
+    image: //images/
+products/788-00.020.jpg
     link: ''
   - name: Blackmaxx® "Techportefolio Kork A5"
     description: Conférencier en liège avec cahier A5 en papier recyclé. Emplacements
@@ -323,7 +363,8 @@ Products:
       avec possibilité de recharge par induction 5W. Livré sous boîte individuelle
       de qualité, câble de chargement inclus.
     isnew: true
-    image: /images/products/497-61.020.jpg
+    image: //images/
+products/497-61.020.jpg
     link: ''
   - name: Metmaxx® "Hold'nGravityEcoCharge"
     description: 'Accessoire voiture - Chargeur à induction - Câble USB inclus - Fixation
@@ -331,7 +372,8 @@ Products:
       - Livré sous boite individuelle de qualité - Espace d''impression: T8 40x22
       - Dimensions de l''article: 88 x 120 x 90'
     isnew: true
-    image: /images/products/474-00.001.jpg
+    image: //images/
+products/474-00.001.jpg
     link: ''
   - name: Metmaxx® "MetropolitanFutureBusiness"
     description: 'Conférencier - Support à induction - Possibilité de raccorder votre
@@ -340,7 +382,8 @@ Products:
       L6 sur la plaque 40x25 / T8 sur la plaque 40x25 - Dimensions de l''article:
       209 x 270 x 25'
     isnew: true
-    image: /images/products/493-00.001.jpg
+    image: //images/
+products/493-00.001.jpg
     link: ''
   - name: Metmaxx® "MetropolitanBionicBuisness"
     description: 'Conférencier - Powerbank intégré - Capacité 5000 mAh - Support pour
@@ -348,20 +391,23 @@ Products:
       Nylon - Bloc note - DC Output Induction 5W/1A - Espace d''impression: L6 40x25
       / T8 40x25 - Dimensions de l''article: 260 x 340 x 45'
     isnew: true
-    image: /images/products/496-00.001.jpg
+    image: //images/
+products/496-00.001.jpg
     link: ''
   - name: Metmaxx® "IWalletCarbon"
     description: 'Portefeuille - Matière: Simili cuir - Porte carte en aluminium inclus
       - Poche arrière zippée - Sécurité RFI'
     isnew: true
-    image: /images/products/216-57.001.jpg
+    image: //images/
+products/216-57.001.jpg
     link: ''
   - name: Metmaxx® "LademeisterFlex“
     description: 'Câble de chargement pour smartphone avec système d''auto-enroulement
       et indicateur de charge. Compatible avec tous les smartphones grâce aux 3 embouts
       : USB-C, Micro-USB et Lightning®.'
     isnew: true
-    image: /images/products/877-00.001.jpg
+    image: //images/
+products/877-00.001.jpg
     link: ''
 ProductCategories:
   enable: true
@@ -370,40 +416,46 @@ ProductCategories:
   - name: Tools
     description: Des outils et outils à réelle valeur ajoutée. Bon dans la main. et
       à portée de main quand vous en avez besoin.
-    image: /images/product-categories/mehrwertzeug.jpg
+    image: //images/
+product-categories/mehrwertzeug.jpg
     btnColor: "#69cfc0"
     link: ''
   - name: Top Manager
     description: " Vous connaissez votre chemin et voyez où il manque. Ils sont à
       portée de main. Au bureau et à l'avant, ils sont vraiment bien là-bas. Pas avec
       nous."
-    image: /images/product-categories/topmanager.jpg
+    image: //images/
+product-categories/topmanager.jpg
     btnColor: "#ffcc21"
     link: ''
   - name: Automotive
     description: Comme ils existent. Le petit assistant pratique autour de la voiture.
       Non perd de grands mots à ce sujet. Et vous les regretteriez s'ils n'existaient
       plus. Tout provient d'une seule source.
-    image: /images/product-categories/inverkehrbringer.jpg
+    image: //images/
+product-categories/inverkehrbringer.jpg
     btnColor: "#ffb79b"
     link: ''
   - name: Travel Companion
     description: " Peu importe combien vous êtes sur la route - quelques minutes vous
       devriez aller à theLinger sur les pages suivantes. Le temps est bien investi.
       Parce que vous serez toujours plus détendu."
-    image: /images/product-categories/reisebegleiter.jpg
+    image: //images/
+product-categories/reisebegleiter.jpg
     btnColor: "#ff723c"
     link: ''
   - name: 'Home & Kitchen '
     description: 'Tu prends: Les meilleurs ingrédients et le sens du bon goût. Garnis
       avec la bonne épice. Une question de goût, mon cul. C''est de l''art publicitaire
       dans la cuisine.'
-    image: /images/product-categories/mehrwertzeug.jpg
+    image: //images/
+product-categories/mehrwertzeug.jpg
     btnColor: "#69cfc0"
     link: ''
 about:
   enable: false
-  image: /images/about/about.jpg
+  image: //images/
+about/about.jpg
   content: "\n## We are here to always <br> help you\nLorem ipsum dolor sit amet consectetur
     adipisicing elit. Quasi obcaecati earum quia accusamus quaerat suscipit sit saepe
     amet explicabo.\n\nLorem ipsum dolor sit amet consectetur adipisicing elit. Libero
@@ -419,7 +471,8 @@ service:
   title: Alles aus einer Hand.
   service_item:
   - title: Production
-    logo: images/service-icons/produktion.svg
+    logo: /images/
+service-icons/produktion.svg
     content: In our production facilities in Germany, Europe and the Far East, we
       can produce our innovative in-house developments to a high standard of quality
       and yet at a reasonable price. Legal regulations and safety standards are taken
@@ -428,14 +481,16 @@ service:
       the legal minimum wage and insured employees. So you as our customer can be
       sure to buy the right quality.
   - title: Refinement
-    logo: images/service-icons/veredelung.svg
+    logo: /images/
+service-icons/veredelung.svg
     content: The professional finishing of your articles, such as laser engraving,
       etching, tampon printing, hot stamping, foil stamping, high-frequency embossing
       as well as packaging, is done in our 1,000 m2 plant in Germany. We obtain the
       electricity we need from LichtBlick and it consists of 100% renewable energies,
       the production of which does not produce any climate-damaging C02.
   - title: Shipping & Logistics
-    logo: images/service-icons/versand.svg
+    logo: /images/
+service-icons/versand.svg
     content: Our professional shipping logistics with computer-controlled high-bay
       warehouse and worldwide shipping service, also in the name of the customer,
       complete our offer. All goods are transported climate neutral. The C02 resulting
@@ -455,7 +510,8 @@ textbanner2:
   title: Browse, rummage... find!
   text: Use the online version of our main catalog as well as digital ads and mailings
     to reach your customers quickly and free of charge
-  background: images/textbanner/Titel_downloads.jpg
+  background: /images/
+textbanner/Titel_downloads.jpg
   color: "#47C3E6"
   align-left: false
   align: ''

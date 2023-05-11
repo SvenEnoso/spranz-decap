@@ -1,9 +1,11 @@
 ---
 banner:
-  bg_image: /images/backgrounds/Titelbild-Exklusiv-marken.jpg
+  bg_image: //images/
+backgrounds/Titelbild-Exklusiv-marken.jpg
   title: EXKLUSIV
   title2: MARKEN.
-  brandimage: /images/brand-logo/XX_MetMaxx.svg
+  brandimage: //images/
+brand-logo/XX_MetMaxx.svg
   content: 'Mit unserem Sortiment bieten wir Ihnen fünf innovative Marken:'
   button_solid:
     enable: true
@@ -17,7 +19,8 @@ brands:
 - brand: Metmaxx
   arrow:
     color: "#4ac4e6"
-    logo: "/images/exclusive-brands/Metmaxx.svg"
+    logo: "//images/
+exclusive-brands/Metmaxx.svg"
     is_left: true
     title: Precious metal and electronic products
     text:
@@ -32,7 +35,8 @@ brands:
         are the technical details and the tested quality - conforming to all legal
         requirements and often even far beyond.
   image:
-    url: "/images/brands/bassbox.png"
+    url: "//images/
+brands/bassbox.png"
     title: e.g. Metmaxx® Box "BoombasticBase"
     text: Powerful Bluetooth® speaker with active speakers, bass subwoofer, scan radio
       and integrated power bank.
@@ -40,7 +44,8 @@ brands:
   link: ''
 - brand: Blackmaxx
   arrow:
-    logo: "/images/exclusive-brands/Blackmaxx.svg"
+    logo: "//images/
+exclusive-brands/Blackmaxx.svg"
     color: "#ffc94d"
     is_left: false
     title: Noble purses & bags
@@ -55,7 +60,8 @@ brands:
         light. An important component is also the tested quality - conforming to all
         legal requirements and often even far beyond.
   image:
-    url: "/images/brands/geldboerse.png"
+    url: "//images/
+brands/geldboerse.png"
     title: e.g. Blackmaxx® card safe "IWalletdeLuxePro"
     text: |2-
 
@@ -64,7 +70,8 @@ brands:
   link: ''
 - brand: Vinomaxx
   arrow:
-    logo: "/images/exclusive-brands/Vinomaxx.svg"
+    logo: "//images/
+exclusive-brands/Vinomaxx.svg"
     color: "#ff514d"
     is_left: true
     title: Wine & Table Culture
@@ -80,7 +87,8 @@ brands:
         passion and care - also the decoration and packaging - the perfect package
         for gourmets.
   image:
-    url: "/images/brands/55-rocim-mariana-2013.jpg"
+    url: "//images/
+brands/55-rocim-mariana-2013.jpg"
     title: Rocim Mariana 2013
     text: 'The Herdade do Rocim winery in the heart of Lower Alentejo is synonymous
       with the highest quality standards and Portuguese wine-making tradition. The
@@ -97,7 +105,8 @@ brands:
   link: ''
 - brand: Thanxx
   arrow:
-    logo: "/images/exclusive-brands/Thanxx.svg"
+    logo: "//images/
+exclusive-brands/Thanxx.svg"
     color: "#ff733d"
     is_left: false
     title: Promotion- & Trend-Items
@@ -112,7 +121,8 @@ brands:
         An important component is the tested quality - compliant with all legal requirements
         and often even far beyond.
   image:
-    url: "/images/brands/kofferwaage.png"
+    url: "//images/
+brands/kofferwaage.png"
     title: ' e.g. thanxx® luggage belt & scale "Lock & Check"'
     text: Practical combination of luggage belt with combination lock and luggage
       scale, at a great price / performance ratio.
@@ -120,7 +130,8 @@ brands:
   link: ''
 - brand: Creativ-Design
   arrow:
-    logo: "/images/exclusive-brands/Creativdesign.svg"
+    logo: "//images/
+exclusive-brands/Creativdesign.svg"
     color: "#ffb79b"
     is_left: true
     title: " Automobile and Mobility"
@@ -136,7 +147,8 @@ brands:
         quality - in conformity with all legal requirements, often even far beyond
         them.
   image:
-    url: "/images/brands/boerse.png"
+    url: "//images/
+brands/boerse.png"
     title: e.g. CreativDesign key pouch "BusinessPro"
     text: High-quality key pouch in the chic carbon look with 30 mm key ring. RFID
       protected.

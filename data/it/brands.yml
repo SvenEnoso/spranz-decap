@@ -1,9 +1,11 @@
 ---
 banner:
-  bg_image: /images/backgrounds/Titelbild-Exklusiv-marken.jpg
+  bg_image: //images/
+backgrounds/Titelbild-Exklusiv-marken.jpg
   title: EXKLUSIV
   title2: MARKEN.
-  brandimage: /images/brand-logo/XX_MetMaxx.svg
+  brandimage: //images/
+brand-logo/XX_MetMaxx.svg
   content: 'Mit unserem Sortiment bieten wir Ihnen fünf innovative Marken:'
   button_solid:
     enable: true
@@ -17,7 +19,8 @@ brands:
 - brand: Metmaxx
   arrow:
     color: "#4ac4e6"
-    logo: "/images/exclusive-brands/Metmaxx.svg"
+    logo: "//images/
+exclusive-brands/Metmaxx.svg"
     is_left: true
     title: " Prodotti in metallo nobile ed elettronici"
     text:
@@ -30,7 +33,8 @@ brands:
         del tuo marchio. Componenti importanti sono i dettagli tecnici e la qualità
         testata - nel rispetto di tutti i requisiti legali e spesso anche oltre.
   image:
-    url: "/images/brands/bassbox.png"
+    url: "//images/
+brands/bassbox.png"
     title: per esempio Metmaxx® Box "BoombasticBase
     text: Potente altoparlante Bluetooth® con altoparlanti attivi, subwoofer per bassi,
       radio di scansione e power bank integrato.
@@ -38,7 +42,8 @@ brands:
   link: ''
 - brand: Blackmaxx
   arrow:
-    logo: "/images/exclusive-brands/Blackmaxx.svg"
+    logo: "//images/
+exclusive-brands/Blackmaxx.svg"
     color: "#ffc94d"
     is_left: false
     title: Borse e borsette nobili
@@ -53,7 +58,8 @@ brands:
         per il mondo del tuo marchio. Un altro componente importante è la qualità
         testata, conforme a tutti i requisiti legali e spesso anche molto oltre.
   image:
-    url: "/images/brands/geldboerse.png"
+    url: "//images/
+brands/geldboerse.png"
     title: ' per esempio Blackmaxx® "IWalletdeLuxePro"'
     text: Portafoglio in pelle di vacchetta con cassaforte per carte in alluminio
       e scomparti aggiuntivi per carte / banconote. Per un massimo di 5 carte, protetto
@@ -62,7 +68,8 @@ brands:
   link: ''
 - brand: Vinomaxx
   arrow:
-    logo: "/images/exclusive-brands/Vinomaxx.svg"
+    logo: "//images/
+exclusive-brands/Vinomaxx.svg"
     color: "#ff514d"
     is_left: true
     title: " Vino e cultura della tavola"
@@ -78,7 +85,8 @@ brands:
         Leidenschaft und Sorgfalt erzeugt – ebenso die Ausstattung und Verpackung
         – das perfekte Paket für Genießer.
   image:
-    url: "/images/brands/55-rocim-mariana-2013.jpg"
+    url: "//images/
+brands/55-rocim-mariana-2013.jpg"
     title: Vinomaxx® Rocim Mariana 2013
     text: 'La cantina Herdade do Rocim, nel cuore dell''Alentejo inferiore, è sinonimo
       dei più alti standard di qualità e della tradizione vinicola portoghese. Il
@@ -95,7 +103,8 @@ brands:
   link: ''
 - brand: Thanxx
   arrow:
-    logo: "/images/exclusive-brands/Thanxx.svg"
+    logo: "//images/
+exclusive-brands/Thanxx.svg"
     color: "#ff733d"
     is_left: false
     title: Articoli promozionali e di tendenza
@@ -110,7 +119,8 @@ brands:
         del tuo marchio. Un componente importante è la qualità testata, in conformità
         con tutti i requisiti legali e spesso anche oltre.
   image:
-    url: "/images/brands/kofferwaage.png"
+    url: "//images/
+brands/kofferwaage.png"
     title: per esempio  thanxx® "Lock & Check"
     text: Pratica combinazione di cintura per bagagli con serratura a combinazione
       e bilancia per bagagli, ad un ottimo rapporto prezzo / prestazioni.
@@ -118,7 +128,8 @@ brands:
   link: ''
 - brand: Creativ-Design
   arrow:
-    logo: "/images/exclusive-brands/Creativdesign.svg"
+    logo: "//images/
+exclusive-brands/Creativdesign.svg"
     color: "#ffb79b"
     is_left: true
     title: Automobile e mobilità
@@ -135,7 +146,8 @@ brands:
         importante è la qualità testata, in conformità con tutti i requisiti legali,
         spesso anche molto oltre.
   image:
-    url: "/images/brands/boerse.png"
+    url: "//images/
+brands/boerse.png"
     title: per esempio CreativDesign®  "BusinessPro"
     text: Custodia portachiavi di alta qualità in un elegante carbon look con portachiavi
       da 30 mm. Protezione RFID.

@@ -2,7 +2,9 @@
 title: "A propos de nous"
 draft: false
 # page title background image
-bg_image: "images/backgrounds/Umwelt-Bild.jpg"
+bg_image: "//images/
+
+backgrounds/Umwelt-Bild.jpg"
 # meta description
 description : "A propos de nous"
 aliases: ["/fr/about"]

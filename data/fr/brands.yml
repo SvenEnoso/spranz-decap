@@ -1,9 +1,11 @@
 ---
 banner:
-  bg_image: /images/backgrounds/Titelbild-Exklusiv-marken.jpg
+  bg_image: //images/
+backgrounds/Titelbild-Exklusiv-marken.jpg
   title: EXKLUSIV
   title2: MARKEN.
-  brandimage: /images/brand-logo/XX_MetMaxx.svg
+  brandimage: //images/
+brand-logo/XX_MetMaxx.svg
   content: 'Mit unserem Sortiment bieten wir Ihnen fünf innovative Marken:'
   button_solid:
     enable: true
@@ -17,7 +19,8 @@ brands:
 - brand: Metmaxx
   arrow:
     color: "#4ac4e6"
-    logo: "/images/exclusive-brands/Metmaxx.svg"
+    logo: "//images/
+exclusive-brands/Metmaxx.svg"
     is_left: true
     title: Noble Metall & Electronic items
     text:
@@ -35,7 +38,8 @@ brands:
         et la qualité testée - en conformité avec toutes les exigences légales et
         souvent même bien au-delà.
   image:
-    url: "/images/brands/bassbox.png"
+    url: "//images/
+brands/bassbox.png"
     title: par exemple. Metmaxx® Box "BoombasticBase"
     text: Haut-parleur Bluetooth® puissant avec haut-parleurs actifs, caisson de basses,
       radio à balayage et batterie externe intégrée.
@@ -43,7 +47,8 @@ brands:
   link: ''
 - brand: Blackmaxx
   arrow:
-    logo: "/images/exclusive-brands/Blackmaxx.svg"
+    logo: "//images/
+exclusive-brands/Blackmaxx.svg"
     color: "#ffc94d"
     is_left: false
     title: Sacs à main et sacs nobles
@@ -59,7 +64,8 @@ brands:
         de votre marque. Un autre élément important est la qualité testée - en conformité
         avec toutes les exigences légales et souvent même bien au-delà.
   image:
-    url: "/images/brands/geldboerse.png"
+    url: "//images/
+brands/geldboerse.png"
     title: par exemple Blackmaxx® "IWalletdeLuxePro"
     text: Portefeuille en cuir de vachette avec coffre-fort en aluminium et compartiments
       supplémentaires pour cartes / billets. Jusqu'à 5 cartes, protégées RFID.
@@ -67,7 +73,8 @@ brands:
   link: ''
 - brand: Vinomaxx
   arrow:
-    logo: "/images/exclusive-brands/Vinomaxx.svg"
+    logo: "//images/
+exclusive-brands/Vinomaxx.svg"
     color: "#ff514d"
     is_left: true
     title: " Culture du vin et de la table"
@@ -81,7 +88,8 @@ brands:
 
         Ici, l'accent est mis sur le plaisir - la satisfaction durable dans l'environnement gastronomique vous garantit, à vous, à votre marque ou à votre revendication, l'attention et la connotation positive qu'elle mérite. Les articles Vinomaxx sont produits avec passion et soin - tout comme l'équipement et l'emballage - l'emballage parfait pour les connaisseurs.
   image:
-    url: "/images/brands/55-rocim-mariana-2013.jpg"
+    url: "//images/
+brands/55-rocim-mariana-2013.jpg"
     title: Vinomaxx® Rocim Mariana 2013
     text: 'Das Weingut Herdade do Rocim im Herzen des unteren Alentejo steht für höchste
       Qualitätsansprüche & portugiesische Weinbautradition. Der Mariana 2011 ist das
@@ -98,7 +106,8 @@ brands:
   link: ''
 - brand: Thanxx
   arrow:
-    logo: "/images/exclusive-brands/Thanxx.svg"
+    logo: "//images/
+exclusive-brands/Thanxx.svg"
     color: "#ff733d"
     is_left: false
     title: Articles promotionnels et tendances
@@ -114,7 +123,8 @@ brands:
         testée - en conformité avec toutes les exigences légales et souvent même bien
         au-delà.
   image:
-    url: "/images/brands/kofferwaage.png"
+    url: "//images/
+brands/kofferwaage.png"
     title: par exemple thanxx® "Lock & Check"
     text: Combinaison pratique de ceinture à bagages avec serrure à combinaison et
       pèse-bagages, à un excellent rapport qualité / prix.
@@ -122,7 +132,8 @@ brands:
   link: ''
 - brand: Creativ-Design
   arrow:
-    logo: "/images/exclusive-brands/Creativdesign.svg"
+    logo: "//images/
+exclusive-brands/Creativdesign.svg"
     color: "#ffb79b"
     is_left: true
     title: Automobil & Mobilität
@@ -134,7 +145,8 @@ brands:
 
         L'accent est mis sur la fonctionnalité pratique avec une utilité maximale, une qualité fiable et une apparence représentative afin de présenter l'article comme une plate-forme optimale pour le monde de votre marque. Un élément important est la qualité testée - en conformité avec toutes les exigences légales, souvent même bien au-delà.
   image:
-    url: "/images/brands/boerse.png"
+    url: "//images/
+brands/boerse.png"
     title: par exemple CreativDesign "BusinessPro"
     text: Sac à clés de haute qualité au look carbone élégant avec porte-clés de 30
       mm. La RFID est protégée.

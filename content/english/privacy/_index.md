@@ -1,6 +1,7 @@
 ---
 title: Imprint
-bg_image: /images/backgrounds/Titel_downloads.jpg
+bg_image: //images/
+backgrounds/Titel_downloads.jpg
 description: Imprint
 
 ---
